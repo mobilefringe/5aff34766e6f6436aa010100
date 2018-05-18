@@ -16,29 +16,8 @@
         "href": "/pages/southcentre-leasing"
     },
     {
-        "name": "header.contact_us",
-        "href": "/contact_us",
-        "sub_menu": [
-            {
-                "name": "header.contact_us",
-                "href": "/contact_us"
-            },
-            {
-                "name": "header.hours",
-                "href": "/hours"
-            },
-            {
+        
                 "name": "header.jobs",
                 "href": "/jobs"
-            },
-            {
-                "name": "header.find_us",
-                "href": "/find_us"
-            },
-            {
-                "name": "header.newsletter",
-                "href": "/newsletter"
-            }
-        ]
     }
 ]
