@@ -1,16 +1,9 @@
 [
     {
-        "name": "header.stores",
-        "href": "/stores",
-        "sub_menu": [{
-                "name": "header.stores",
-                "href": "/stores"
+        {
+                "name": "header.green_initiatives",
+                "href": "/pages/bonniedoon-green-initiatives"
             },
-            {
-                "name": "header.centre_map",
-                "href": "/map"
-            }
-        ]
     },
     {
         "name": "header.promos",
@@ -31,10 +24,7 @@
                 "name": "header.community",
                 "href": "/pages/bonniedoon-community-support"
             },
-            {
-                "name": "header.green_initiatives",
-                "href": "/pages/bonniedoon-green-initiatives"
-            },
+            
             {
                 "name": "header.gift_card",
                 "href": "/pages/bonniedoon-gift-cards"
