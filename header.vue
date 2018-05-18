@@ -8,7 +8,7 @@
               </div>
             </li>
             <li  v-for="item in menu_items">
-                <div class="site_map_cell ss"><router-link :to="item.href">{{$t(item.name)}}</router-link></div>
+                <div class="site_map_cell ss text-uppercase"><router-link :to="item.href">{{$t(item.name)}}</router-link></div>
             </li>
           
            
