@@ -7,7 +7,7 @@
     					<router-link to="/"><img :src="property_logo" alt="Property Logo"/></router-link>
     				</div>
     				<div class="row">
-    					<nav id="primary_nav">
+    					<nav>
     						<ul>
     						    <li v-for="item in menu_items" class="menu_item">
     						        <div class="site_map_cell ss"><router-link :to="item.href">{{$t(item.name)}}</router-link></div>
