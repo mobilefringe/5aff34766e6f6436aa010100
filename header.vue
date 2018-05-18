@@ -15,7 +15,7 @@
             <div class="hours_divider"></div>
             <li class="search_icon" style="user-select: none; touch-action: pan-y; -webkit-user-drag: none; -webkit-tap-highlight-color: rgba(0, 0, 0, 0);">
               <div class="site_map_cell">
-                <img alt="menu" src="//mallmaverick.cdn.speedyrails.net/system/site_images/photos/000/003/858/original/icon_search.png?1410203942" @click="show_search = !show_searchs;">
+                <img alt="menu" src="//mallmaverick.cdn.speedyrails.net/system/site_images/photos/000/003/858/original/icon_search.png?1410203942" @click="show_search = !show_search;">
               </div>
             </li>
           </ul>
