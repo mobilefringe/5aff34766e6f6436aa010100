@@ -20,21 +20,6 @@
     <!--	</div>-->
     <!--</div>-->
     <nav class="top_menu" data-topbar="" role="navigation">
-        <div class="mobile_topbar">
-          <div class="small-3 columns">
-            <div class="mobile_menu_btn">
-              <img alt="menu" src="//mallmaverick.cdn.speedyrails.net/system/site_images/photos/000/003/853/original/icon_menu.png?1410203768">
-            </div>
-          </div>
-          <div class="small-6 columns">
-            <a href="/"><img alt="logo" src="//mallmaverick.cdn.speedyrails.net/system/site_images/photos/000/003/854/original/logo_sc_mobile.png?1410203796"></a>
-          </div>
-          <div class="small-3 columns">
-            <div class="search_icon" style="user-select: none; touch-action: pan-y; -webkit-user-drag: none; -webkit-tap-highlight-color: rgba(0, 0, 0, 0);">
-              <img alt="search mobile" src="//mallmaverick.cdn.speedyrails.net/system/site_images/photos/000/003/855/original/icon_search_mobile.png?1410203827">
-            </div>
-          </div>
-        </div>
         <div class="site_menu" style="display: block;">
           <ul>
             <li>
