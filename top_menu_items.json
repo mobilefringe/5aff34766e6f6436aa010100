@@ -1,9 +1,7 @@
 [
     {
-        {
-                "name": "header.green_initiatives",
-                "href": "/pages/bonniedoon-green-initiatives"
-            },
+        "name": "header.green_initiatives",
+        "href": "/pages/bonniedoon-green-initiatives"
     },
     {
         "name": "header.promos",
