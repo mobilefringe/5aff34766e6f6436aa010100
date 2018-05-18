@@ -4,8 +4,8 @@
         "href": "/pages/bonniedoon-green-initiatives"
     },
     {
-        "name": "header.promos",
-        "href": "/promotions"
+       "name": "header.guest_services",
+        "href": "/pages/bonniedoon-services",
     },
     {
         "name": "header.events",
