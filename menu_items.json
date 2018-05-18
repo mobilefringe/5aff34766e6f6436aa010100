@@ -11,10 +11,7 @@
         "name": "header.promos",
         "href": "/promotions"
     },
-    {
-        "name": "header.events",
-        "href": "/events"
-    },
+    
     {
         "name": "header.guest_services",
         "href": "/pages/bonniedoon-services",
@@ -62,4 +59,8 @@
             }
         ]
     }
+    {
+        "name": "header.events",
+        "href": "/events"
+    },
 ]
