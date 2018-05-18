@@ -3,9 +3,6 @@
     	<div class="menu_bar hidden_phone">
     		<div class="site_container">
     			<div class="nav_container hidden_phone">
-    				<div class="site_logo">
-    					<router-link to="/"><img :src="property_logo" alt="Property Logo"/></router-link>
-    				</div>
     				<div class="row top_nav hidden_phone">
     					<nav id="primary_nav">
     						<ul>
@@ -13,8 +10,9 @@
     						        <router-link :to="item.href">{{$t(item.name)}}</router-link>
     						        <ul v-if="item.sub_menu">
     						            <li v-for="sub_menu in item.sub_menu" class="dropdown_item">
-    						            <div class="site_map_cell"></div>
-    						                <router-link :to="sub_menu.href">{{$t(sub_menu.name)}}</router-link>
+    						                <div class="site_map_cell">
+    						                    <router-link :to="sub_menu.href">{{$t(sub_menu.name)}}</router-link>
+    						                </div>
     						            </li>
     								</ul>
     						    </li>
