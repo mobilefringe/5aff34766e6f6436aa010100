@@ -5,16 +5,7 @@
     },
     {
         "name": "header.stores",
-        "href": "/stores",
-        "sub_menu": [{
-                "name": "header.stores",
-                "href": "/stores"
-            },
-            {
-                "name": "header.centre_map",
-                "href": "/map"
-            }
-        ]
+        "href": "/stores"
     },
     {
         "name": "header.promos",
