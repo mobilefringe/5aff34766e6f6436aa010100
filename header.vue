@@ -24,7 +24,7 @@
           <ul>
             <li>
               <div class="site_map_cell">
-                <a href="/"><img style="max-width:170px" alt="logo" src="//mallmaverick.cdn.speedyrails.net/system/site_images/photos/000/016/872/original/logo_sc(desktop)_(1).png?1455645887"></a>
+                <a href="/"><img style="max-width:170px" :src="property_logo" alt="South Centre Mall"></a>
               </div>
             </li>
             <li>
