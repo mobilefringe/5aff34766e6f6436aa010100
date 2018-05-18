@@ -13,21 +13,7 @@
     },
     {
         "name": "header.guest_services",
-        "href": "/pages/bonniedoon-services",
-        "sub_menu": [{
-                "name": "header.services ",
-                "href": "/pages/bonniedoon-services"
-            },
-            {
-                "name": "header.community",
-                "href": "/pages/bonniedoon-community-support"
-            },
-            
-            {
-                "name": "header.gift_card",
-                "href": "/pages/bonniedoon-gift-cards"
-            }
-        ]
+        "href": "/pages/bonniedoon-services"
     },
     {
         "name": "header.contact_us",
