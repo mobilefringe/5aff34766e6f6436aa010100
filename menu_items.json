@@ -58,9 +58,9 @@
                 "href": "/newsletter"
             }
         ]
-    }
+    },
     {
         "name": "header.events",
         "href": "/events"
-    },
+    }
 ]
