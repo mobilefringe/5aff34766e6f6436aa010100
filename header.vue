@@ -1,24 +1,4 @@
 <template>
-    <!--<div class="site_menu">-->
-    <!--	<div class="menu_bar hidden_phone">-->
-    <!--		<div class="site_container">-->
-    <!--			<div class="nav_container hidden_phone">-->
-    <!--				<div class="site_logo">-->
-    <!--					<router-link to="/"><img :src="property_logo" alt="Property Logo"/></router-link>-->
-    <!--				</div>-->
-    <!--				<div class="row">-->
-    <!--					<nav>-->
-    <!--						<ul>-->
-    <!--						    <li v-for="item in menu_items">-->
-    <!--						        <div class="site_map_cell ss"><router-link :to="item.href">{{$t(item.name)}}</router-link></div>-->
-    <!--						    </li>-->
-    <!--						</ul>-->
-    <!--					</nav>-->
-    <!--				</div>-->
-    <!--			</div>-->
-    <!--		</div>-->
-    <!--	</div>-->
-    <!--</div>-->
     <nav class="top_menu" data-topbar="" role="navigation">
         <div class="site_menu" style="display: block;">
           <ul>
