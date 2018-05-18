@@ -20,7 +20,7 @@
             </li>
           </ul>
         </div>
-        <div class="search_bar hidden" style="display: none;">
+        <div class="search_bar" style="display: none;">
             <div class="search_bar_wrap">
                 <form id="search_form" action="/search" method="GET">
                     <div class="row">
