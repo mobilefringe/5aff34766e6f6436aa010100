@@ -27,7 +27,7 @@
                 <a href="/"><img style="max-width:170px" :src="property_logo" alt="South Centre Mall"></a>
               </div>
             </li>
-            <li>
+            <li  v-for="item in menu_items">
                 <div class="site_map_cell ss"><router-link :to="item.href">{{$t(item.name)}}</router-link></div>
             </li>
           
