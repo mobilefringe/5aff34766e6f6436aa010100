@@ -1,27 +1,17 @@
 <template>
     <div class="upper-links is-sticky">
-    	<div class="menu_bar hidden_phone">
-    		<div class="site_container">
-    			<div class="nav_container hidden_phone">
-    				<div class="row top_nav hidden_phone">
-    					<nav id="primary_nav">
-    						<ul>
-    						    <li v-for="item in menu_items" class="menu_item">
-    						        <router-link :to="item.href">{{$t(item.name)}}</router-link>
-    						        <ul v-if="item.sub_menu">
-    						            <li v-for="sub_menu in item.sub_menu" class="dropdown_item">
-    						                <div class="site_map_cell">
-    						                    <router-link :to="sub_menu.href">{{$t(sub_menu.name)}}</router-link>
-    						                </div>
-    						            </li>
-    								</ul>
-    						    </li>
-    						</ul>
-    					</nav>
-    				</div>
-    			</div>
-    		</div>
-    	</div>
+		<ul>
+		    <li v-for="item in menu_items" class="menu_item">
+		        <router-link :to="item.href">{{$t(item.name)}}</router-link>
+		        <ul v-if="item.sub_menu">
+		            <li v-for="sub_menu in item.sub_menu" class="dropdown_item">
+		                <div class="site_map_cell">
+		                    <router-link :to="sub_menu.href">{{$t(sub_menu.name)}}</router-link>
+		                </div>
+		            </li>
+				</ul>
+		    </li>
+		</ul>
     </div>
 </template>
 
