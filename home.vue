@@ -11,7 +11,7 @@
 				</slick>
 			</div>
 		</div>
-		<header-component v-if="show_header"></header-component>
+		<header-component></header-component>
 		<div class="site_container">
 		    <div>
 		      <h3 class="home_page_title caps">{{$t("home_page.explore")}}</h3>
