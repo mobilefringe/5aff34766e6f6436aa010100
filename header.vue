@@ -1,5 +1,5 @@
 <template>
-    <div class="sticky">
+    <div class="site_menu">
     	<div class="menu_bar hidden_phone">
     		<div class="site_container">
     			<div class="nav_container hidden_phone">
