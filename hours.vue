@@ -69,19 +69,12 @@
                     \ Sat <span class="lowercase chronicle-display-italic">9:30AM-8PM</span>
                     \ Sun <span class="lowercase chronicle-display-italic">11AM-6PM</span>
                 </p>
-                
                 <div class="hours_divider"></div>
-                
-                    
-                    
-                        <p><span class="chronicle-deck-bold">Holiday Hours</span></p>
-                        
-                            
-                            
-                            
-                            
-                            <p>Victoria Day: May 21, <span class="lowercase chronicle-display-italic">11AM-6PM</span></p>
-                            <div class="hours_divider"></div>
+                    <p>
+                        <span class="chronicle-deck-bold">Holiday Hours</span>
+                    </p>
+                    <p>Victoria Day: May 21, <span class="lowercase chronicle-display-italic">11AM-6PM</span></p>
+                    <div class="hours_divider"></div>
                         
                     
                 
