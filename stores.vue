@@ -48,7 +48,7 @@
                     
                     
                     <li class="storesA store-list-item-odd store-list-item alphabetical" v-for="store in processedStores">
-                        <input :id="'storesA-'+store.id" :name="'accordionA-store'+store.id" :data-storeid="'storesA-'+store.id" :data-storename="store.name" :data-storex="store.x_coordinate" data-storey="776.0" data-id2="14472" type="checkbox" />
+                        <input :id="'storesA-'+store.id" :name="'accordionA-store'+store.id" :data-storeid="'storesA-'+store.id" :data-storename="store.name" :data-storex="store.x_coordinate" :data-storey="store.y_coordinate" data-id2="14472" type="checkbox" />
                         <label for="storesA-14472" class="list-cell">
                             <div class="list-title">
                                 <p>A&W</p>
