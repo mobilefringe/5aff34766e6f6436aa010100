@@ -3,7 +3,17 @@ define([], function() {
             path: '/',
             component: view('home')
         },
-        
+        {
+            path: '/pages',
+            component: view('default'),
+            redirect: '/',
+            children: [{
+                path: ':id',
+                component: view('page_details'),
+                name: 'pageDetails',
+                props: true
+            }]
+        },
         {
             path: '/pages',
             component: view('default'),
