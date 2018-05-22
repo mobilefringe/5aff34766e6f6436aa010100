@@ -72,11 +72,6 @@
                     pageBanner : null
                 }
             },
-            created() {
-                this.loadData().then(response => {
-                });
-                
-            },
             watch : {
                 locale: function(val, oldVal) {
                     console.log("locale", this.locale);
