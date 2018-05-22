@@ -46,9 +46,6 @@
                     show_search: false
                 }
             },
-            created () {
-              console.log("MenuItems", MenuItems)  
-            },
             watch: {
                 $route: function() {
                     // hide dropdown when route changes
