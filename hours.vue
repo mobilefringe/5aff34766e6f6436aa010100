@@ -80,7 +80,7 @@
                 
            </div>
           </section>
-          </div>
+    </div>
 </template>
 <style>
     .hours_page_container .row{
