@@ -34,8 +34,11 @@
                 </div>
                 <div class="category_icon_list">
                   <ul class="center">
+                  <slick ref="slick" :options="slickOptions">
+					<li v-for="category in processedCategories"><a :class="'cat-'+category.id">{{category.name}}</a></li>
+				    </slick>
                     
-                    <li v-for="category in processedCategories"><a :class="'cat-'+category.id">{{category.name}}</a></li>
+                    
                     
                   </ul>
                 </div>
