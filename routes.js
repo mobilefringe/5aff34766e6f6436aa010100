@@ -4,7 +4,7 @@ define([], function() {
             component: view('home')
         },
         {
-            path: '/pages',
+            path: '/stores',
             component: view('default'),
             redirect: '/',
             children: [{
