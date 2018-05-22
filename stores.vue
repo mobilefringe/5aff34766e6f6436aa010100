@@ -247,6 +247,16 @@
                             </div>
                         </div>
                     </li>
+                    
+                    
+                    
+                  </ul>
+                </div>
+                <br/>
+                <a class="sc-link" href="//mallmaverick.cdn.speedyrails.net/system/site_images/photos/000/020/899/original/SOM_199_Mini_Directory_2016_8.5x11.pdf?1471368664" target="_blank">DOWNLOAD DIRECTORY PDF</a>
+              </div>
+            </div>
+          </section>
 	</div>
 </template>
 
