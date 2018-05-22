@@ -127,6 +127,17 @@
                     windowWidth: 0,
                     storeBanner : null,
                     search_result : null,
+                    slickOptions: {
+                        arrows: false,
+                        autoplay: true,
+                        autoplaySpeed: 6000,
+                        cssEase: 'linear',
+                        dots: true,
+                        fade: true,
+                        infinite: true,
+                        slidesToShow: 1,
+                        speed: 1600
+                    },
                 }
             },
             // created() {
