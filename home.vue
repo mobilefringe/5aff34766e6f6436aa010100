@@ -47,9 +47,6 @@
                     this.dataLoaded = true;
                     this.popup = this.$store.state.popups[0];
                     
-                    var socialFeed = response[4].data;
-                    var social_feed = socialFeed.social.instagram;
-                    this.instaFeed = _.slice(social_feed, [0], [4]);
                 });
             },
             watch : {
