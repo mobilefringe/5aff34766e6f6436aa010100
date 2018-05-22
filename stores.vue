@@ -35,7 +35,7 @@
                 <div class="category_icon_list">
                   <ul class="center">
                     
-                    <li v-for="category in processedCategories"><a :class="'cat-'+category.id">Ladies' and Men's Apparel</a></li>
+                    <li v-for="category in processedCategories"><a :class="'cat-'+category.id">{{category.name}}</a></li>
                     
                     <!--<li><a class="cat-627">Medical</a></li>-->
                     
