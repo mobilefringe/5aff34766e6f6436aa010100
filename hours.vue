@@ -77,7 +77,7 @@
                 <div class="hours_divider"></div>
             </div>
         </div>
-          </section>
+        </section>
     </div>
 </template>
 <style>
