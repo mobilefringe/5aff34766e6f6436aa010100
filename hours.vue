@@ -70,16 +70,12 @@
                     \ Sun <span class="lowercase chronicle-display-italic">11AM-6PM</span>
                 </p>
                 <div class="hours_divider"></div>
-                    <p>
-                        <span class="chronicle-deck-bold">Holiday Hours</span>
-                    </p>
-                    <p v-for="">Victoria Day: May 21, <span class="lowercase chronicle-display-italic">11AM-6PM</span></p>
-                    <div class="hours_divider"></div>
-                        
-                    
-                
-                
-           </div>
+                <p>
+                    <span class="chronicle-deck-bold">Holiday Hours</span>
+                </p>
+                <p v-for="">Victoria Day: May 21, <span class="lowercase chronicle-display-italic">11AM-6PM</span></p>
+                <div class="hours_divider"></div>
+            </div>
           </section>
     </div>
 </template>
