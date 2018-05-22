@@ -1,6 +1,6 @@
 <template>
     <div> <!-- for some reason if you do not put an outer container div this component template will not render -->
-        <div class="page_header" v-bind:style="{ backgroundImage: 'url(' + pageBanner.image_url + ')' }">
+        <div class="page_header">
 			<div class="site_container">
 				<div class="header_content caps">
 					<h1>{{$t("hours_page.hours")}}</h1>
