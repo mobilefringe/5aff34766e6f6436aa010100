@@ -91,7 +91,7 @@
                         
                               <div class="store-detail-link small-12 columns blue">
                                 <a href="/mapv2?store_id=store_14472">VIEW ON MAP</a> &nbsp;|  &nbsp; 
-                                <a href="/stores/southcentre-a-w">MORE DETAILS</a>
+                                <a :href="'/stores/'+store.slug">MORE DETAILS</a>
                               </div>
                             </div>
                         </div>
