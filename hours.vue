@@ -59,8 +59,7 @@
         <div class="section_content">
             <div class="wrap-90">
                 <h1 class="hours_title">OPEN UNTIL <span class="lowercase chronicle-display-italic"> 9:00 PM tonight</span></h1>
-             
-                 
+                
                 <div class="hours_divider"></div>
                 <p><span class="chronicle-deck-bold">Regular Mall Hours</span></p>
                 <p>
