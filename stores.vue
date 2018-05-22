@@ -55,7 +55,7 @@
                             </div>
                             <div class="list-subtitle">
                                 <p class="chronicle-deck-bold">Phone Number</p>
-                                <p>403-278-3329</p>
+                                <p>store.phone</p>
                             </div>
                             <div class="list-expand-collapse-icon"></div>
                         </label>
