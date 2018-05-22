@@ -10,38 +10,7 @@
 			</div>
 		</div>
 		<header-component></header-component>
-		<div class="site_container">
-		    <div>
-		      <h3 class="home_page_title caps">{{$t("home_page.explore")}}</h3>
-		    </div>
-		    <div v-masonry transition-duration="0.3s" item-selector=".grid-item" >
-                <div v-masonry-tile class="item" >
-                    <div v-for="feature in feature_items" :class="'grid-item ' + feature.masonry_class ">
-                    	<div  :class="{ 'ih-item circle effect19' : feature.no_hover_class}"> 
-                    	<!--class="ih-item circle effect19"-->
-                    		<router-link :to="feature.url">
-                    			<img :src="feature.image_url" alt="name">
-                    			<div class="info">
-                    				<div class="content">
-                    					<h3 v-if="locale=='en-ca'"> {{feature.name}} </h3>
-                    					<h3 v-else> {{feature.name_2}} </h3>
-                    				</div>
-                    			</div>
-                    		</router-link>
-                    	</div>
-                    </div>
-                </div>
-            </div>
-            <div>
-		      <h3 class="home_page_title caps">{{$t("home_page.our_feed")}}</h3>
-		    </div>
-		    <div class="insta-feed-container">
-                <a v-for="(item, index) in instaFeed" :href="item.link" target="_blank" class="col-xs-6 col-sm-3 no_padding">
-                <div class="insta-feed-image "  v-lazy:background-image="item.images.standard_resolution.url">
-                </div></a>
-            </div>
-            
-		</div>
+		
 	</div>
 </template>
 
