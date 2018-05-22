@@ -2,7 +2,9 @@
     <div class="upper-links is-sticky">
 		<ul>
 		    <li v-for="item in menu_items" class="menu_item">
-		        <div class="site_map_cell"><router-link :to="item.href">{{$t(item.name)}}</router-link></div>
+		        <div class="site_map_cell">
+		            <router-link :to="item.href">{{$t(item.name)}}</router-link>
+		        </div>
 		    </li>
 		</ul>
     </div>
@@ -20,9 +22,6 @@
                     property_logo: "//codecloud.cdn.speedyrails.net/sites/5a9714046e6f644dc3160000/image/png/1520457420000/whitelogo1@2x.png",
                     menu_items: MenuItems
                 }
-            },
-            created () {
-              console.log("MenuItems", MenuItems)  
             },
             watch: {
                 $route: function() {
