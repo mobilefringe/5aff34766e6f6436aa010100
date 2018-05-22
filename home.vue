@@ -46,7 +46,7 @@
 </template>
 
 <script>
-    define(["Vue", "vuex", "vue!today_hours", "vue!search-component", 'vue!vue-slick', 'js-cookie', 'masonry' , 'vue-masonry-plugin', 'vue-lazy-load'], function(Vue, Vuex, TodayHoursComponent, SearchComponent, slick, Cookies, masonry, VueMasonryPlugin, VueLazyload) {
+    define(["Vue", "vuex", "vue!search-component", 'vue!vue-slick', 'js-cookie', 'masonry' , 'vue-masonry-plugin', 'vue-lazy-load'], function(Vue, Vuex, SearchComponent, slick, Cookies, masonry, VueMasonryPlugin, VueLazyload) {
         Vue.use(VueMasonryPlugin.default);
         Vue.use(VueLazyload);
         return Vue.component("home-component", {
