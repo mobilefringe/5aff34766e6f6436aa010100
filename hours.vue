@@ -1,60 +1,226 @@
 <template>
     <div> <!-- for some reason if you do not put an outer container div this component template will not render -->
-        <div class="page_header">
-			<div class="site_container">
-				<div class="header_content caps">
-					<h1>{{$t("hours_page.hours")}}</h1>
-				</div>
-			</div>
-		</div>  
-        <div class="site_container">
-            <div class="all_hours_container">
-                <div class="row">
-                    <div class="col-sm-12">
-                        <h3 class="hours_heading text-left" >{{$t("hours_page.reg_hours")}}</h3>
-                        <div id="hours_container" class="hours_container">
-                            <div class="hours_div text-left" v-for="hour in hours">
-                                <span>{{hour.day_of_week | moment("dddd", timezone)}} : </span>
-                                <span>{{hour.open_time | moment("h:mm A", timezone)}} - {{hour.close_time | moment("h:mm A", timezone)}}</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-sm-12 ">
-                        <div class="padding_top_20"></div>
+  <!--      <div class="page_header">-->
+		<!--	<div class="site_container">-->
+		<!--		<div class="header_content caps">-->
+		<!--			<h1>{{$t("hours_page.hours")}}</h1>-->
+		<!--		</div>-->
+		<!--	</div>-->
+		<!--</div>  -->
+  <!--      <div class="site_container">-->
+  <!--          <div class="all_hours_container">-->
+  <!--              <div class="row">-->
+  <!--                  <div class="col-sm-12">-->
+  <!--                      <h3 class="hours_heading text-left" >{{$t("hours_page.reg_hours")}}</h3>-->
+  <!--                      <div id="hours_container" class="hours_container">-->
+  <!--                          <div class="hours_div text-left" v-for="hour in hours">-->
+  <!--                              <span>{{hour.day_of_week | moment("dddd", timezone)}} : </span>-->
+  <!--                              <span>{{hour.open_time | moment("h:mm A", timezone)}} - {{hour.close_time | moment("h:mm A", timezone)}}</span>-->
+  <!--                          </div>-->
+  <!--                      </div>-->
+  <!--                  </div>-->
+  <!--              </div>-->
+  <!--              <div class="row">-->
+  <!--                  <div class="col-sm-12 ">-->
+  <!--                      <div class="padding_top_20"></div>-->
                         
-                        <h3 class="hours_heading text-left">{{$t("hours_page.extended_holiday_hours")}}</h3>
-                        <div id="holidays_hours_container" class="hours_container">
-                            <div class="hours_div text-left"  v-for="hour in reducedHolidays">
-                                <span>
-                                    <span v-if="locale=='en-ca'">{{hour.holiday_name}}</span>
-                                    <span v-else>{{hour.holiday_name_2}}</span>
-                                    ({{hour.holiday_date | moment("MMM D YYYY", timezone)}})
-                                </span>
-                                <span>{{hour.open_time | moment("h:mm A", timezone)}} - {{hour.close_time | moment("h:mm A", timezone)}}</span>
-                            </div>
-                        </div>
+  <!--                      <h3 class="hours_heading text-left">{{$t("hours_page.extended_holiday_hours")}}</h3>-->
+  <!--                      <div id="holidays_hours_container" class="hours_container">-->
+  <!--                          <div class="hours_div text-left"  v-for="hour in reducedHolidays">-->
+  <!--                              <span>-->
+  <!--                                  <span v-if="locale=='en-ca'">{{hour.holiday_name}}</span>-->
+  <!--                                  <span v-else>{{hour.holiday_name_2}}</span>-->
+  <!--                                  ({{hour.holiday_date | moment("MMM D YYYY", timezone)}})-->
+  <!--                              </span>-->
+  <!--                              <span>{{hour.open_time | moment("h:mm A", timezone)}} - {{hour.close_time | moment("h:mm A", timezone)}}</span>-->
+  <!--                          </div>-->
+  <!--                      </div>-->
                         
-                        <div class="padding_top_20"></div>
+  <!--                      <div class="padding_top_20"></div>-->
                         
-                        <h3 class="hours_heading text-left">{{$t("hours_page.holiday_closures")}}</h3>
-                        <div id="closed_hours_container" class="hours_container">
-                            <div class="hours_div text-left" v-for="hour in closeHolidays">
-                                <span>
-                                    <span v-if="locale=='en-ca'">{{hour.holiday_name}}</span>
-                                    <span v-else>{{hour.holiday_name_2}}</span>
-                                    ({{hour.holiday_date | moment("MMM D YYYY", timezone)}})
-                                </span>
-                            </div>
-                        </div>
+  <!--                      <h3 class="hours_heading text-left">{{$t("hours_page.holiday_closures")}}</h3>-->
+  <!--                      <div id="closed_hours_container" class="hours_container">-->
+  <!--                          <div class="hours_div text-left" v-for="hour in closeHolidays">-->
+  <!--                              <span>-->
+  <!--                                  <span v-if="locale=='en-ca'">{{hour.holiday_name}}</span>-->
+  <!--                                  <span v-else>{{hour.holiday_name_2}}</span>-->
+  <!--                                  ({{hour.holiday_date | moment("MMM D YYYY", timezone)}})-->
+  <!--                              </span>-->
+  <!--                          </div>-->
+  <!--                      </div>-->
                         
-                    </div>
-                </div>
-                <div class="padding_top_40"></div>
+  <!--                  </div>-->
+  <!--              </div>-->
+  <!--              <div class="padding_top_40"></div>-->
+  <!--          </div>-->
+  <!--      </div >-->
+  <!--  </div>-->
+  <section class="hours" id="hours">
+            <div class="section_content">
+              <div class="wrap-90">
+                
+                        <h1 class="hours_title">OPEN UNTIL <span class="lowercase chronicle-display-italic"> 9:00 PM tonight</span></h1>
+             
+                 
+                <div class="hours_divider"></div>
+                <p><span class="chronicle-deck-bold">Regular Mall Hours</span></p>
+                
+                
+                
+                
+                
+                
+                
+                    
+                    
+                        
+                        
+                    
+                
+                    
+                    
+                     
+                        
+                        
+                     
+                   
+                
+                    
+                    
+                     
+                        
+                        
+                     
+                   
+                
+                    
+                    
+                     
+                        
+                        
+                     
+                   
+                
+                    
+                    
+                     
+                        
+                        
+                     
+                   
+                
+                    
+                    
+                     
+                        
+                        
+                     
+                   
+                
+                    
+                    
+                        
+                        
+                    
+                
+                    
+                    
+                     
+                   
+                
+                    
+                    
+                     
+                   
+                
+                    
+                    
+                     
+                   
+                
+                    
+                    
+                     
+                   
+                
+                    
+                    
+                     
+                   
+                
+                    
+                    
+                     
+                   
+                
+                    
+                    
+                     
+                   
+                
+                    
+                    
+                     
+                   
+                
+                    
+                    
+                     
+                   
+                
+                    
+                    
+                     
+                   
+                
+                    
+                    
+                     
+                   
+                
+                    
+                    
+                     
+                   
+                
+                    
+                    
+                     
+                   
+                
+                    
+                    
+                     
+                   
+                
+                    
+                    
+                     
+                   
+                
+                    
+                    
+                    
+                    
+                <p>Mon to Fri <span class="lowercase chronicle-display-italic">9:30AM-9PM</span> \ Sat <span class="lowercase chronicle-display-italic">9:30AM-8PM</span> \ Sun <span class="lowercase chronicle-display-italic">11AM-6PM</span></p>
+                
+                <div class="hours_divider"></div>
+                
+                    
+                    
+                        <p><span class="chronicle-deck-bold">Holiday Hours</span></p>
+                        
+                            
+                            
+                            
+                            
+                            <p>Victoria Day: May 21, <span class="lowercase chronicle-display-italic">11AM-6PM</span></p>
+                            <div class="hours_divider"></div>
+                        
+                    
+                
+                
             </div>
-        </div >
-    </div>
 </template>
 <style>
     .hours_page_container .row{
