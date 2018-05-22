@@ -128,15 +128,13 @@
                     storeBanner : null,
                     search_result : null,
                     slickOptions: {
-                        arrows: false,
-                        autoplay: true,
-                        autoplaySpeed: 6000,
-                        cssEase: 'linear',
-                        dots: true,
-                        fade: true,
-                        infinite: true,
-                        slidesToShow: 1,
-                        speed: 1600
+                        centerMode: true,
+          centerPadding: '0px',
+          slide: 'li',
+          arrows: true,
+          slidesToShow: 7,
+          focusOnSelect: true,
+          draggable: false
                     },
                 }
             },
