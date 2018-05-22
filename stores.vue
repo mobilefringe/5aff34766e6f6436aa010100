@@ -129,12 +129,12 @@
                     search_result : null,
                     slickOptions: {
                         centerMode: true,
-          centerPadding: '0px',
-          slide: 'li',
-          arrows: true,
-          slidesToShow: 7,
-          focusOnSelect: true,
-          draggable: false
+                        centerPadding: '0px',
+                        slide: 'li',
+                        arrows: true,
+                        slidesToShow: 7,
+                        focusOnSelect: true,
+                        draggable: false
                     },
                 }
             },
