@@ -37,55 +37,6 @@
                     
                     <li v-for="category in processedCategories"><a :class="'cat-'+category.id">{{category.name}}</a></li>
                     
-                    <!--<li><a class="cat-627">Medical</a></li>-->
-                    
-                    <!--<li><a class="cat-622">Men's Apparel</a></li>-->
-                    
-                    <!--<li><a class="cat-660">Personal Services</a></li>-->
-                    
-                    <!--<li><a class="cat-634">Restaurants</a></li>-->
-                    
-                    <!--<li><a class="cat-2161">Specialty Food</a></li>-->
-                    
-                    <!--<li><a class="cat-2163">Specialty Retail</a></li>-->
-                    
-                    <!--<li><a class="cat-640">Toys</a></li>-->
-                    
-                    <!--<li><a class="cat-2164">Travel & Luggage</a></li>-->
-                    
-                    
-                    <!--<li><a class="cat-2147">Banks & Financial Services</a></li>-->
-                    
-                    <!--<li><a class="cat-596">Children's Apparel</a></li>-->
-                    
-                    <!--<li><a class="cat-599">Dental</a></li>-->
-                    
-                    <!--<li><a class="cat-2149">Department Store</a></li>-->
-                    
-                    <!--<li><a class="cat-2150">Drug Store & Convenience</a></li>-->
-                    
-                    <!--<li><a class="cat-2151">Electronics & Entertainment</a></li>-->
-                    
-                    <!--<li><a class="cat-2152">Eye Physician & Optometrists</a></li>-->
-                    
-                    <!--<li><a class="cat-2153">Fashion Accessories</a></li>-->
-                    
-                    <!--<li><a class="cat-649">Fast Food</a></li>-->
-                    
-                    <!--<li><a class="cat-611">Footwear</a></li>-->
-                    
-                    <!--<li><a class="cat-650">General Services</a></li>-->
-                    
-                    <!--<li><a class="cat-2154">Grocery</a></li>-->
-                    
-                    <!--<li><a class="cat-651">Health & Beauty</a></li>-->
-                    
-                    <!--<li><a class="cat-2156">Home Furnishings</a></li>-->
-                    
-                    <!--<li><a class="cat-619">Jewellery</a></li>-->
-                    
-                    <!--<li><a class="cat-2160">Ladies' Apparel</a></li>-->
-                    
                   </ul>
                 </div>
                 
