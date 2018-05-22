@@ -75,7 +75,7 @@
                                 <div class="controls hidden">
                                     <a href="#" rel="scroll_to_marker_storesA-14472" id="anchor_storesA-14472">
                                     <div style="color:#FFFFFF">
-                                        A&W
+                                        {{store.name}}
                                   
                                       
                                       
