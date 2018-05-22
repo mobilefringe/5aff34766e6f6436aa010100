@@ -58,8 +58,7 @@
   <section class="hours" id="hours">
             <div class="section_content">
               <div class="wrap-90">
-                
-                        <h1 class="hours_title">OPEN UNTIL <span class="lowercase chronicle-display-italic"> 9:00 PM tonight</span></h1>
+                <h1 class="hours_title">OPEN UNTIL <span class="lowercase chronicle-display-italic"> 9:00 PM tonight</span></h1>
              
                  
                 <div class="hours_divider"></div>
@@ -73,13 +72,14 @@
                     <p>
                         <span class="chronicle-deck-bold">Holiday Hours</span>
                     </p>
-                    <p>Victoria Day: May 21, <span class="lowercase chronicle-display-italic">11AM-6PM</span></p>
+                    <p v-for="">Victoria Day: May 21, <span class="lowercase chronicle-display-italic">11AM-6PM</span></p>
                     <div class="hours_divider"></div>
                         
                     
                 
                 
-            </div>
+           </div>
+          </section>
 </template>
 <style>
     .hours_page_container .row{
