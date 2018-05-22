@@ -61,7 +61,9 @@
                 <h1 class="hours_title">OPEN UNTIL <span class="lowercase chronicle-display-italic"> 9:00 PM tonight</span></h1>
                 
                 <div class="hours_divider"></div>
-                <p><span class="chronicle-deck-bold">Regular Mall Hours</span></p>
+                <p>
+                    <span class="chronicle-deck-bold">Regular Mall Hours</span>
+                </p>
                 <p>
                     Mon to Fri <span class="lowercase chronicle-display-italic">9:30AM-9PM</span>
                     \ Sat <span class="lowercase chronicle-display-italic">9:30AM-8PM</span>
