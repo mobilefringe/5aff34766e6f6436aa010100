@@ -51,7 +51,7 @@
                         <input :id="'storesA-'+store.id" :name="'accordionA-store'+store.id" :data-storeid="'storesA-'+store.id" :data-storename="store.name" :data-storex="store.x_coordinate" :data-storey="store.y_coordinate" :data-id2="store.id" type="checkbox" />
                         <label :for="'storesA-'+store.id" class="list-cell">
                             <div class="list-title">
-                                <p>A&W</p>
+                                <p>{{store.name}}</p>
                             </div>
                             <div class="list-subtitle">
                                 <p class="chronicle-deck-bold">Phone Number</p>
