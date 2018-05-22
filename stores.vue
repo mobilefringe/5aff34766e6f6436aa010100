@@ -228,7 +228,7 @@
                     return this.processedStores;
                 },
                 allCatergories() {
-                    return this.processedCategories;
+                    return -.filter(this.processedCategories, function(o){return store_ids !== null && store_ids !==undefined && store_ids.length > 0});
                 },
                 dropDownCats() {
                     var cats = _.map(this.processedCategories, 'name');
