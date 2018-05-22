@@ -64,7 +64,7 @@
                              <div class="map-container">
                                 <div id="'map_storesA-'+store.id" class="demo1">
                                     <img alt="map" src="https://www.mallmaverick.com/system/properties/maps/000/000/010/original/Southcentre_MAP_FEB2018.jpg?1521054104" class="imgMap" />                
-                                    <div class="marker" id='scroll_to_marker_storesA-14472' data-coords="1374.0, 677.0">A&W
+                                    <div class="marker" :id="'scroll_to_marker_storesA-'+store.id" data-coords="1374.0, 677.0">A&W
                                              
                                       
                                       <p class="marker-level">2nd Floor</p>
