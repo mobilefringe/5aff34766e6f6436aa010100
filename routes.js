@@ -7,7 +7,7 @@ define([], function() {
         {
             path: '/pages',
             component: view('default'),
-            redirect: '/404',
+            redirect: '/',
             children: [{
                 path: ':id',
                 component: view('page_details'),
