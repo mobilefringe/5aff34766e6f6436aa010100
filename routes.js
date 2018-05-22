@@ -10,7 +10,7 @@ define([], function() {
             children: [{
                 path: ':id',
                 component: view('store_details'),
-                name: 'pageDetails',
+                name: 'storeDetails',
                 props: true
             }]
         },
