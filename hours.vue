@@ -73,7 +73,7 @@
                     <p>
                         <span class="chronicle-deck-bold">Holiday Hours</span>
                     </p>
-                    <p v-for="hour in reducedHolidays">{{hour.holiday_name}}: {{hour.holiday_date | moment("MMM D", timezone)}}, <span class="lowercase chronicle-display-italic">11AM-6PM</span></p>
+                    <p v-for="hour in reducedHolidays">{{hour.holiday_name}}: {{hour.holiday_date | moment("MMM D", timezone)}}, <span class="lowercase chronicle-display-italic">{{hour.open_time | moment("h:mm A", timezone)}} - {{hour.close_time | moment("h:mm A", timezone)}}</span></p>
                     <div class="hours_divider"></div>
                 </div>
             </div>
