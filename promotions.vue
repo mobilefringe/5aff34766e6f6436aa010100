@@ -53,7 +53,7 @@
                       <a class="whitney blue" href="/promotions/southcentre-southcentre-mall-chatters-up-to-35-off-hair-tools">More info</a>
                     </div>
                   </div>
-                  
+                  </div>
             </div>
           </section>
 	</div>
