@@ -10,7 +10,7 @@
                     <div class="promo_cell">
                       <h3>{{promo.name}}</h3>
                       
-                      <p>May 01 - May 31</p>
+                      <p>{{promo.start_date | moment("MMM D", timezone)}} - {{promo.end_date | moment("MMM D", timezone)}}</p>
                       
                       <div class="promo_description" v-html="promo.rich_description">
                         
