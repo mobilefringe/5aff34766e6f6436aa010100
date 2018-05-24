@@ -8,7 +8,7 @@
                 <div class="medium-6 columns ">
                  <div class="promo_box first_cell" v-for="promo in promotions">
                     <div class="promo_cell">
-                      <h3>Chatters: Up To 35% OFF Hair Tools</h3>
+                      <h3></h3>
                       
                       <p>May 01 - May 31</p>
                       
