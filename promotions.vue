@@ -6,7 +6,7 @@
               <p class="whitney">EVENTS & DEALS: BE IN THE KNOW</p>
               <div class="promo_content">
                 <div class="medium-6 columns ">
-                 <div class="promo_box first_cell">
+                 <div class="promo_box first_cell" v-for="promo in promotions">
                     <div class="promo_cell">
                       <h3>Chatters: Up To 35% OFF Hair Tools</h3>
                       
