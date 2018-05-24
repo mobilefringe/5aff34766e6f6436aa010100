@@ -10,7 +10,7 @@
                     <div class="promo_cell">
                       <h3>{{promo.name}}</h3>
                       
-                      <p>{{promo.start_date | moment("MMM D", timezone)}} - {{promo.end_date | moment("MMM D", timezone)}}</p>
+                      <p>{{promo.start_date | moment("MMM DD", timezone)}} - {{promo.end_date | moment("MMM DD", timezone)}}</p>
                       
                       <div class="promo_description"> 
                         {{promo.description}}
