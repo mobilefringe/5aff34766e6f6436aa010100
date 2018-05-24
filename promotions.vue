@@ -12,7 +12,7 @@
                       
                       <p>{{promo.start_date | moment("MMM D", timezone)}} - {{promo.end_date | moment("MMM D", timezone)}}</p>
                       
-                      <div class="promo_description" v-html="promo.rich_description">
+                      <div class="promo_description"> {{promo.rich_description}}
                         
                       </div>
                       <a class="whitney blue" :to="'/promotions/'+promo.slug">More info</a>
