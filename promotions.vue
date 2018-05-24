@@ -91,7 +91,7 @@
                             temp_promo.push(value);
                         }
                     });
-                    _.sortBy(temp_promo, [function(o) { return o.start_date; }]);
+                    _.sortBy(temp_promo, [function(o) { return o.show_on_web; }]);
                     return temp_promo;
                 },
             },
