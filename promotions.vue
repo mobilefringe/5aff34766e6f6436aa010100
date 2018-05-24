@@ -46,9 +46,8 @@
                       
                       <p>May 01 - May 31</p>
                       
-                      <div class="promo_description">
-                        <p><p><span style="color:rgb(34, 34, 34); font-family:arial,sans-serif; font-size:9.5pt">Score some style happy savings on the perfect tools for any look! Save up to 35% off some of your favourite hair tools to help you create your signature style!</span></p>
-</p>
+                      <div class="promo_description" v-html="promo.description">
+                        
                       </div>
                       <a class="whitney blue" href="/promotions/southcentre-southcentre-mall-chatters-up-to-35-off-hair-tools">More info</a>
                     </div>
