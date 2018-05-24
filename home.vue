@@ -12,6 +12,7 @@
 		<header-component></header-component>
 		<hours-component></hours-component>
 		<stores-component></stores-component>
+		<promos-component></promos-component>
 	</div>
 </template>
 
