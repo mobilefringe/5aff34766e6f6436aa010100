@@ -15,7 +15,7 @@
                       <div class="promo_description" v-html="promo.rich_description">
                         
                       </div>
-                      <a class="whitney blue" href="/promotions/southcentre-southcentre-mall-chatters-up-to-35-off-hair-tools">More info</a>
+                      <a class="whitney blue" :to="'/promotions/'+promo.slug">More info</a>
                     </div>
                   </div>
                   </div>
