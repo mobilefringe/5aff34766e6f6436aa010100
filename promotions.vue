@@ -5,8 +5,8 @@
               <h1>STORE PROMOTIONS</h1>
               <p class="whitney">EVENTS & DEALS: BE IN THE KNOW</p>
               <div class="promo_content">
-                <div class="col-md-6">
-                 <div class="promo_box first_cell" v-for="promo in promotions">
+                <div class="col-md-6"  v-for="promo in promotions">
+                 <div class="promo_box first_cell">
                     <div class="promo_cell">
                       <h3>{{promo.name}}</h3>
                       
