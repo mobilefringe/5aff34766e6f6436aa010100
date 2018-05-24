@@ -6,41 +6,7 @@
               <p class="whitney">EVENTS & DEALS: BE IN THE KNOW</p>
               <div class="promo_content">
                 <div class="medium-6 columns ">
-                  
-                  
-                  
-                  
-                  
-                  
-                  <div class="promo_box first_cell">
-                    <div class="promo_cell">
-                      <h3>Ao-Ta Beauty Salon: Complimentary Haircut with Highlights or Colour Service*</h3>
-                      
-                      <p>May 01 - Jun 30</p>
-                      
-                      <div class="promo_description">
-                        <p><p>* Starting at $65</p>
-
-<p>Prices may vary, see in store for details</p>
-</p>
-                      </div>
-                      <a class="whitney blue" href="/promotions/southcentre-southcentre-mall-ao-ta-complimentary-haircut-with-highlights-or-colour-service">More info</a>
-                    </div>
-                  </div>
-                  
-                  
-                  
-                  
-                  
-                  
-                  
-                  
-                  
-                  
-                  
-                  
-                  
-                  <div class="promo_box first_cell">
+                 <div class="promo_box first_cell">
                     <div class="promo_cell">
                       <h3>Chatters: Up To 35% OFF Hair Tools</h3>
                       
