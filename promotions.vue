@@ -12,8 +12,7 @@
                         <p>{{promo.start_date | moment("MMM DD", timezone)}} - {{promo.end_date | moment("MMM DD", timezone)}}</p>
                       
                         <div class="promo_description"> 
-                        {{promo.description}}
-                        
+                            {{promo.description}}
                         </div>
                   <a class="whitney blue" :to="'/promotions/'+promo.slug">More info</a>
                 </div>
