@@ -36,11 +36,8 @@
     <!--Pages Banner-->
 </template>
 <style>
-    .top_menu {
-        margin-top: 50px;
-    }
     .top_menu.fixed {
-        margin-top: 50px;
+        margin-top: 0px;
     }
 </style>
 <script>
