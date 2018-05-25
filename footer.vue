@@ -6,7 +6,7 @@
 					<div class="footer_wrap">
 						<div class="footer_content">
 							<h1 class="black">You can reach Guest Services at:<br/><span class="chronicle-display-italic black">(403) 271-7670</span></h1>
-							
+							<social-links></social-links>
 							<hr>
 							<section id="newsletter">
 								<div class="section_content" style="padding-top:0px;">
