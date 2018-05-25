@@ -32,9 +32,6 @@
 </template>
 <script>
     define(["Vue", "vuex", "moment", "moment-timezone", "vue-moment"], function(Vue, Vuex, moment, tz, VueMoment) {
-        Vue.use(Meta);
-        Vue.use(VueLazyload);
-        Vue.use(VuePaginate);
         return Vue.component("events-component", {
             template: template, // the variable template will be injected
             props:['locale'],
