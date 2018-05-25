@@ -104,10 +104,10 @@
 	background:none !important;
 	border: 0px !important;
 	}
-	.agreementLabel{
+	footer .agreementLabel{
 	vertical-align: top;
 	}
-	.newsletter_agreement {
+	footer .newsletter_agreement {
 	margin-left: 10px;
 	}
 	.error{color:#F00}
