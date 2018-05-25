@@ -1,68 +1,56 @@
 <template>
 	<section id="news_and_events" class="scrollspy" v-if="dataloaded">
-		<div class="page_header" v-if="promoBanner" v-lazy:background-image="promoBanner.image_url">
-			<!--http://via.placeholder.com/1920x300-->
-			<div class="site_container">
-				<div class="header_content caps">
-					<h1>{{$t("events_page.events")}}</h1>
-					
-				</div>
-			</div>
-		</div>
-		<div class="site_container page_content">
-			<div id="events_container" v-if="events.length > 0">
-				<paginate name="events" v-if="events" :list="events" class="paginate-list margin-60" :per="4">
-					<div class="row event_container" v-for="(promo,index) in paginated('events')" :class="{ 'last': index === (paginated('events').length - 1) }"  :key="promo.id">
-						<div class="col-sm-6 col-md-4 event_image_container">
-							<router-link :to="'/events/'+ promo.slug" class="event_learn_more">
-								<img v-lazy="promo.store.image_url"  class="event_image image" alt=""/>
-							</router-link>
-						</div>
-						<div class="col-sm-6 col-md-8 event_dets_container">
-							<h4 class="event_name caps" v-if="locale=='en-ca'">{{promo.name}}</h4>
-							<h4 class="event_name caps" v-else>{{promo.name_2}}</h4>
-							<div class="event_thick_line"></div>
-							<p class="event_dates">{{promo.start_date | moment("MMM D", timezone)}} - {{promo.end_date | moment("MMM D", timezone)}}</p>
-							<p class="event_desc" v-if="locale=='en-ca'">{{promo.description_short}}</p>
-							<p class="event_desc" v-else>{{promo.description_short_2}}</p>
-						
-							<div class="text-right  col-sm-6" v-if="promo" style="padding:0">
-								<router-link :to="'/events/'+ promo.slug" class="event_learn_more pull-left">
-								    {{$t("events_page.read_more")}} <i class="fa fa-angle-right" aria-hidden="true"></i>
-							    </router-link>
-								<social-sharing :url="shareURL(promo.slug)" :title="promo.title" :description="promo.body" :quote="_.truncate(promo.description, {'length': 99})" twitter-user="EastgateSquare" :media="promo.image_url" inline-template >
-									<div class="blog-social-share pull_right">
-										<div class="social_share">
-											<network network="facebook">
-												<i class="fa fa-facebook social_icons" aria-hidden="true"></i>
-											</network>
-											<network network="twitter">
-												<i class="fa fa-twitter social_icons" aria-hidden="true"></i>
-											</network>
-										</div>
-									</div>
-								</social-sharing>
-							</div>
-						</div>
-						<div class="col-sm-12">
-							<hr>
-						</div>
-					</div>
-				</paginate>
-			</div>
-			<div id="no_events" class="row" v-else>
-				<div class="col-md-12">
-					<p>{{$t("events_page.no_event_message")}}</p>
-				</div>
-			</div>
-			<div class="row margin-60">
-				<div class="col-md-12">
-					<paginate-links for="events" :async="true" :limit="5" :show-step-links="true"></paginate-links>
-					<!--<paginate-links for="currentSelection" :async="true" :simple="{ next: 'Next »', prev: '« Back' }"></paginate-links>-->
-				</div>
-			</div>
-		</div>
-	</div>
+		<div class="section_content">
+              <h1>NEWS & EVENTS</h1>
+              <p class="whitney">STAY UP TO DATE AND IN THE KNOW</p>
+              <div class="event_content">
+                <div>
+                  
+                  
+                  
+                  <div class="event_box">
+                      <h3 class="event_title chronicle">Where Fashion Meets Furniture</h3>
+                      
+                      <h3 class="event_date whitney-light">May 01 - May 31</h3>
+                      
+                      <a class="whitney blue" href="/events/southcentre-where-fashion-meets-furniture">More info</a>
+                  </div>
+                  
+                  
+                  
+                  <div class="event_box">
+                      <h3 class="event_title chronicle">Style Academy- Swimwear!</h3>
+                      
+                      <h3 class="event_date whitney-light">May 24</h3>
+                      
+                      <a class="whitney blue" href="/events/southcentre-style-academy-swimwear">More info</a>
+                  </div>
+                  
+                  
+                  
+                  <div class="event_box">
+                      <h3 class="event_title chronicle">Set for Summer Workshops</h3>
+                      
+                      <h3 class="event_date whitney-light">May 25 - May 27</h3>
+                      
+                      <a class="whitney blue" href="/events/southcentre-edible-flower-garden-class">More info</a>
+                  </div>
+                  
+                  
+                  
+                  <div class="event_box">
+                      <h3 class="event_title chronicle">Style Academy - Men's Edition!</h3>
+                      
+                      <h3 class="event_date whitney-light">Jun 12</h3>
+                      
+                      <a class="whitney blue" href="/events/southcentre-style-academy-men-s-edition">More info</a>
+                  </div>
+                  
+                </div>
+                
+              </div>
+            </div>
+          </section>
 </template>
 
 <style>
