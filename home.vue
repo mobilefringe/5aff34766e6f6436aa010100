@@ -20,8 +20,7 @@
             <kidsclub-component></kidsclub-component>
             <events-component></events-component>
 		</div>
-            <footer-component></footer-component>
-		
+        <footer-component></footer-component>
 	</div>
 </template>
 
