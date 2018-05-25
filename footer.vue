@@ -80,8 +80,6 @@
 															</div>
 														</div>
 													</form>
-													<script src="//ajax.aspnetcdn.com/ajax/jquery.validate/1.14.0/jquery.validate.min.js"></script>
-													
 												</div>
 											</div>
 										</div>
