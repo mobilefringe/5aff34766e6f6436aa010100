@@ -85,6 +85,9 @@
     
                 }
             }
+        destroyed: function() {
+            window.removeEventListener('scroll', this.enableStickyNavbar);
+        },
         });
     });
 </script>
