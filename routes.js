@@ -15,7 +15,7 @@ define([], function() {
             }]
         },
         {
-            path: '/pages',
+            path: '/promotions',
             component: view('default'),
             redirect: '/',
             children: [{
