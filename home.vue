@@ -157,7 +157,7 @@
                     } else {
                         this.showStickyMenu = false;
                     }
-    
+
                 }
             },
             destroyed: function() {
