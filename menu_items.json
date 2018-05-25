@@ -1,7 +1,7 @@
 [
     {
         "name": "header.hours",
-        "href": "/"
+        "href": "#hours"
     },
     {
         "name": "header.stores",
