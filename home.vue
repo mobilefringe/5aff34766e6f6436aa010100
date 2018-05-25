@@ -15,7 +15,7 @@
     		<stores-component></stores-component>
     		<promos-component></promos-component>
     		
-    		<style-academy-component></style>
+    		<styleacademy-component></style>
         <giftcard-component></giftcard-component>
 		</div>
 		
