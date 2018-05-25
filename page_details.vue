@@ -39,7 +39,7 @@
     .top_menu {
         margin-top: 50px;
     }
-    .top_menu {
+    .top_menu.fixed {
         margin-top: 50px;
     }
 </style>
