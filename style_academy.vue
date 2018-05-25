@@ -1,48 +1,60 @@
 <template>
-	<section id="giftcard" class="scrollspy">
-		<div class="section_content">
-			<div class="giftcard_background">
-				<div class="wrap-90">
-					<div class="giftcard_wrap position_relative">
-						<div class="gc_centres_popup">
-							<span id="close_gc_centre">X</span>
-							<img src="//mallmaverick.cdn.speedyrails.net/system/site_images/photos/000/015/733/original/SOM_188_GCPlus_Website_Update_V2B.jpg?1450716958" />
-						</div>
-						<div class="giftcard_content">
-							<h1 class="white">ONE CARD</h1>
-							<h1 class="white">SO MANY POSSIBILITIES</h1>
-							<br/>
-							<p class="freedom whitney">SHOP. STAY. FLY.</p>
-							<div class="row giftcard-description">
-								<div class="giftcard_left medium-7 columns">
-									<p class="whitney-medium all_caps">Introducing the new Southcentre Gift Card Plus!</p>
-									<p class="whitney">
-										We’ve added new benefits to our gift cards. The Southcentre Gift Card Plus is redeemable at <span class="whitney-medium gc_mobile">our centre</span><span class="whitney-medium gc_desktop" >our centre</span>, or any one of our <span class="whitney-medium"><a target="_blank" href="https://oxfordgiftcardplus.ca/where-to-use">Oxford Properties</a></span>, or can be used to book a hotel stay, or fly anywhere Porter Airlines flies.
-									</p>
-									<p class="whitney">
-										Purchase your Southcentre Gift Card Plus at Guest Services or order <span class="whitney-medium"><a target="_blank" href="https://oxfordgiftcardplus.ca/buy-gift-card/">online</a></span> and enjoy the convenience of having your gift card delivered to your door.
-									</p>
-									<p class="whitney">
-										For corporate orders please email:<br />
-										info@southcentremall.com for futher details.
-									</p>
-									<p class="whitney gc_links">
-										<a href="https://oxfordgiftcardplus.ca/" target="_blank">CORPORATE ORDERS</a><br />
-										<a href="https://oxfordgiftcardplus.ca/buy-gift-card/" target="_blank">ONLINE PURCHASES</a><br />
-										<a href="https://oxfordgiftcardplus.ca/faq/" target="_blank">FAQS</a><br />
-										<a href="https://www279.americanexpress.com/GPTHBIWeb/validateIPAction.do?clientkey=amex%20bank%20of%20canada" target="_blank">CHECK YOUR BALANCE</a><br />
-									</p>
-								</div>
-								<div class="giftcard_right medium-5 columns">
-									<img alt="gift card" src="//mallmaverick.cdn.speedyrails.net/system/site_images/photos/000/015/466/original/gift_card_img.png?1449786330"/>
-								</div>
-							</div>
-						</div>
+	<section id="style" class="scrollspy">
+	<div class="section_content">
+		<div class="wrap-90">
+			<h1>LET'S GET PERSONAL.<br/>OUR STYLISTS CAN HELP.<br/></h1>
+			<p class="whitney">LEARN ALL THE STYLE SECRETS YOU WANT TO KNOW!</p>
+			<div class="style_line_break"></div>
+			<div class="style_content">
+				<div class="style_hero_img">
+					<img alt="Style Academy Logo" src="//www.mallmaverick.com/system/site_images/photos/000/027/075/original/Vector_Smart_Object1.png?1489587437">
+				</div>
+				<div class="style_line_break"></div>
+				<div class="style_wrapper">
+					<p class="whitney">YOU HAVE QUESTIONS. WHAT SHOULD I WEAR TO WORK THIS SPRING? HOW DO I PACK FOR MY VACATION? WHAT ARE THE BASICS I NEED IN MY CLOSET? HOW DO I BUY JEANS? WE'VE GOT ANSWERS.</p>
+					<p class="style_text whitney">At Style Academy, you'll learn all the tips and tricks to help you dress your best - all the time.
+						<br>Our Stylist BR Pirri will teach you everything you need to know and more!
+					</p>
+				</div>
+				<div class="style_banner">
+					<p class="whitney-medium">VISIT US IN-MALL FOR FREE MONTHLY SESSIONS</p>
+				</div>
+				<div class="style_divider"></div>
+				<div class="row">
+					<div class="medium-5 columns">
+						<img class="style_img pull-left" alt="Style Academy" src="//www.mallmaverick.com/system/site_images/photos/000/027/109/original/style_academy1.jpg?1489671212">
+					</div>
+					<div class="medium-7 columns">
+						<h3 class="align-left">HOW IT WORKS</h3>
+						<p class="style_text align-left whitney">We host our 90-minute Style Academy sessions right here at the centre. Mix & mingle over light snacks and beverages, before BR begins her talk. Each session is themed around a single concept or trend - but bring your questions for BR on anything at all! Class participation is highly encouraged! Bring your girlfriends, enjoy a night of fashion and fun - and leave armed with style tips you'll love.
+							<br><br>For more information, please email <a href="mailto:info@southcentremall.com">info@southcentremall.com</a>
+						</p>
+					</div>
+				</div>
+				<div class="style_line_break"></div>
+				<div class="row">
+					<div class="medium-5 columns push-7">
+						<img class="style_img pull-right" alt="Style BR Pirri" src="//www.mallmaverick.com/system/site_images/photos/000/027/081/original/pic2.png?1489590422">
+					</div>
+					<div class="medium-7 columns pull-5">
+						<h3 class="align-right">MEET OUR STYLIST</h3>
+						<p class="style_text align-right whitney">When it comes to style and taste, BR is a wealth of knowledge! When she's not hosting Style Academy, she's busy with personal clients, styling fashion shoots, and teaching the next generation of stylish Calgarians at The Fashion Institute by Olds College. Join her at Style Academy and learn from the best.  </p>
+					</div>
+				</div>
+				<div class="style_divider"></div>
+				<div class="style_info">
+					<h1>MORE INFORMATION</h1>
+					<p class="subtitle whitney">ONE-ON-ONE SESSIONS - HOW IT WORKS</p>
+					<div class="style_wrapper">
+						<p class="style_text whitney">Book a one-on-one session with BR and she'll give you personalized advice on whatever style subject you need help in! Contact BR to book your session at <a class="whitney-medium" href="mailto:br@brpirri.com">br@brpirri.com</a></p>
+						<p class="style_text whitney">BR will offer shoppers a preferred rate of $125 per 90-minute session ($100 off her regular rate) and each shopper will receive a $25 Southcentre Gift Card at their session.</p>
 					</div>
 				</div>
 			</div>
 		</div>
-	</section>
+		<!-- Wrap 90 Close -->
+	</div>
+</section>
 </template>
 <script>
     define(["Vue"], function(Vue) {
