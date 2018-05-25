@@ -118,7 +118,7 @@
 	}
 </style>
 <script>
-    define(["Vue"], function(Vue) {
+    define(["Vue", "vue!social_links"], function(Vue) {
         return Vue.component("footer-component", {
             template: template, // the variable template will be injected,
         });
