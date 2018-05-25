@@ -158,13 +158,13 @@
                     }
     
                 }
-            }
+            },
             // methods: {
                 
             // },
-            // destroyed: function() {
-            //     window.removeEventListener('scroll', this.enableStickyNavbar);
-            // },
+            destroyed: function() {
+                window.removeEventListener('scroll', this.enableStickyNavbar);
+            },
         })
     })
 </script>
