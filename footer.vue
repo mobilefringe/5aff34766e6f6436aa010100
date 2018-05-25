@@ -6,23 +6,7 @@
 					<div class="footer_wrap">
 						<div class="footer_content">
 							<h1 class="black">You can reach Guest Services at:<br/><span class="chronicle-display-italic black">(403) 271-7670</span></h1>
-							<ul class="social_icons_list">
-								<li>
-									<a class='facebook' href="https://www.facebook.com/southcentremall" target="_blank">Facebook</a>
-								</li>
-								<li>
-									<a class='twitter' href='https://twitter.com/southcentremall' target="_blank">Twitter</a>
-								</li>
-								<li>
-									<a class='instagram' href="http://instagram.com/southcentremall/" target="_blank">Instagram</a>
-								</li>
-								<li>
-									<a class='pinterest' href='https://www.pinterest.com/southcentremall/' target="_blank">pinterest</a>
-								</li>
-								<li>
-									<a class='youtube' href='https://www.youtube.com/user/SouthcentreMall' target="_blank">youtube</a>
-								</li>
-							</ul>
+							
 							<hr>
 							<section id="newsletter">
 								<div class="section_content" style="padding-top:0px;">
