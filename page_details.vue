@@ -37,7 +37,7 @@
 </template>
 
 <script>
-    define(["Vue", "vuex", "moment", "moment-timezone", "vue-moment", "vue!footer"], function(Vue, Vuex, moment, tz, VueMoment) {
+    define(["Vue", "vuex", "moment", "moment-timezone", "vue-moment", "vue!footer"], function(Vue, Vuex, moment, tz, VueMoment, footerComponent) {
         return Vue.component("page-details-component", {
             template: template, // the variable template will be injected,
             data: function() {
