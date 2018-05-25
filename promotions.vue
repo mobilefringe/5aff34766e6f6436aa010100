@@ -88,8 +88,8 @@
                             temp_promo.push(value);
                         }
                     });
-                    _.sortBy(temp_promo, [function(o) { return o.end_date; }]).reverse();
-                    return temp_promo;
+                    
+                    return _.sortBy(temp_promo, [function(o) { return o.end_date; }]).reverse();
                 },
             },
             methods: {
