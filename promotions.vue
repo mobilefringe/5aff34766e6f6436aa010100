@@ -87,11 +87,10 @@
                             value.description_short_2 = _.truncate(value.description_2, {
                                 'length': 150
                             });
-                            temp_promo.push(value);
                         }
                     });
                     
-                    return _.sortBy(temp_promo, [function(o) { return o.end_date; }]);
+                    return _.sortBy(this.processedPromos, [function(o) { return o.end_date; }]);
                 },
             },
             methods: {
