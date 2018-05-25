@@ -81,32 +81,7 @@
 														</div>
 													</form>
 													<script src="//ajax.aspnetcdn.com/ajax/jquery.validate/1.14.0/jquery.validate.min.js"></script>
-													<style>
-														td, td label {
-														font-family: WhitneyHTF-Book !important;
-														font-size: 1.1383333467168em !important;
-														}
-														tr {
-														background:none !important;
-														vertical-align: top;
-														}
-														table{
-														background:none !important;
-														border: 0px !important;
-														}
-														.agreementLabel{
-														vertical-align: top;
-														}
-														.newsletter_agreement {
-														margin-left: 10px;
-														}
-														.error{color:#F00}
-														@media (max-width:768px){
-														.agreementLabel{
-														vertical-align: none !important;
-														} 
-														}
-													</style>
+													<
 												</div>
 											</div>
 										</div>
