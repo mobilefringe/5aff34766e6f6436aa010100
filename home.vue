@@ -26,7 +26,7 @@
 </template>
 
 <script>
-    define(["Vue", "vuex", "vue!search-component", 'vue!vue-slick', 'js-cookie', 'vue-lazy-load', 'vue!hours', 'vue!stores', 'vue!promotions','vue!style_academy', 'vue!gift_card', 'vue!kids_club', 'vue!events', 'vue!footer'], function(Vue, Vuex, SearchComponent, slick, Cookies, VueLazyload, HoursComponent, storesComponent, promosComponent, styleComponent, giftcardComponent, kidsclubComponent, eventComponent, footerComponent) {
+    define(["Vue", "vuex", "vue!search-component", 'vue!vue-slick', 'js-cookie', 'vue-lazy-load', 'vue!hours', 'vue!stores', 'vue!promotions','vue!style_academy', 'vue!gift_card', 'vue!kids_club', 'vue!events', 'vue!footer', 'vue!social_links'], function(Vue, Vuex, SearchComponent, slick, Cookies, VueLazyload, HoursComponent, storesComponent, promosComponent, styleComponent, giftcardComponent, kidsclubComponent, eventComponent, footerComponent) {
         Vue.use(VueLazyload);
         return Vue.component("home-component", {
             template: template, // the variable template will be injected
