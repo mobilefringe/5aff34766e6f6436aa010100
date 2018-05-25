@@ -41,9 +41,7 @@
             template: template, // the variable template will be injected,
             data: function() {
                 return {
-                    success_subscribe: false,
-                    currentPage: null,
-                    pageBanner : null
+                    currentPage: null
                 }
             },
             props:['id', 'locale'],
