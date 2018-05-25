@@ -72,11 +72,7 @@
                     } catch (e) {
                         console.log("Error loading data: " + e.message);
                     }
-                },
-                shareURL(slug){
-                    var share_url = "http://mallmaverick.ca/events/" + slug;
-                    return share_url;
-                },
+                }
             }
         });
     });
