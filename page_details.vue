@@ -31,6 +31,7 @@
             </div>
           </section>
         </div>
+        <footer-component></footer-component>
     </div>
     <!--Pages Banner-->
 </template>
