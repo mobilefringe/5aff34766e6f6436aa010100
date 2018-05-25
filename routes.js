@@ -20,7 +20,7 @@ define([], function() {
             redirect: '/',
             children: [{
                 path: ':id',
-                component: view('page_details'),
+                component: view('promotions_details'),
                 name: 'promotionDetails',
                 props: true
             }]
