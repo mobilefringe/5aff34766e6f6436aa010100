@@ -58,7 +58,6 @@
                         today = moment().tz(vm.timezone);
                         webDate = moment(value.show_on_web_date).tz(vm.timezone);
                         if (today >= webDate) {
-                            
                             temp_promo.push(value);
                         }
                     });
