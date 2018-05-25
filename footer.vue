@@ -110,11 +110,11 @@
 	footer .newsletter_agreement {
 	margin-left: 10px;
 	}
-	.error{color:#F00}
+	footer .error{color:#F00}
 	@media (max-width:768px){
-	.agreementLabel{
-	vertical-align: none !important;
-	} 
+    	footer .agreementLabel{
+    	vertical-align: none !important;
+    	} 
 	}
 </style>
 <script>
