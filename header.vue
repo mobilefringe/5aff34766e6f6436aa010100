@@ -77,13 +77,13 @@
             },
             methods: {
                 enableStickyNavbar(e) {
-                if (window.pageYOffset >= this.isSticky) {
-                    this.stickyMenu = true;
-                } else {
-                    this.stickyMenu = false;
+                    if (window.pageYOffset >= this.isSticky) {
+                        this.stickyMenu = true;
+                    } else {
+                        this.stickyMenu = false;
+                    }
+    
                 }
-
-            }
             }
         });
     });
