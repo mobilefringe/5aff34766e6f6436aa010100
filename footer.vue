@@ -93,27 +93,27 @@
 </template>
 <style>
 	footer td,footer td label {
-	font-family: WhitneyHTF-Book !important;
-	font-size: 1.1383333467168em !important;
+    	font-family: WhitneyHTF-Book !important;
+    	font-size: 1.1383333467168em !important;
 	}
 	footer tr {
-	background:none !important;
-	vertical-align: top;
+    	background:none !important;
+    	vertical-align: top;
 	}
 	footer table{
-	background:none !important;
-	border: 0px !important;
+    	background:none !important;
+    	border: 0px !important;
 	}
 	footer .agreementLabel{
-	vertical-align: top;
+	    vertical-align: top;
 	}
 	footer .newsletter_agreement {
-	margin-left: 10px;
+	    margin-left: 10px;
 	}
 	footer .error{color:#F00}
 	@media (max-width:768px){
     	footer .agreementLabel{
-    	vertical-align: none !important;
+    	    vertical-align: none !important;
     	} 
 	}
 </style>
