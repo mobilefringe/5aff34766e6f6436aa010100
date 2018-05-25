@@ -149,9 +149,7 @@
                 closePopup() {
                     this.show_popup = false;
                     document.getElementById('popup_backdrop').style.display = "none";
-                }
-            }
-            // methods: {
+                },
                 // enableStickyNavbar(e) {
                 //     if (window.pageYOffset >= this.isSticky) {
                 //         this.stickyMenu = true;
@@ -160,6 +158,9 @@
                 //     }
     
                 // }
+            }
+            // methods: {
+                
             // },
             // destroyed: function() {
             //     window.removeEventListener('scroll', this.enableStickyNavbar);
