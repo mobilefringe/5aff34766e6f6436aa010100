@@ -52,6 +52,9 @@
                     instaFeed: null
                 }
             },
+             // created() {
+            //     window.addEventListener('scroll', this.enableStickyNavbar);  
+            // },
             created () {
                 this.loadData().then(response => {
                     this.dataLoaded = true;
