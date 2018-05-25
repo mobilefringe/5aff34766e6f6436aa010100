@@ -1,5 +1,5 @@
 <template>
-	<footer>
+	<!--<footer>-->
 		<section class="footer">
 			<div class="section_content">
 				<div class="footer_background">
@@ -89,7 +89,7 @@
 				</div>
 			</div>
 		</section>
-	</footer>
+	<!--</footer>-->
 </template>
 <style>
 	footer td,footer td label {
