@@ -1,29 +1,27 @@
 <template>
-	<!--<div >-->
-		<section id="promotions" class="scrollspy" v-if="dataloaded">
-            <div class="section_content">
-              <h1>STORE PROMOTIONS</h1>
-              <p class="whitney">EVENTS & DEALS: BE IN THE KNOW</p>
-              <div class="promo_content">
-                <div class="medium-6 columns"  v-for="promo in promotions">
-                 <div class="promo_box first_cell">
-                    <div class="promo_cell">
-                      <h3>{{promo.name}}</h3>
-                      
-                      <p>{{promo.start_date | moment("MMM DD", timezone)}} - {{promo.end_date | moment("MMM DD", timezone)}}</p>
-                      
-                      <div class="promo_description"> 
-                        {{promo.description}}
-                        
-                      </div>
-                      <a class="whitney blue" :to="'/promotions/'+promo.slug">More info</a>
-                    </div>
+	<section id="promotions" class="scrollspy" v-if="dataloaded">
+        <div class="section_content">
+          <h1>STORE PROMOTIONS</h1>
+          <p class="whitney">EVENTS & DEALS: BE IN THE KNOW</p>
+          <div class="promo_content">
+            <div class="medium-6 columns"  v-for="promo in promotions">
+             <div class="promo_box first_cell">
+                <div class="promo_cell">
+                  <h3>{{promo.name}}</h3>
+                  
+                  <p>{{promo.start_date | moment("MMM DD", timezone)}} - {{promo.end_date | moment("MMM DD", timezone)}}</p>
+                  
+                  <div class="promo_description"> 
+                    {{promo.description}}
+                    
                   </div>
-                  </div>
+                  <a class="whitney blue" :to="'/promotions/'+promo.slug">More info</a>
+                </div>
+              </div>
+              </div>
             </div>
-            </div>
-          </section>
-	<!--</div>-->
+        </div>
+      </section>
 </template>
 
 <script>
