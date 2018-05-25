@@ -10,7 +10,7 @@
 			</div>
 		</div>
 		<header-component></header-component>
-		<header-component v-if=""></header-component>
+		<header-component v-if="showStickyMenu"></header-component>
 		<div class="main_content">
 		    <hours-component></hours-component>
     		<stores-component></stores-component>
