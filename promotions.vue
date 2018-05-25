@@ -103,7 +103,7 @@
                         }
                     });
                     
-                    return _.sortBy(temp_promo, [function(o) { return o.start_date; }]).reverse();
+                    return _.sortBy(temp_promo, [function(o) { return o.start_date; }]);
                 },
             },
             methods: {
