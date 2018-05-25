@@ -15,8 +15,8 @@
                             {{promo.description}}
                         </div>
                         <a class="whitney blue" :to="'/promotions/'+promo.slug">More info</a>
+                    </div>
                 </div>
-              </div>
               </div>
             </div>
         </div>
