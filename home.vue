@@ -16,6 +16,7 @@
     		<promos-component></promos-component>
     		<styleacademy-component></styleacademy-component>
             <giftcard-component></giftcard-component>
+            <kidsclub-component></kidsclub-component>
 		</div>
 		
 	</div>
