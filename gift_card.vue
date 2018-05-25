@@ -45,8 +45,7 @@
 	</section>
 </template>
 <script>
-    define(["Vue", "vuex", "lightbox"], function(Vue, Vuex, Lightbox) {
-        Vue.use(Lightbox);
+    define(["Vue"], function(Vue) {
         return Vue.component("social-links", {
             template: template, // the variable template will be injected,
         });
