@@ -153,7 +153,7 @@
                 },
                 enableStickyNavbar(e) {
                     console.log(window);
-                    if (window.pageYOffset >= (window.height-200)) {
+                    if (window.pageYOffset >= (window.innerHeight-200)) {
                         this.stickyMenu = true;
                     } else {
                         this.stickyMenu = false;
