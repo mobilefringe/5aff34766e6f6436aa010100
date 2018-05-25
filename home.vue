@@ -22,7 +22,7 @@
 </template>
 
 <script>
-    define(["Vue", "vuex", "vue!search-component", 'vue!vue-slick', 'js-cookie', 'vue-lazy-load', 'vue!hours', 'vue!stores', 'vue!promotions','vue!style_academy', 'vue!gift_card'], function(Vue, Vuex, SearchComponent, slick, Cookies, VueLazyload, HoursComponent, storesComponent, promosComponent, styleComponent, giftcardComponent) {
+    define(["Vue", "vuex", "vue!search-component", 'vue!vue-slick', 'js-cookie', 'vue-lazy-load', 'vue!hours', 'vue!stores', 'vue!promotions','vue!style_academy', 'vue!gift_card', 'vue!kids_club'], function(Vue, Vuex, SearchComponent, slick, Cookies, VueLazyload, HoursComponent, storesComponent, promosComponent, styleComponent, giftcardComponent) {
         Vue.use(VueLazyload);
         return Vue.component("home-component", {
             template: template, // the variable template will be injected
