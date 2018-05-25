@@ -5,7 +5,7 @@
 			<p class="whitney">STAY UP TO DATE AND IN THE KNOW</p>
 			<div class="event_content">
 				<div>
-					<div class="event_box">
+					<div class="event_box" v-for="event in events">
 						<h3 class="event_title chronicle">Where Fashion Meets Furniture</h3>
 						<h3 class="event_date whitney-light">May 01 - May 31</h3>
 						<a class="whitney blue" href="/events/southcentre-where-fashion-meets-furniture">More info</a>
