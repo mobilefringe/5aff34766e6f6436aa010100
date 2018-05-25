@@ -92,7 +92,7 @@
 	</footer>
 </template>
 <style>
-	td, td label {
+	footer td,footer td label {
 	font-family: WhitneyHTF-Book !important;
 	font-size: 1.1383333467168em !important;
 	}
