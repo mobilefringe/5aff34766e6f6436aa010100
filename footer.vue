@@ -1,6 +1,5 @@
 <template>
-	<footer>
-		
+	
 </template>
 <style>
 	td, td label {
