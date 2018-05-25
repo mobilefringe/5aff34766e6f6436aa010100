@@ -10,6 +10,9 @@
 			</div>
 		</div>
 		<header-component></header-component>
+		<div class="main_content">
+		    
+		</div>
 		<hours-component></hours-component>
 		<stores-component></stores-component>
 		<promos-component></promos-component>
