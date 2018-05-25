@@ -152,6 +152,7 @@
                     document.getElementById('popup_backdrop').style.display = "none";
                 },
                 enableStickyNavbar(e) {
+                    console.log(window);
                     if (window.pageYOffset >= window.height) {
                         this.stickyMenu = true;
                     } else {
