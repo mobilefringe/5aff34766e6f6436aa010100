@@ -47,7 +47,7 @@
                     },
                     dataLoaded: false,
                     show_popup: false,
-                    stickyMenu: false,
+                    showStickyMenu: false,
                     popup: null,
                     formData : {},
                     instaFeed: null
