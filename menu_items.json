@@ -1,11 +1,11 @@
 [
     {
         "name": "header.hours",
-        "href": "/#directory#hours"
+        "href": "/#hours"
     },
     {
         "name": "header.stores",
-        "href": "/"
+        "href": "/#directory"
     },
     {
         "name": "header.promos",
