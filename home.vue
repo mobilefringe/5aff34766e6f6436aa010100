@@ -19,6 +19,7 @@
             <giftcard-component></giftcard-component>
             <kidsclub-component></kidsclub-component>
             <events-component></events-component>
+            <footer-component></footer-component>
 		</div>
 		
 	</div>
