@@ -58,27 +58,27 @@
 															</div>
 														</div>
 														<div class="row">
-															<div class="small-12 columns newsletter_check">
-																<input style="margin-bottom:5px;" type="checkbox" name="publication_agreement" id="publication_agreement" value="1" required data-msg="Please agree to receive newsletters from us">
-																<label style="display:inline;" for="publication_agreement">I agree to receive newsletters from Southcentre Mall.</label>
-															</div>
-														</div>
-														<div>
-															<div class="small-12 columns">
-																<label id="error_publication_agreement" for="publication_agreement" generated="true" class="text-danger error"></label>
-															</div>
-														</div>
-														<div class="row">
-															<div class="small-12 columns">
-																<input style="margin-bottom:5px;" type="checkbox" name="consent_policy" id="consent_policy" value="1" required data-msg="Please confirm your consent to receive electronic communications from us">
-																<label style="display: inline;" class="agreementLabel" for="consent_policy">I agree to receive communications from Southcentre Mall. You can unsubscribe at anytime. For more details about personal privacy, please read our <a href="http://www.oxfordproperties.com/corp/en/oxford-properties/privacy-policy" target="_blank">Privacy Policy</a> or contact us: 100 Anderson Road SE Calgary, Alberta, Canada T2J 3V1</label>
-															</div>
-														</div>
-														<div class="row">
-															<div class="small-12 columns">
-																<label id="error_policy" for="consent_policy" generated="true" class="text-danger error"></label>
-															</div>
-														</div>
+                                    <div class="small-12 columns" class="newsletter_check">
+                                      <input style="margin-bottom:5px;" type="checkbox" name="publication_agreement" id="publication_agreement" value="1" required data-msg="Please agree to receive newsletters from us">
+                                      <label style="display:inline;" for="publication_agreement">I agree to receive newsletters from Southcentre Mall.</label>
+                                    </div>
+                                  </div>
+                                  <div>
+                                    <div class="small-12 columns">
+                                      <label id="error_publication_agreement" for="publication_agreement" generated="true" class="text-danger error"></label>
+                                    </div>
+                                  </div>
+                                  <div class="row">
+                                      <div class="small-12 columns">
+                                          <input style="margin-bottom:5px;" type="checkbox" name="consent_policy" id="consent_policy" value="1" required data-msg="Please confirm your consent to receive electronic communications from us">
+                                          <label style="display: inline;" class="agreementLabel" for="consent_policy">I agree to receive communications from Southcentre Mall. You can unsubscribe at anytime. For more details about personal privacy, please read our <a href="http://www.oxfordproperties.com/corp/en/oxford-properties/privacy-policy" target="_blank">Privacy Policy</a> or contact us: 100 Anderson Road SE Calgary, Alberta, Canada T2J 3V1</label>
+                                      </div>
+                                  </div>
+                                  <div class="row">
+                                    <div class="small-12 columns">
+                                      <label id="error_policy" for="consent_policy" generated="true" class="text-danger error"></label>
+                                    </div>
+                                  </div>
 													</form>
 												</div>
 											</div>
