@@ -5,7 +5,7 @@
             <p class="whitney">EVENTS & DEALS: BE IN THE KNOW</p>
             <div class="promo_content">
                 <div class="medium-6 columns" >
-                    <div class="promo_box first_cell">
+                    <div class="promo_box first_cell" v-for="(promo,key) in promotions" v-if="key %2 === 0">
                         <div class="promo_cell">
                             <h3>{{promo.name}}</h3>
                       
