@@ -35,7 +35,11 @@
     </div>
     <!--Pages Banner-->
 </template>
-
+<style>
+    .top_header {
+        margin-top: 50px;
+    }
+</style>
 <script>
     define(["Vue", "vuex", "moment", "moment-timezone", "vue-moment", "vue!footer"], function(Vue, Vuex, moment, tz, VueMoment, footerComponent) {
         return Vue.component("page-details-component", {
