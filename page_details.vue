@@ -1,5 +1,5 @@
 <template>
-    <div v-if="currentPage">
+    <div v-if="id ==">
         
     </div>
     <!--Pages Banner-->
