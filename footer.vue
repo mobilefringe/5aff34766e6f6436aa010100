@@ -58,7 +58,7 @@
 															</div>
 														</div>
 														<div class="row">
-                                    <div class="small-12 columns" class="newsletter_check">
+                                    <div class="small-12 column newsletter_check">
                                       <input style="margin-bottom:5px;" type="checkbox" name="publication_agreement" id="publication_agreement" value="1" required data-msg="Please agree to receive newsletters from us">
                                       <label style="display:inline;" for="publication_agreement">I agree to receive newsletters from Southcentre Mall.</label>
                                     </div>
