@@ -61,6 +61,7 @@
                     this.popup = this.$store.state.popups[0];
                     
                 });
+                window.addEventListener('scroll', this.enableStickyNavbar); 
             },
             watch : {
                 dataLoaded () {
