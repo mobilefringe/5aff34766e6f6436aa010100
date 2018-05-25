@@ -46,6 +46,9 @@
                     show_search: false
                 }
             },
+            created() {
+                window.addEventListener('scroll', this.enableStickyNavbar);  
+            },
             watch: {
                 $route: function() {
                     // hide dropdown when route changes
