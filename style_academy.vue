@@ -58,7 +58,7 @@
 </template>
 <script>
     define(["Vue"], function(Vue) {
-        return Vue.component("style-academy-component", {
+        return Vue.component("sacademy-component", {
             template: template, // the variable template will be injected,
         });
     });
