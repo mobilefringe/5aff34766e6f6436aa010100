@@ -42,7 +42,7 @@
     			    <top-header></top-header>
     			    <header-component v-if="show_header"></header-component>
     			    <header-component></header-component>
-		<header-component v-if="showStickyMenu" class="fixed"></header-component>
+		            <header-component v-if="showStickyMenu" class="fixed"></header-component>
     				<transition name="custom-classes-transition" enter-active-class="fadeIn">
     					<router-view :locale="locale"></router-view>
     				</transition>
