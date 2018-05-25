@@ -147,6 +147,19 @@
                     document.getElementById('popup_backdrop').style.display = "none";
                 }
             }
+            // methods: {
+                // enableStickyNavbar(e) {
+                //     if (window.pageYOffset >= this.isSticky) {
+                //         this.stickyMenu = true;
+                //     } else {
+                //         this.stickyMenu = false;
+                //     }
+    
+                // }
+            // },
+            // destroyed: function() {
+            //     window.removeEventListener('scroll', this.enableStickyNavbar);
+            // },
         })
     })
 </script>
