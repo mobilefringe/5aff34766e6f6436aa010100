@@ -150,14 +150,14 @@
                     this.show_popup = false;
                     document.getElementById('popup_backdrop').style.display = "none";
                 },
-                // enableStickyNavbar(e) {
-                //     if (window.pageYOffset >= this.isSticky) {
-                //         this.stickyMenu = true;
-                //     } else {
-                //         this.stickyMenu = false;
-                //     }
+                enableStickyNavbar(e) {
+                    if (window.pageYOffset >= this.isSticky) {
+                        this.stickyMenu = true;
+                    } else {
+                        this.stickyMenu = false;
+                    }
     
-                // }
+                }
             }
             // methods: {
                 
