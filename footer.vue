@@ -117,7 +117,7 @@
     	} 
 	}
 	@media only screen and (max-width: 120.063em) and (min-width: 64.063em) {
-        h1 {
+       footer  h1 {
             font-size: 3rem;
         }
     }
