@@ -96,11 +96,11 @@
 	font-family: WhitneyHTF-Book !important;
 	font-size: 1.1383333467168em !important;
 	}
-	tr {
+	footer tr {
 	background:none !important;
 	vertical-align: top;
 	}
-	table{
+	footer table{
 	background:none !important;
 	border: 0px !important;
 	}
