@@ -1,15 +1,15 @@
 [
     {
         "name": "header.hours",
-        "href": "/#hours"
+        "href": "#hours"
     },
     {
         "name": "header.stores",
-        "href": "/#directory"
+        "href": "#directory"
     },
     {
         "name": "header.promos",
-        "href": "/#promotions"
+        "href": "#promotions"
     },
     {
         "name": "header.style",
