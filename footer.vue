@@ -49,7 +49,7 @@
 														</div>
 														<div class="row form_row">
 															<div class="small-6 columns">
-																<input type="Text" class="newsletter_input" id="postalcode" name="postalcode" placeholder="Postal Code *" value=""required data-msg="Please enter your postal code">
+																<input type="Text" class="newsletter_input" id="postalcode" name="postalcode" placeholder="Postal Code *" value="" required data-msg="Please enter your postal code">
 															</div>
 															<div class="small-6 columns">
 																<input type="hidden" name="simple" value="1">
