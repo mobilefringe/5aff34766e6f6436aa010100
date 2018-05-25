@@ -36,7 +36,10 @@
     <!--Pages Banner-->
 </template>
 <style>
-    .top_menu, .search_bar {
+    .top_menu {
+        margin-top: 50px;
+    }
+    .top_menu {
         margin-top: 50px;
     }
 </style>
