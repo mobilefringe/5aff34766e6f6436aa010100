@@ -37,9 +37,7 @@
             props:['locale'],
             data: function() {
                 return {
-                    dataloaded: false,
-                    promoBanner: null,
-                    paginate: ['events']
+                    dataloaded: false
                 }
             },
             created() {
