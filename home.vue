@@ -14,7 +14,6 @@
 		    <hours-component></hours-component>
     		<stores-component></stores-component>
     		<promos-component></promos-component>
-    		
     		<styleacademy-component></styleacademy-component>
         <giftcard-component></giftcard-component>
 		</div>
