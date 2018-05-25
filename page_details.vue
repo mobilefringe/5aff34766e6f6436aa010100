@@ -36,7 +36,7 @@
     <!--Pages Banner-->
 </template>
 <style>
-    .top_menu.fixed {
+    .main_content {
         margin-bottom: 100px;
     }
 </style>
