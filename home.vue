@@ -70,6 +70,7 @@
                 </div> <!-- Wrap 90 Close -->
             </div>
         </section>
+        <giftcard-component></giftcard-component>
 		</div>
 		
 	</div>
