@@ -47,6 +47,7 @@
                     },
                     dataLoaded: false,
                     show_popup: false,
+                    stickyMenu: false,
                     popup: null,
                     formData : {},
                     instaFeed: null
@@ -159,9 +160,6 @@
     
                 }
             },
-            // methods: {
-                
-            // },
             destroyed: function() {
                 window.removeEventListener('scroll', this.enableStickyNavbar);
             },
