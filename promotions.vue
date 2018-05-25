@@ -5,16 +5,16 @@
           <p class="whitney">EVENTS & DEALS: BE IN THE KNOW</p>
           <div class="promo_content">
             <div class="medium-6 columns"  v-for="promo in promotions">
-             <div class="promo_box first_cell">
-                <div class="promo_cell">
-                  <h3>{{promo.name}}</h3>
+                <div class="promo_box first_cell">
+                    <div class="promo_cell">
+                        <h3>{{promo.name}}</h3>
                   
-                  <p>{{promo.start_date | moment("MMM DD", timezone)}} - {{promo.end_date | moment("MMM DD", timezone)}}</p>
-                  
-                  <div class="promo_description"> 
-                    {{promo.description}}
-                    
-                  </div>
+                      <p>{{promo.start_date | moment("MMM DD", timezone)}} - {{promo.end_date | moment("MMM DD", timezone)}}</p>
+                      
+                      <div class="promo_description"> 
+                        {{promo.description}}
+                        
+                        </div>
                   <a class="whitney blue" :to="'/promotions/'+promo.slug">More info</a>
                 </div>
               </div>
