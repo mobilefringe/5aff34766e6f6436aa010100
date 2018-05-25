@@ -80,9 +80,10 @@
                         webDate = moment(value.show_on_web_date).tz(vm.timezone);
                         if (today >= webDate) {
                             if(value.description.length > 150)
-                            value.description_short = _.truncate(value.description, {
-                                'length': 150
-                            });
+                                value.description_short = _.truncate(value.description, {
+                                    'length': 150
+                                });
+                        }
                         }
                     });
                     
