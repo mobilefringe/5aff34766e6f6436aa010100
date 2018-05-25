@@ -94,7 +94,6 @@
 									<li><a href="/pages/southcentre-contact">Contact</a></li>
 									<li><a href="/jobs">Careers</a></li>
 									<li><a href="/pages/southcentre-leasing">Leasing</a></li>
-									<!-- <li><a href="/pages/southcentre-media">Media</a></li> -->
 									<li><a href="/retail_users/sign_in">Retailer Login</a></li>
 									<li><a href="http://www.oxfordproperties.com/corp/en/oxford-properties/privacy-policy" target="_blank">Privacy Statement</a></li>
 									<li><a href="http://www.oxfordproperties.com/corp/en/oxford-properties/accessibility/" target="_blank">Accessibility Policy</a></li>
