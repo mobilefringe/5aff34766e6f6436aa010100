@@ -21,7 +21,7 @@ define([], function() {
             children: [{
                 path: ':id',
                 component: view('page_details'),
-                name: 'pageDetails',
+                name: 'promotionDetails',
                 props: true
             }]
         },
