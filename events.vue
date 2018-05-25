@@ -43,14 +43,12 @@
             created() {
                 this.loadData().then(response => {
                     this.dataloaded = true;
-                    
                 });
             },
             computed: {
                 ...Vuex.mapGetters([
                     'timezone',
                     'processedEvents',
-                    'findRepoByName',
                 ]),
                 events() {
                     var vm = this;
