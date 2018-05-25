@@ -17,6 +17,7 @@
     		<styleacademy-component></styleacademy-component>
             <giftcard-component></giftcard-component>
             <kidsclub-component></kidsclub-component>
+            <events-component></events-component>
 		</div>
 		
 	</div>
