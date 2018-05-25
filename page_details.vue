@@ -36,7 +36,7 @@
     <!--Pages Banner-->
 </template>
 <style>
-    .top_header {
+    .top_menu, .search_bar {
         margin-top: 50px;
     }
 </style>
