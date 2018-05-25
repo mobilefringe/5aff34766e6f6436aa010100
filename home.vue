@@ -15,14 +15,14 @@
     		<stores-component></stores-component>
     		<promos-component></promos-component>
     		<styleacademy-component></styleacademy-component>
-        <giftcard-component></giftcard-component>
+            <giftcard-component></giftcard-component>
 		</div>
 		
 	</div>
 </template>
 
 <script>
-    define(["Vue", "vuex", "vue!search-component", 'vue!vue-slick', 'js-cookie', 'vue-lazy-load', 'vue!hours', 'vue!stores', 'vue!promotions', 'vue!gift_card.vue'], function(Vue, Vuex, SearchComponent, slick, Cookies, VueLazyload, HoursComponent, storesComponent, promosComponent, giftcardComponent) {
+    define(["Vue", "vuex", "vue!search-component", 'vue!vue-slick', 'js-cookie', 'vue-lazy-load', 'vue!hours', 'vue!stores', 'vue!promotions','vue!stlye_academy', 'vue!gift_card.vue'], function(Vue, Vuex, SearchComponent, slick, Cookies, VueLazyload, HoursComponent, storesComponent, promosComponent, giftcardComponent) {
         Vue.use(VueLazyload);
         return Vue.component("home-component", {
             template: template, // the variable template will be injected
