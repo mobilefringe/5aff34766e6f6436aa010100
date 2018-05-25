@@ -1,6 +1,6 @@
 <template>
-	<div v-if="dataloaded">
-		<section id="promotions" class="scrollspy">
+	<!--<div >-->
+		<section id="promotions" class="scrollspy" v-if="dataloaded">
             <div class="section_content">
               <h1>STORE PROMOTIONS</h1>
               <p class="whitney">EVENTS & DEALS: BE IN THE KNOW</p>
@@ -23,7 +23,7 @@
             </div>
             </div>
           </section>
-	</div>
+	<!--</div>-->
 </template>
 
 <script>
