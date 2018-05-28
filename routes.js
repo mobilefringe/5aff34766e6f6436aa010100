@@ -26,18 +26,23 @@ define([], function() {
             }]
         },
         {
+            path: '/promotions',
+            component: view('default'),
+            redirect: '/',
+            children: [{
+                path: ':id',
+                component: view('promotion_details'),
+                name: 'promotionDetails',
+                props: true
+            }]
+        },
+        {
             path: '/jobs',
             component: view('default'),
             children: [{
                     path: '',
                     component: view('jobs'),
                     name: 'jobList'
-                },
-                {
-                    path: ':id',
-                    component: view('job_details'),
-                    name: 'jobDetails',
-                    props: true
                 }
             ]
         },
