@@ -186,6 +186,43 @@
                     if (this.currentStore === null || this.currentStore === undefined){
                         this.$router.replace('/');
                     }
+                    if ( _.includes(this.currentStore.store_front_url_abs, 'missing')) {
+                        this.currentStore.store_front_url_abs = "//codecloud.cdn.speedyrails.net/sites/5a6a54eb6e6f647da51e0100/image/png/1518554684072/bonniedoonlogo.png";
+                    }
+                    var vm = this;
+                    var temp_promo = [];
+                    var temp_job = [];
+                    _.forEach(this.currentStore.promotions, function(value, key) {
+                        var current_promo = vm.findPromoById(value);
+                        current_promo.description_short = _.truncate(current_promo.description, {
+                            'length': 70
+                        });
+                        temp_promo.push(current_promo);
+                    });
+                    _.forEach(this.currentStore.jobs, function(value, key) {
+                        var current_job = vm.findJobById(value);
+                        current_job.description_short = _.truncate(current_job.description, {
+                            'length': 70
+                        });
+                        temp_job.push(current_job);
+
+                    })
+                    this.promotions = temp_promo;
+                    this.jobs = temp_job;
+                    
+                    var storeHours = [];
+                    var vm = this;
+                    _.forEach(this.currentStore.store_hours, function (value, key) {
+                        var hour = vm.findHourById(value);
+                        if(hour.day_of_week === 0){
+                            hour.order = 7;
+                        }
+                        else {
+                            hour.order = hour.day_of_week;
+                        }
+                        storeHours.push(hour);
+                    });
+                    this.storeHours = _.sortBy(storeHours, [function(o) { return o.order; }]);
                 },
                 updatePNGMap(map) {
                     this.map = map;
