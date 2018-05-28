@@ -52,7 +52,8 @@
 						<div class="list-expandable-content-container">
 							<div class="list-expandable-content">
 								<p>
-								<p><strong>Fragrances:</strong> Full Time<br />
+								<p><
+								strong>Fragrances:</strong> Full Time<br />
 									<strong>L&#39;Occitane:</strong> Full Time<br />
 									<strong>Lise Watier: </strong>Part Time<br />
 									<strong>Clinique: </strong>Full Time<br />
