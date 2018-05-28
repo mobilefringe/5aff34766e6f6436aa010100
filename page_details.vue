@@ -310,6 +310,30 @@
         		</div>
         	</section>
         </div>
+        <div class="main_content">
+          <section class="pay_it">
+            <div class="section_content" style="display:block;">
+              <div class="wrap-90">
+                <h1>MEDIA</h1>
+                <h4 class=" whitney-light margin_40">ALL THE INS AND OUTS OF THE SOUTHCENTRE STORY</h4>
+                <div class="margin_20"></div>
+         
+                <img alt="media" width="60%" src="/system/site_images/photos/000/003/909/original/img_SOM.jpg?1410448074">
+                <div class="margin_20"></div>
+                <br>
+                <div class="margin_20"></div>
+                <h4>FACT SHEET</h4>
+                <p class="margin_0 whitney-light">Southcentre Fact Sheet <a href="/system/site_images/photos/000/003/992/original/Southcentre_FactSheet.pdf?1413485805" class="blue" target="_blank">download</a></p>
+                <div class="hours_divider"></div>
+                
+                <h4>INDUSTRY NEWS</h4>
+                
+                <p class="margin_0">Special Visits with Santa <a href="http://www.ctvnews.ca/canada/canadian-malls-offer-quieter-calmer-visits-with-santa-for-kids-with-autism-1.1558284" target="_blank" class="blue">Watch</a></p>
+                <p class="margin_0">Fall Fashion -Shaw TV  <a href="https://www.youtube.com/watch?v=GeiSV5WAOFA&feature=c4-overview-vl&list=PL6FEA9179A6F7B1B1" target="_blank" class="blue">Watch</a></p>
+              </div>
+            </div>
+          </section>
+        </div>
 	    <footer-component></footer-component>
     </div>
 </template>
