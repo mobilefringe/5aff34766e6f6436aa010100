@@ -1,49 +1,51 @@
 <template>
-	<div class="main_content" v-if="currentPromo">
-        <section class="directory_map">
-          <div class="section_content">
-            <div class="directory_title">
-            {% if promo_nav == "true" %}    
-              <h1>PROMOTION DETAILS</h1>
-            {% else %}
-              <h1>EVENT DETAILS</h1>
-            {% endif %}
-            </div>
-            <div class="promo-border">
-                <div  class="promo_detail_image">
-                {% if event.promo_image_path  contains "missing.png"%}
-                    <img src ="/system/site_images/photos/000/003/856/original/logo_sc_desktop.png?1410203855" >
-                {% else %}
-                    <img src="{{event.promo_image_path}}">      
-                {% endif%}
-                </div>
-                <div class="promo_detail_div">
-                    <a href="/stores/{{event.promotionable.slug}}"><h3>{{event.promotionable.name}}</h3></a>
-                    <p>{{event.name}}</p>
-                    <p><strong>{{ event.start_date | get_date }} - {{ event.end_date | get_date }}</strong></p>
-                    <p>{{event.description}}</p>
-                </div>
-                <div class="clearfix"></div>
-            </div>
-          </div>
-        </section>
-        {% if promo.description %}
-        <section class="directory_store_description">
-          <div class="section_content">
-            <div class="wrap-90">
-              <div class="directory-details">
-                <p class="blue-title">Promotion Description</p>
-                <div class="hours_divider"></div>
-                  <div class="store-description">
-                    <p>{{promo.description}}</p>
-                  </div>
-                <div class="hours_divider"></div>
-              </div>
-            </div>
-          </div>
-        </section>
-        {% endif %}
-      </div>
+<div class="main_content" v-if="currentPromo">
+	<section class="directory_map">
+		<div class="section_content">
+			<div class="directory_title">
+				{% if promo_nav == "true" %}    
+				<h1>PROMOTION DETAILS</h1>
+				{% else %}
+				<h1>EVENT DETAILS</h1>
+				{% endif %}
+			</div>
+			<div class="promo-border">
+				<div  class="promo_detail_image">
+					{% if event.promo_image_path  contains "missing.png"%}
+					<img src ="/system/site_images/photos/000/003/856/original/logo_sc_desktop.png?1410203855" >
+					{% else %}
+					<img src="{{event.promo_image_path}}">      
+					{% endif%}
+				</div>
+				<div class="promo_detail_div">
+					<a href="/stores/{{event.promotionable.slug}}">
+						<h3>{{event.promotionable.name}}</h3>
+					</a>
+					<p>{{event.name}}</p>
+					<p><strong>{{ event.start_date | get_date }} - {{ event.end_date | get_date }}</strong></p>
+					<p>{{event.description}}</p>
+				</div>
+				<div class="clearfix"></div>
+			</div>
+		</div>
+	</section>
+	{% if promo.description %}
+	<section class="directory_store_description">
+		<div class="section_content">
+			<div class="wrap-90">
+				<div class="directory-details">
+					<p class="blue-title">Promotion Description</p>
+					<div class="hours_divider"></div>
+					<div class="store-description">
+						<p>{{promo.description}}</p>
+					</div>
+					<div class="hours_divider"></div>
+				</div>
+			</div>
+		</div>
+	</section>
+	{% endif %}
+</div>
 </template>
 
 <script>
