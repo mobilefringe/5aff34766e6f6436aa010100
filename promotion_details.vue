@@ -7,7 +7,7 @@
     			</div>
     			<div class="promo-border">
     				<div  class="promo_detail_image">
-    					<img src="{{event.promo_image_path}}"> 
+    					<img src="{{event.promo_image_path}}">      
     				</div>
     				<div class="promo_detail_div">
     					<a href="/stores/{{event.promotionable.slug}}">
