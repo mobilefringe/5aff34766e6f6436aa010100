@@ -107,7 +107,7 @@
     </div>
 </template>
 <script>
-    define(['Vue', 'vuex', 'moment'], function(Vue, Vuex, moment) {
+    define(['Vue', 'vuex', 'moment',"vue!mapplic-png-map"], function(Vue, Vuex, moment, MapplicComponent) {
         return Vue.component("store-details-component", {
             template: template, // the variable template will be injected,
             data: function() {
