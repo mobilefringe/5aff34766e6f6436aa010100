@@ -84,12 +84,7 @@
             props:['locale'],
             data: function() {
                 return {
-                    selectedDate: null,
-                    filteredPromos:[],
-                    dataloaded: false,
-                    promoBanner: null,
-                    paginate: ['promos'],
-                    promos : null
+                    dataloaded: false
                 }
             },
             created() {
