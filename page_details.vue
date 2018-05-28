@@ -33,7 +33,7 @@
         </div>
         <footer-component></footer-component>
     </div>
-   <div>
+   <div v-else-if="id == 'southcentre-leasing'">
 	<div class="main_content">
 		<section>
 			<div class="section_content leasing_page">
