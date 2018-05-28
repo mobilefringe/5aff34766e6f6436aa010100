@@ -119,11 +119,11 @@
 	}
 	#store_details_map .mapplic-pin.black-pin {
     	background-image: url('//codecloud.cdn.speedyrails.net/sites/5aff34766e6f6436aa010100/image/png/1527527145938/som_map_pin.png');
-    	background-size: 20px 30px;
-    	width: 20px;
-    	height: 30px;
-    	margin-top: -15px;
-    	margin-left: -10px;
+	    background-size: 36px 59px;
+        width: 36px;
+        height: 59px;
+        margin-top: -25px;
+        margin-left: -20px;
     }
 </style>
 <script>
