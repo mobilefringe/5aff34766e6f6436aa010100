@@ -62,7 +62,6 @@
             created(){
                 this.loadData().then(response => {
                     this.updatecurrentEvent(this.id);
-                    
                 });
             },
             computed: {
