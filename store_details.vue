@@ -79,15 +79,10 @@
                   </div>
                 </div>
               </div>
-              {% endif %}
               </div>
             </div>
           </div>
         </section>
-        {% endif %}
-        {% assign jobsize = store.current_jobs | size %}
-        {% if jobsize > 0 %}
-        {% assign career = store.current_jobs | first %}
         <section class="store_careers">
           <div class="section_content">
             <p class="blue-title">Careers</p>
