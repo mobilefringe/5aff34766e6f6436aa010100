@@ -7,7 +7,7 @@
         				<h1>PROMOTION DETAILS</h1>
         			</div>
         			<div class="promo-border">
-        				<div  class="promo_detail_image">
+        				<div  class="promo_detail_image" v-if="_.includes(currentEvent.image_url,'missing')">
         					<img :src="currentEvent.image_url">      
         				</div>
         				<div class="promo_detail_div">
