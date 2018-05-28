@@ -129,7 +129,7 @@
         					<div class="medium-6 columns">
         						<div class="amenity_box extra_border_top">
         							<div class="amenity_cell">
-        								<img  alt=" seating" src="/system/site_images/photos/000/003/905/original/icon_seating.png?1410445594">
+        								<img  alt=" seating" src="//mallmaverick.com/system/site_images/photos/000/003/905/original/icon_seating.png?1410445594">
         								<h3>SOFT SEATING AREAS</h3>
         								<div class="">
         									<p>Whether you're looking for a place to connect with friends or just to get off your feet for a minute, sophisticated yet welcoming soft seating areas are throughout the Shopping Centre.
