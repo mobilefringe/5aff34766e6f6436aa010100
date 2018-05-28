@@ -50,7 +50,6 @@
             </div>
           </div>
         </section>
-        {% assign promosize = store.current_promotions | size %}
         {% if promosize > 0 %}
         <section class="store_promotions">
           <div class="section_content">
