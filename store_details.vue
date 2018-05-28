@@ -5,7 +5,7 @@
     			<div class="directory_title">
     				<h1>DIRECTORY</h1>
     			</div>
-    			<div class="table-border" v-if="currentStore">
+    			<div class="table-border">
     				<ul class="generic-list directory-detail">
     					<li>
     						<label class="list-cell store-detail-cell">
