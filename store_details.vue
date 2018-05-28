@@ -223,7 +223,7 @@
                     this.dropPin(this.currentStore);
                 },
                 dropPin(store) {
-                    this.$refs.pngmap_ref.showLocation(store.id);
+                    console.log(this.$refs.pngmap_ref.showLocation(store.id));
                     console.log("showing location of", store);
                     console.log(this.$refs.pngmap_ref);
                 },
