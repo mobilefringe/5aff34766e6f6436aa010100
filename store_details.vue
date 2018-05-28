@@ -94,7 +94,6 @@
             <div class="medium-6 columns career-info">
               <p v-if="career.contact_phone"><b>PHONE:</b> {{career.contact_phone}}</p>
               <p v-if="career.name"><b>POSITION:</b> {{career.name}}</p>
-              {% endif %}
             </div>
             <div class="medium-12 columns career-description">
               <p><b>JOB DESCRIPTION:</b></p>
