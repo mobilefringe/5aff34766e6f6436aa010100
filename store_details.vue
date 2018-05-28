@@ -122,7 +122,7 @@
             },
             props:['id', 'locale'],
             beforeRouteUpdate(to, from, next) {
-                this.currentStore = this.findStoreBySlug(to.params.id);
+                this.currentStore = this.updateCurrentStore(to.params.id);
                 if (this.currentStore === null || this.currentStore === undefined){
                     this.$router.replace('/');
                 }
