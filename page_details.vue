@@ -318,7 +318,7 @@
                         <h4 class=" whitney-light margin_40">ALL THE INS AND OUTS OF THE SOUTHCENTRE STORY</h4>
                         <div class="margin_20"></div>
          
-                         <img alt="media" width="60%" src="/system/site_images/photos/000/003/909/original/img_SOM.jpg?1410448074">
+                         <img alt="media" width="60%" src="//mallmaverick.com/system/site_images/photos/000/003/909/original/img_SOM.jpg?1410448074">
                         <div class="margin_20"></div>
                         <br>
                         <div class="margin_20"></div>
