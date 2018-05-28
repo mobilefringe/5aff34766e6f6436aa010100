@@ -122,8 +122,8 @@
 	    background-size: 36px 59px;
         width: 36px;
         height: 59px;
-        margin-top: -25px;
-        margin-left: -20px;
+        margin-top: -35px;
+    margin-left: -17px;
     }
 </style>
 <script>
