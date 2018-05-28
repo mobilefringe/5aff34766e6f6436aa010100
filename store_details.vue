@@ -99,7 +99,7 @@
               <p><b>JOB DESCRIPTION:</b></p>
               <p v-html="career.description"></p>
             </div>
-            <router-link class="blue-title" href="/jobs">FULL LIST OF CAREERS</a>
+            <router-link class="blue-title" href="/jobs">FULL LIST OF CAREERS</router-link>
             </div>
           </div>
         </section>
