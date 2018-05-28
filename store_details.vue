@@ -24,17 +24,6 @@
                 <div class="demo1">
                     <img src="{{store.property.map_image_path}}" class="imgMap" id="map_image" />                
             	    <div class="marker" id='scroll_to_marker' data-coords="{{store.x_coordinate | minus:28}}, {{ store.y_coordinate | minus:99}}">{{store.name}}
-                        {% if store.z_coordinate %}
-                          {% if store.z_coordinate == 1 %}
-                          <p class="marker-level">1st Floor</p>
-                          {% elsif store.z_coordinate == 2 %}
-                          <p class="marker-level">2nd Floor</p>
-                          {% elsif store.z_coordinate == 3 %}
-                          <p class="marker-level">3rd Floor</p>
-                          {% else %}
-                          <p class="marker-level">{{store.z_coordinate}}th Floor</p>
-                          {% endif %}
-                        {% endif %} 
             	    </div>	
         	    </div>   
                 <div class="controls hidden">
