@@ -191,6 +191,7 @@
         		</div>
         	</section>
         </div>
+        v-else-if="id == 'southcentre-green-initiatives'"
 	    <footer-component></footer-component>
     </div>
 </template>
