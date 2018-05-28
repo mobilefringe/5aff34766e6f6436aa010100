@@ -21,8 +21,7 @@
     			</div>
     		</div>
     	</section>
-    	{% if promo.description %}
-    	<section class="directory_store_description" v-if="currentPromo">
+    	<section class="directory_store_description" v-if="currentPromo.description">
     		<div class="section_content">
     			<div class="wrap-90">
     				<div class="directory-details">
