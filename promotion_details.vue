@@ -28,7 +28,7 @@
     					<p class="blue-title">Promotion Description</p>
     					<div class="hours_divider"></div>
     					<div class="store-description">
-    						<p>{{promo.description}}</p>
+    						<p>{{currentPromo.description}}</p>
     					</div>
     					<div class="hours_divider"></div>
     				</div>
