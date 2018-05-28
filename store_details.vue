@@ -33,7 +33,7 @@
                 </div>
               </div>
             </div>
-          <a href="/mapv2?store_id=store_{{store.id}}" style="margin-top: 20px;display: block;">VIEW ON MAP</a> 
+            <a href="/mapv2?store_id=store_{{currentStore.id}}" style="margin-top: 20px;display: block;">VIEW ON MAP</a> 
           </div>
         </section>
         {% if store.description %}
