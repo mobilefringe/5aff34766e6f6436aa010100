@@ -357,7 +357,7 @@
                     <input id="fieldCheck" name="cm-ol-juitdh" type="checkbox" /> <label id="contact-label" for="fieldCheck">Would you like to be contacted by Mall Management regarding your feedback?</label>
                 </div>
                 <div class="form-group">
-                  <button class="btn btn-default btn-lg" type="submit">Submit</button>
+                    <button class="btn btn-default btn-lg" type="submit">Submit</button>
                 </div>
                 <div class="form-group" id="thankyou_msg">
                 </div>
