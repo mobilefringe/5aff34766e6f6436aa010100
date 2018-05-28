@@ -65,19 +65,6 @@
                 window.addEventListener('scroll', this.enableStickyNavbar); 
             },
             watch : {
-                dataLoaded () {
-                    var viewed = Cookies.get('popup_viewed');
-                    if(this.popup !== null && this.popup !== undefined && viewed !== "true") {
-                        Cookies.set('popup_viewed', "true");
-                        viewed = Cookies.get('popup_viewed');
-                        this.show_popup = true;
-                        this.popup.image_url = "//mallmaverick.cdn.speedyrails.net" + this.popup.photo_url;
-                        document.getElementById('popup_backdrop').style.display = "block";
-                    }
-                    else {
-                        document.getElementById('popup_backdrop').style.display = "none";
-                    }
-                },
                 formData () {
                     this.formData.name = this.formData.firstname + " " + this.formData.lastname; 
                 },
