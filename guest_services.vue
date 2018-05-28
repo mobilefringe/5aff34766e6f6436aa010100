@@ -26,15 +26,7 @@
 							<h2 class="black chronicle">CORNER<em>&nbsp;&nbsp;of&nbsp;&nbsp;</em>ANDERSON<em>&nbsp;&nbsp;&&nbsp;&nbsp;</em>MACLEOD</h2>
 							<hr>
 							<div class="footer_nav">
-								<ul class="footer_links">
-									<li><a href="/pages/southcentre-about-us">About Us</a></li>
-									<li><a href="/pages/southcentre-contact">Contact</a></li>
-									<li><a href="/jobs">Careers</a></li>
-									<li><a href="/pages/southcentre-leasing">Leasing</a></li>
-									<li><a href="/pages/southcentre-media">Media</a></li>
-									<li><a href="/retail_users/sign_in">Retailer Login</a></li>
-									<li><a href="http://www.oxfordproperties.com/corp/downloads/Oxford_Privacy_Statement-EN_2017.pdf">Privacy Statement</a></li>
-								</ul>
+								<social-links></social-links>
 								<img  alt="logo oxford" src="https://www.mallmaverick.com/system/site_images/photos/000/023/729/original/logo_oxford_black.png?1479508111"/>
 							</div>
 						</div>
