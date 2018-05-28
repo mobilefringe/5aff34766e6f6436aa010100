@@ -261,7 +261,7 @@
                 </div>
             </div>
         </div>
-       <div class="main_content" v-esle-if="id == 'southcentre-about-us'">
+       <div class="main_content" v-else-if="id == 'southcentre-about-us'">
         	<section class="hours">
         		<div class="section_content">
         			<div class="wrap-90">
