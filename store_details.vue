@@ -37,7 +37,7 @@
           </div>
         </section>
         {% if store.description %}
-        <section class="directory_store_description">
+        <section class="directory_store_description" v-if="currentStore.description">
           <div class="section_content">
             <div class="wrap-90">
               <div class="directory-details">
