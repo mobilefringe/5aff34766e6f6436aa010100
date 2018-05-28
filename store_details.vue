@@ -136,18 +136,6 @@
                 });
                  console.log("locale created", this.locale);
             },
-            watch: {
-                currentStore: function() {
-                    
-                    // setTimeout(function() {
-                    //     vm.addLandmark(vm.currentStore);
-                    // }, 500);
-                },
-                locale: function(val, oldVal) {
-                    console.log("locale", this.locale);
-                },
-            },
-            
             computed: {
                 ...Vuex.mapGetters([
                     'property',
