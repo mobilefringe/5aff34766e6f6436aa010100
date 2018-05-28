@@ -123,7 +123,7 @@
         width: 36px;
         height: 59px;
         margin-top: -35px;
-    margin-left: -17px;
+        margin-left: -17px;
     }
 </style>
 <script>
