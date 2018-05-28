@@ -261,57 +261,55 @@
                 </div>
             </div>
         </div>
-        <div class="main_content">
-      <section class="hours">
-        <div class="section_content">
-          <div class="wrap-90">
-            <h1>ABOUT US</h1>
-            <h2 class="about_subheading">Southcentre is proudly managed by Oxford Properties.</h2>
-            <div class="gray_divider"></div>
-            <div class="about_content" style="max-width:650px">
-              Southcentre Mall is one of Calgary’s favourite shopping destinations, connecting shoppers with the brands and experiences they crave. The centre features 160 stores and services, including Calgary exclusives like Crate & Barrel, Restoration Hardware and western Canada’s first Sporting Life – and continuously adds new retailers to the mix. As part of the Oxford Properties Group family, Southcentre promises an unparalleled guest experience throughout the centre, and sustainable practices to operate the centre as efficiently as possible and conserve natural resources. Southcentre also offers our guests many services, including gift-wrapping, a monthly Style Academy and lots of children’s activities.
-            </div>
-            <div class="gray_divider"></div>
-            <div class="margin_20"></div>
-          </div>
-        </div>
-      </section>
-      <section>
-        <div class="section_content">
-          <div class="wrap-90">
-            <h1>PAY IT FORWARD <br> & GIVE IT BACK</h1>
-            <h2 class="about_subheading" style="max-width:500px;">
-              Southcentre is proud to be involved in these worthy community initiatives:
-            </h2>
-            <div class="about_content">
-              <p>
-                Host site of <span class="blue">Calgary's CIBC Run for the Cure</span><br>supporting the fight against breast cancer.
-              </p>
-              <p>
-                Partnerships with multiple organizations and charities throughout the year.
-<br>
-Offering a sensory friendly Halloween party.
-              </p>
-             
-              <p>
-                Offering Special Visits with Santa for children with sensory sensitivities.
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
-      <section class="pay_it">
-        <div class="section_content">
-          <div class="wrap-90">
-            <h1>OUR COMMITMENT</h1>
-            <h2 class="about_subheading">
-              Southcentre invests in our community to worthwhile causes that fall into our three focus areas: LIVE WELL, PLAY TOGETHER and STAY SAFE.
-            </h2>
-            
-          </div>
-        </div>
-      </section>
-    </div>
+       <div class="main_content">
+	<section class="hours">
+		<div class="section_content">
+			<div class="wrap-90">
+				<h1>ABOUT US</h1>
+				<h2 class="about_subheading">Southcentre is proudly managed by Oxford Properties.</h2>
+				<div class="gray_divider"></div>
+				<div class="about_content" style="max-width:650px">
+					Southcentre Mall is one of Calgary’s favourite shopping destinations, connecting shoppers with the brands and experiences they crave. The centre features 160 stores and services, including Calgary exclusives like Crate & Barrel, Restoration Hardware and western Canada’s first Sporting Life – and continuously adds new retailers to the mix. As part of the Oxford Properties Group family, Southcentre promises an unparalleled guest experience throughout the centre, and sustainable practices to operate the centre as efficiently as possible and conserve natural resources. Southcentre also offers our guests many services, including gift-wrapping, a monthly Style Academy and lots of children’s activities.
+				</div>
+				<div class="gray_divider"></div>
+				<div class="margin_20"></div>
+			</div>
+		</div>
+	</section>
+	<section>
+		<div class="section_content">
+			<div class="wrap-90">
+				<h1>PAY IT FORWARD <br> & GIVE IT BACK</h1>
+				<h2 class="about_subheading" style="max-width:500px;">
+					Southcentre is proud to be involved in these worthy community initiatives:
+				</h2>
+				<div class="about_content">
+					<p>
+						Host site of <span class="blue">Calgary's CIBC Run for the Cure</span><br>supporting the fight against breast cancer.
+					</p>
+					<p>
+						Partnerships with multiple organizations and charities throughout the year.
+						<br>
+						Offering a sensory friendly Halloween party.
+					</p>
+					<p>
+						Offering Special Visits with Santa for children with sensory sensitivities.
+					</p>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="pay_it">
+		<div class="section_content">
+			<div class="wrap-90">
+				<h1>OUR COMMITMENT</h1>
+				<h2 class="about_subheading">
+					Southcentre invests in our community to worthwhile causes that fall into our three focus areas: LIVE WELL, PLAY TOGETHER and STAY SAFE.
+				</h2>
+			</div>
+		</div>
+	</section>
+</div>
 	    <footer-component></footer-component>
     </div>
 </template>
