@@ -89,7 +89,7 @@
             <div class="wrap-90">
             <div class="medium-6 columns career-info" v-for="(career,key) in jobs" >
               <p v-if="career.contact_name"><b>CONTACT NAME:</b> {{career.contact_name}}</p>
-              <p><b>EMAIL:</b> {{career.contact_email}}</p>
+              <p v-if="career.contact_email"><b>EMAIL:</b> {{career.contact_email}}</p>
               {% endif %}
             </div>
             <div class="medium-6 columns career-info">
