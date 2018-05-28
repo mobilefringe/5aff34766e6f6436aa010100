@@ -19,7 +19,7 @@
 									<li><a href="/retail_users/sign_in">Retailer Login</a></li>
 									<li><a href="http://www.oxfordproperties.com/corp/downloads/Oxford_Privacy_Statement-EN_2017.pdf">Privacy Statement</a></li>
 								</ul>
-								<img  alt="logo oxford" src="https://www.mallmaverick.com/system/site_images/photos/000/023/729/original/logo_oxford_black.png?1479508111"/>
+								<img  alt="logo oxford" src="//codecloud.cdn.speedyrails.net/sites/5aff34766e6f6436aa010100/image/png/1526676569100/logo_sc.png"/>
 							</div>
 						</div>
 					</div>
