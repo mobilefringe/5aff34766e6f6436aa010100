@@ -31,7 +31,6 @@
             </div>
           </section>
         </div>
-        <footer-component></footer-component>
     </div>
     <div v-else-if="id == 'southcentre-leasing'">
     	<div class="main_content">
@@ -82,6 +81,7 @@
     		</section>
     	</div>
     </div>
+    
 </template>
 <style>
     .main_content {
