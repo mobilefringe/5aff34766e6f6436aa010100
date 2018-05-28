@@ -32,7 +32,7 @@ define([], function() {
             children: [{
                 path: ':id',
                 component: view('event_details'),
-                name: 'promotionDetails',
+                name: 'eventDetails',
                 props: true
             }]
         },
