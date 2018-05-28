@@ -23,7 +23,7 @@
               <div class="store_map">
                 <div class="demo1">
                     <img src="{{store.property.map_image_path}}" class="imgMap" id="map_image" />                
-            	    <div class="marker" id='scroll_to_marker' data-coords="{{store.x_coordinate | minus:28}}, {{ store.y_coordinate | minus:99}}">{{store.name}}
+            	    <div class="marker" id='scroll_to_marker' data-coords="{{store.x_coordinate | minus:28}}, {{ store.y_coordinate | minus:99}}">{{currentStore.name}}
             	    </div>	
         	    </div>   
                 <div class="controls hidden">
@@ -31,17 +31,6 @@
                       
                     </div></a>     
                 </div>
-                <!--<img id="zoom_image" src="{{store.property.map_image_path}}"/>
-    	        <div class="landmarks" data-show-at-zoom="0" data-allow-drag="true">
-			        <div class="item mark" data-show-at-zoom="0" data-position="{{store.x_coordinate}},{{store.y_coordinate}}">
-				        <div>
-					        <div class="text">
-						        <strong>{{store.name}} </strong>
-					        </div>
-					        <img src="//mallmaverick.cdn.speedyrails.net/system/sites/map_markers/000/000/010/original/som_map_pin.png?1412099583" width="56px" height="99px" alt="{{store.name}} "/>
-				        </div>
-			        </div>
-		        </div>-->
               </div>
             </div>
           <a href="/mapv2?store_id=store_{{store.id}}" style="margin-top: 20px;display: block;">VIEW ON MAP</a> 
