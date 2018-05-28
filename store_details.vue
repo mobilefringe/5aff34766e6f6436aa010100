@@ -162,6 +162,9 @@
                 allStores() {
                     this.processedStores.map(function(store){
                         store.zoom = 1;
+                        if(store.id == vm.currentStore.id) {
+                            store.showPin = truel
+                        }
                     })
                     return this.processedStores;
                 },
