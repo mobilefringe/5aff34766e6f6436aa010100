@@ -38,7 +38,9 @@
     </div>
 </template>
 <style>
-    
+    #promo_dets_container {
+        margin-top: 100px;
+    }
 </style>
 <script>
     define(['Vue', 'vuex', 'moment', 'vue-lazy-load'], function(Vue, Vuex, moment, VueLazyload) {
