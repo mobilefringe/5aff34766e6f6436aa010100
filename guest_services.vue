@@ -45,30 +45,6 @@
 	</footer>
 </template>
 <style>
-	footer td,footer td label {
-    	font-family: WhitneyHTF-Book !important;
-    	font-size: 1.1383333467168em !important;
-	}
-	footer tr {
-    	background:none !important;
-    	vertical-align: top;
-	}
-	footer table{
-    	background:none !important;
-    	border: 0px !important;
-	}
-	footer .agreementLabel{
-	    vertical-align: top;
-	}
-	footer .newsletter_agreement {
-	    margin-left: 10px;
-	}
-	footer .error{color:#F00}
-	@media (max-width:768px){
-    	footer .agreementLabel{
-    	    vertical-align: none !important;
-    	} 
-	}
 	@media only screen and (max-width: 120.063em) and (min-width: 64.063em) {
         footer  h1 {
             font-size: 3rem;
