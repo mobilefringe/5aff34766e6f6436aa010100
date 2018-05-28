@@ -11,7 +11,7 @@
     				</div>
     				<div class="promo_detail_div">
     					<a href="/stores/{{event.promotionable.slug}}">
-    						<h3>{{event.promotionable.name}}</h3>
+    						<h3>{{currentPromo.promotionable.name}}</h3>
     					</a>
     					<p>{{event.name}}</p>
     					<p><strong>{{ event.start_date | get_date }} - {{ event.end_date | get_date }}</strong></p>
