@@ -20,7 +20,7 @@
     						</label>
     					</li>
     				</ul>
-    				<div class="store_map" id="store_detail_map">
+    				<div class="store_map" id="store_details_map">
     					<div class="demo1">
     						<mapplic-png-map ref="pngmap_ref" :height="480" :hovertip="true" :storelist="allStores" :floorlist="floorList" :svgWidth="property.map_image_width" :svgHeight="property.map_image_height" @updateMap="updatePNGMap"></mapplic-png-map>                
     						<!--<div class="marker" id='scroll_to_marker' data-coords="{{store.x_coordinate | minus:28}}, {{ store.y_coordinate | minus:99}}">{{currentStore.name}}-->
@@ -107,13 +107,13 @@
     </div>
 </template>
 <style>
-	#store_dets_container .mapplic-popup-link, .mapplic-tooltip-close {
+	#store_details_map .mapplic-popup-link, .mapplic-tooltip-close {
 	    display:none!important;
 	}
-	#store_dets_container .mapplic-tooltip-content {
+	#store_details_map .mapplic-tooltip-content {
 	    margin-right: auto;
 	}
-	#store_dets_container .mapplic-tooltip-title {
+	#store_details_map .mapplic-tooltip-title {
         text-align: center;
         margin: auto!important;
 	}
