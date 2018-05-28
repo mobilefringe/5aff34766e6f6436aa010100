@@ -12,7 +12,7 @@
     				<div class="promo_detail_div">
     					<router-link href="/stores/{{event.promotionable.slug}}">
     						<h3>{{currentPromo.promotionable.name}}</h3>
-    					</a>
+    					</router-link>
     					<p>{{event.name}}</p>
     					<p><strong>{{ event.start_date | get_date }} - {{ event.end_date | get_date }}</strong></p>
     					<p>{{event.description}}</p>
