@@ -117,6 +117,14 @@
         text-align: center;
         margin: auto!important;
 	}
+	.mapplic-pin.my-new-pin {
+	background-image: url(../images/my-new-pin.png);
+	background-size: 20px 30px;
+	width: 20px;
+	height: 30px;
+	margin-top: -15px;
+	margin-left: -10px;
+}
 </style>
 <script>
     define(['Vue', 'vuex', 'moment',"vue!mapplic-png-map"], function(Vue, Vuex, moment, MapplicComponent) {
