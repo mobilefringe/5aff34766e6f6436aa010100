@@ -201,6 +201,24 @@
                 pngMapRef() {
                     return this.$refs.pngmapref;
                 },
+                allStores() {
+                    this.processedStores.map(function(store){
+                        store.zoom = 1;
+                    })
+                    return this.processedStores;
+                },
+                floorList () {
+                    var floor_list = [];
+                    
+                    var floor_1 = {};
+                    floor_1.id = "first-floor";
+                    floor_1.title = "Level One";
+                    floor_1.map = this.getPNGurl;
+                    floor_1.z_index = 1;
+                    floor_1.show = true;
+                    floor_list.push(floor_1);
+                    return floor_list;
+                }
             },
             methods: {
                 loadData: async function() {
