@@ -13,7 +13,7 @@
     					<router-link :to="'/stores/'+currentPromo.store.slug}}">
     						<h3>{{currentPromo.store.name}}</h3>
     					</router-link>
-    					<p>{{event.name}}</p>
+    					<p>{{currentPromo.name}}</p>
     					<p><strong>{{ event.start_date | get_date }} - {{ event.end_date | get_date }}</strong></p>
     					<p>{{event.description}}</p>
     				</div>
