@@ -25,17 +25,7 @@ define([], function() {
                 props: true
             }]
         },
-        {
-            path: '/promotions',
-            component: view('default'),
-            redirect: '/',
-            children: [{
-                path: ':id',
-                component: view('promotion_details'),
-                name: 'promotionDetails',
-                props: true
-            }]
-        },
+        
         {
             path: '/pages',
             component: view('default'),
