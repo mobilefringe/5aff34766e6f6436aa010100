@@ -83,7 +83,7 @@
             </div>
           </div>
         </section>
-        <section class="store_careers"  v-if="currentStore.total_published_promos > 0">
+        <section class="store_careers"  v-if="currentStore.total_published_jobs > 0">
           <div class="section_content">
             <p class="blue-title">Careers</p>
             <div class="wrap-90">
