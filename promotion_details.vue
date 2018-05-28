@@ -14,7 +14,7 @@
     						<h3>{{currentPromo.store.name}}</h3>
     					</router-link>
     					<p>{{currentPromo.name}}</p>
-    					<p><strong>{{ currentPromo.start_date | get_date }} - {{ event.end_date | get_date }}</strong></p>
+    					<p><strong>{{promo.start_date | moment("MMM DD", timezone)}} - {{promo.end_date | moment("MMM DD", timezone)}}</strong></p>
     					<p>{{currentPromo.description}}</p>
     				</div>
     				<div class="clearfix"></div>
