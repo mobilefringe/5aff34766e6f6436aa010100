@@ -73,11 +73,6 @@
                     this.events = this.event;
                 });
             },
-            watch: {
-                currentEvent : function (){
-                    
-                }
-            },
             computed: {
                 ...Vuex.mapGetters([
                     'property',
