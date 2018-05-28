@@ -42,7 +42,7 @@
 </template>
 <style>
     #event_dets_container {
-        margin-top: 100pc;
+        margin-top: 100px;
     }
 </style>
 <script>
