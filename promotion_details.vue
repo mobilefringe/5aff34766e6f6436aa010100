@@ -15,7 +15,7 @@
     					</router-link>
     					<p>{{currentPromo.name}}</p>
     					<p><strong>{{currentPromo.start_date | moment("MMM DD", timezone)}} - {{currentPromo.end_date | moment("MMM DD", timezone)}}</strong></p>
-    					<p>{{currentPromo.description}}</p>
+    					<pv-html="currentPromo.rich_description"></pv-html></p>
     				</div>
     				<div class="clearfix"></div>
     			</div>
