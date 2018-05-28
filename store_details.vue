@@ -173,6 +173,8 @@
                         store.zoom = 1;
                         if(store.id === vm.currentStore.id) {
                             store.showPin = true;
+                            store.show_desc = true;
+                            
                         }
                     })
                     return this.processedStores;
