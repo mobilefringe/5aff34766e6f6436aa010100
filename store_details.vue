@@ -97,7 +97,7 @@
             </div>
             <div class="medium-12 columns career-description">
               <p><b>JOB DESCRIPTION:</b></p>
-              <p>{{career.description}}</p>
+              <p v-html="career.description"></p>
             </div>
             <a class="blue-title" href="/jobs">FULL LIST OF CAREERS</a>
             </div>
