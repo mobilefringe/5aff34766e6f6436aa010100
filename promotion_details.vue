@@ -7,11 +7,7 @@
     			</div>
     			<div class="promo-border">
     				<div  class="promo_detail_image">
-    					{% if event.promo_image_path  contains "missing.png"%}
-    					<img src ="/system/site_images/photos/000/003/856/original/logo_sc_desktop.png?1410203855" >
-    					{% else %}
-    					<img src="{{event.promo_image_path}}">      
-    					{% endif%}
+    					<img src="{{event.promo_image_path}}"> 
     				</div>
     				<div class="promo_detail_div">
     					<a href="/stores/{{event.promotionable.slug}}">
