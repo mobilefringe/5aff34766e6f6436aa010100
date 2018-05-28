@@ -81,8 +81,7 @@
     		</section>
     	</div>
     </div>
-    
-        <footer-component></footer-component>
+    <footer-component></footer-component>
 </template>
 <style>
     .main_content {
