@@ -78,7 +78,7 @@
     			</div>
     		</section>
     	</div>
-    	<div class="main_content">
+    	<div class="main_content" v-else-if="southcentre-guest-services">
           <section>
             <div class="section_content leasing_page">
               <div class="wrap-90">
