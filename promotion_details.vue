@@ -10,7 +10,7 @@
     					<img src="{{event.promo_image_path}}">      
     				</div>
     				<div class="promo_detail_div">
-    					<router-link :to="'/stores/'+currentPromo.store.slug}}">
+    					<router-link :to="'/stores/'+currentPromo.store.slug">
     						<h3>{{currentPromo.store.name}}</h3>
     					</router-link>
     					<p>{{currentPromo.name}}</p>
