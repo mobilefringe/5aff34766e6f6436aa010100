@@ -343,6 +343,9 @@
 <script src="https://code.jquery.com/jquery-1.11.2.min.js"></script>
 <script src="//mallmaverick.cdn.speedyrails.net/system/site_images/photos/000/008/179/original/sweet-alert.min.jfs?1428439365"></script>
 <link rel="stylesheet" type="text/css" href="//mallmaverick.cdn.speedyrails.net/system/site_images/photos/000/008/178/original/sweet-alert.css?1428439365">
+<script>
+    $('meta[name=viewport]').attr('content','width=device-width, user-scalable=no');
+</script>
 <style>
     .main_content {
         margin-top: 100px;
