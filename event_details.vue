@@ -4,7 +4,7 @@
         	<section class="directory_map">
         		<div class="section_content">
         			<div class="directory_title">   
-        				<h1>PROMOTION DETAILS</h1>
+        				<h1>EVENT DETAILS</h1>
         			</div>
         			<div class="promo-border">
         				<div  class="promo_detail_image" v-if="!_.includes(currentEvent.image_url,'missing')">
