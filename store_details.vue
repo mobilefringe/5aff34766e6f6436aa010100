@@ -118,7 +118,7 @@
         margin: auto!important;
 	}
 	#store_details_map .mapplic-pin.my-new-pin {
-    	background-image: url(../images/my-new-pin.png);
+    	background-image: url('//codecloud.cdn.speedyrails.net/sites/5aff34766e6f6436aa010100/image/png/1527527145938/som_map_pin.png');
     	background-size: 20px 30px;
     	width: 20px;
     	height: 30px;
