@@ -7,8 +7,8 @@
     					<h1>CAREERS</h1>
     				</div>
     				<ul class="generic-list">
-    					<li class="store-list-item-odd">
-    						<input id="career21274" name="accordion21274" type="checkbox" />
+    					<li class="store-list-item-odd" v-for="job in jobs">
+    						<input :id="career21274" :name="accordion21274" type="checkbox" />
     						<label for="career21274" class="list-cell">
     							<div class="list-title">
     								<p>Bootlegger Jeans</p>
@@ -71,7 +71,7 @@
     			</div>
     		</div>
     	</section>
-    	</div>
+	</div>
 </template>
 
 <script>
