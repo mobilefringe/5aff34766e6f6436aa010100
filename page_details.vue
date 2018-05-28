@@ -32,8 +32,8 @@
           </section>
         </div>
     </div>
-    <div v-else-if="id == 'southcentre-leasing'">
-    	<div class="main_content">
+    <div >
+    	<div class="main_content" v-else-if="id == 'southcentre-leasing'">
     		<section>
     			<div class="section_content leasing_page">
     				<div class="wrap-90">
