@@ -55,11 +55,7 @@
             <div class="wrap-90">
               <p class="blue-title">Promotions</p>
               <div class="promo_content">
-              <div class="medium-6 columns">
-                {% assign i = 1 %}
-                {% for promo in store.current_promotions %}
-                {% assign mod = i | modulo: 2 %}
-                {% if mod == 1 %}
+              <div class="medium-6 columns" v-for="promo in promotions"  v-if="key %2 === 0">
                 <div class="promo_box">
                   <div class="promo_cell">
                     <h3>{{promo.name}}</h3>
