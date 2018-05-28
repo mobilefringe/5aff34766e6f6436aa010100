@@ -1,4 +1,5 @@
 <template>
+    <div class="main_content" v-if="dataLoaded">
 	<section class="careers">
 		<div class="section_content">
 			<div class="table-border">
