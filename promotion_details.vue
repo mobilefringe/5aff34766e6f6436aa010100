@@ -37,6 +37,7 @@
         		</div>
         	</section>
         </div>
+        <guest-services-component></guest-services-component>
     </div>
 </template>
 <style>
