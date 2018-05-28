@@ -10,7 +10,7 @@
     					<img src="{{event.promo_image_path}}">      
     				</div>
     				<div class="promo_detail_div">
-    					<a href="/stores/{{event.promotionable.slug}}">
+    					<router-link href="/stores/{{event.promotionable.slug}}">
     						<h3>{{currentPromo.promotionable.name}}</h3>
     					</a>
     					<p>{{event.name}}</p>
