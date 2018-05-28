@@ -96,8 +96,7 @@
             computed: {
                 ...Vuex.mapGetters([
                     'timezone',
-                    'processedJobs',
-                    'findRepoByName',
+                    'processedJobs'
                 ]),
                 promotions() {
                     var vm = this;
