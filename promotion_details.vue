@@ -2,12 +2,8 @@
     <div class="main_content" v-if="currentPromo">
     	<section class="directory_map">
     		<div class="section_content">
-    			<div class="directory_title">
-    				{% if promo_nav == "true" %}    
+    			<div class="directory_title">   
     				<h1>PROMOTION DETAILS</h1>
-    				{% else %}
-    				<h1>EVENT DETAILS</h1>
-    				{% endif %}
     			</div>
     			<div class="promo-border">
     				<div  class="promo_detail_image">
