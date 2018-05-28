@@ -71,7 +71,7 @@
                 <div class="promo_box" v-for="(promo,key) in promotions"  v-if="key %2 === 0">
                   <div class="promo_cell">
                     <h3>{{promo.name}}</h3>
-                    <p>{{promo.start_date | get_date }} - {{ promo.end_date | get_date }}</p>
+                    <p>{{promo.start_date | moment("MMM DD", timezone)}} - {{promo.end_date | moment("MMM DD", timezone)}}</p>
                     <div class="promo_description">
                       <p>{{promo.description}}</p>
                     </div>
