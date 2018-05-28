@@ -34,7 +34,7 @@
     					</div>
     				</div>
     			</div>
-    			<a href="/mapv2?store_id=store_{{currentStore.id}}" style="margin-top: 20px;display: block;">VIEW ON MAP</a> 
+    			<a to="{ path: '/promotion/from-newsletter', component: Promotion, props: { newsletterPopup: false } }" style="margin-top: 20px;display: block;">VIEW ON MAP</a> 
     		</div>
     	</section>
     	<section class="directory_store_description" v-if="currentStore.description">
