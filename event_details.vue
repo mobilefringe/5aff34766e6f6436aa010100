@@ -56,7 +56,7 @@
             },
             props:['id', 'locale'],
             beforeRouteUpdate(to, from, next) {
-                this.currentEvent = this.updatecurrentEvent(to.params.id);
+                this.updatecurrentEvent(to.params.id);
                     if (this.currentEvent === null || this.currentEvent === undefined){
                         this.$router.replace('/');
                     }
