@@ -36,7 +36,6 @@
             <a href="/mapv2?store_id=store_{{currentStore.id}}" style="margin-top: 20px;display: block;">VIEW ON MAP</a> 
           </div>
         </section>
-        {% if store.description %}
         <section class="directory_store_description" v-if="currentStore.description">
           <div class="section_content">
             <div class="wrap-90">
