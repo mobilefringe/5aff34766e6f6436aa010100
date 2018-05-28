@@ -35,7 +35,6 @@
     			</div>
     		</div>
     	</section>
-    	{% endif %}
     </div>
 </template>
 
