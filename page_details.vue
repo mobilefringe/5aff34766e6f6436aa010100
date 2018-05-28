@@ -82,7 +82,6 @@
 		</section>
 	</div>
 </div>
-    <!--Pages Banner-->
 </template>
 <style>
     .main_content {
