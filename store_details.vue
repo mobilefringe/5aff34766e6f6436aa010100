@@ -63,7 +63,7 @@
                     <div class="promo_description">
                       <p>{{promo.description}}</p>
                     </div>
-                    <a href="/promotions/{{promo.slug}}">More info</a>
+                    <router-link href="/promotions/{{promo.slug}}">More info</a>
                   </div>
                 </div>
               </div>
