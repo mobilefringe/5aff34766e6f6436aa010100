@@ -43,7 +43,7 @@
                 <p class="blue-title">Store Description</p>
                 <div class="hours_divider"></div>
                   <div class="store-description">
-                    <p>{{store.description}}</p>
+                    <p>{{currentStore.description}}</p>
                   </div>
                 <div class="hours_divider"></div>
               </div>
