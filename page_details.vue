@@ -33,59 +33,55 @@
         </div>
         <footer-component></footer-component>
     </div>
-    <div>
-        <div class="main_content">
-          <section>
-            <div class="section_content leasing_page">
-              <div class="wrap-90">
-                <h1>LEASING</h1>
-                <h2 class="about_subheading">The best brands shine here.</h2>
-                <div class="hours_divider"></div>
-                <p class="whitney-light leasing_content">An elegant, seamless shopping experience. An affluent and loyal shopper base.</p>
-                <div class="margin_20"></div>
-                <p class="whitney-light margin_0 leasing_content">A spectacular centre that's easier to get to  and much easier to enjoy.</p>
-                <div class="margin_20"></div>
-                <p class="whitney-light margin_0">This is superior Calgary retail. Will you be here?</p>
-                <div class="hours_divider"></div>
-              </div>
-            </div>
-          </section>
-          <section class="pay_it">
-            <div class="section_content">
-              <div class="wrap-90">
-                <h1>ENQUIRIES</h1>
-                <div class="hours_divider"></div>
-                <h3 class="contact_subheading ">Permanent Leasing</h3>
-                <div class="margin_20"></div>
-                <p class="margin_0 whitney"><strong>Contact</strong>
-                <div class="margin_20"></div>
-                <p class="margin_0 whitney"><strong>Ashley Roberts</strong>, Director, Retail Leasing</p>
-                <p class="margin_0 whitney">Phone: 403-206-6445</p>
-                <p class="margin_0 whitney">aroberts@oxfordproperties.com</p>
-                <a href="http://www.oxfordproperties.com/corp/Web/Default.aspx" target="_blank" class="blue">Oxford Properties</a>
-                <div class="margin_20"></div>
-                
-                <div class="hours_divider"></div>
-
-                <h3 class="contact_subheading">Specialty Leasing</h3>
-                <p class="margin_0 whitney">(in-line, carts, kiosks, sponsorship)</p>
-                <a target="_blank" href="//www.mallmaverick.com/system/site_images/photos/000/035/744/original/SOM_332_LeasingApplicationForm2018_V1.pdf?1513969155" class="blue">Download Application Form</a>
-               
-                <div class="margin_20"></div>
-                <p class="margin_0 whitney"><strong>Contact</strong>
-                <div class="margin_20"></div>
-                <p class="margin_0 whitney"><strong>Brianne Larson</strong>, Manager, Specialty Leasing</p>
-                <p class="margin_0 whitney">Phone: 403-225-5332</p>
-                <p class="margin_0 whitney">Blarson@oxfordproperties.com</p>
-                <a href="http://www.oxfordproperties.com/corp/Web/Default.aspx" target="_blank" class="blue">Oxford Properties</a>
-                <div class="margin_20"></div>
-                
-                <div class="hours_divider"></div>
-              </div>
-            </div>
-          </section>
-        </div>
-    </div>
+   <div>
+	<div class="main_content">
+		<section>
+			<div class="section_content leasing_page">
+				<div class="wrap-90">
+					<h1>LEASING</h1>
+					<h2 class="about_subheading">The best brands shine here.</h2>
+					<div class="hours_divider"></div>
+					<p class="whitney-light leasing_content">An elegant, seamless shopping experience. An affluent and loyal shopper base.</p>
+					<div class="margin_20"></div>
+					<p class="whitney-light margin_0 leasing_content">A spectacular centre that's easier to get to  and much easier to enjoy.</p>
+					<div class="margin_20"></div>
+					<p class="whitney-light margin_0">This is superior Calgary retail. Will you be here?</p>
+					<div class="hours_divider"></div>
+				</div>
+			</div>
+		</section>
+		<section class="pay_it">
+			<div class="section_content">
+				<div class="wrap-90">
+					<h1>ENQUIRIES</h1>
+					<div class="hours_divider"></div>
+					<h3 class="contact_subheading ">Permanent Leasing</h3>
+					<div class="margin_20"></div>
+					<p class="margin_0 whitney"><strong>Contact</strong>
+					<div class="margin_20"></div>
+					<p class="margin_0 whitney"><strong>Ashley Roberts</strong>, Director, Retail Leasing</p>
+					<p class="margin_0 whitney">Phone: 403-206-6445</p>
+					<p class="margin_0 whitney">aroberts@oxfordproperties.com</p>
+					<a href="http://www.oxfordproperties.com/corp/Web/Default.aspx" target="_blank" class="blue">Oxford Properties</a>
+					<div class="margin_20"></div>
+					<div class="hours_divider"></div>
+					<h3 class="contact_subheading">Specialty Leasing</h3>
+					<p class="margin_0 whitney">(in-line, carts, kiosks, sponsorship)</p>
+					<a target="_blank" href="//www.mallmaverick.com/system/site_images/photos/000/035/744/original/SOM_332_LeasingApplicationForm2018_V1.pdf?1513969155" class="blue">Download Application Form</a>
+					<div class="margin_20"></div>
+					<p class="margin_0 whitney"><strong>Contact</strong>
+					<div class="margin_20"></div>
+					<p class="margin_0 whitney"><strong>Brianne Larson</strong>, Manager, Specialty Leasing</p>
+					<p class="margin_0 whitney">Phone: 403-225-5332</p>
+					<p class="margin_0 whitney">Blarson@oxfordproperties.com</p>
+					<a href="http://www.oxfordproperties.com/corp/Web/Default.aspx" target="_blank" class="blue">Oxford Properties</a>
+					<div class="margin_20"></div>
+					<div class="hours_divider"></div>
+				</div>
+			</div>
+		</section>
+	</div>
+</div>
     <!--Pages Banner-->
 </template>
 <style>
