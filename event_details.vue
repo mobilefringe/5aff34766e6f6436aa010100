@@ -71,8 +71,6 @@
                     'findEventBySlug',
                     'findEventById',
                     'timezone',
-                    'findRepoByName',
-                    'findHourById'
                 ]),
                 allEvents() {
                     return this.processedEvents;
