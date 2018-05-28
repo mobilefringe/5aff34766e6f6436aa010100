@@ -87,7 +87,7 @@
     	<section class="store_careers"  v-if="currentStore.total_published_jobs > 0">
     		<div class="section_content">
     			<p class="blue-title">Careers</p>
-    			<div class="wrap-90">
+    			<div class="wrap-90"  v-for="(career,key) in jobs">
     				<div class="medium-6 columns career-info" >
     					<p v-if="career.contact_name"><b>CONTACT NAME:</b> {{career.contact_name}}</p>
     					<p v-if="career.contact_email"><b>EMAIL:</b> {{career.contact_email}}</p>
@@ -106,6 +106,18 @@
     	</section>
     </div>
 </template>
+<style>
+	#store_dets_container .mapplic-popup-link, .mapplic-tooltip-close {
+	    display:none!important;
+	}
+	#store_dets_container .mapplic-tooltip-content {
+	    margin-right: auto;
+	}
+	#store_dets_container .mapplic-tooltip-title {
+        text-align: center;
+        margin: auto!important;
+	}
+</style>
 <script>
     define(['Vue', 'vuex', 'moment',"vue!mapplic-png-map"], function(Vue, Vuex, moment, MapplicComponent) {
         return Vue.component("store-details-component", {
