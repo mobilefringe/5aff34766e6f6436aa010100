@@ -11,7 +11,7 @@
     						<label class="list-cell store-detail-cell">
     							<div class="list-title">
     								<p>{{currentStore.name}}</p>
-    								<p class="mobile-subtitle">{{store.phone}}</p>
+    								<p class="mobile-subtitle">{{currentStore.phone}}</p>
     							</div>
     							<div class="list-subtitle">
     								<p>Phone Number</p>
