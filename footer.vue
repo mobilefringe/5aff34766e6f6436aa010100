@@ -82,7 +82,7 @@
 									<li><a href="http://www.oxfordproperties.com/corp/en/oxford-properties/privacy-policy" target="_blank">Privacy Statement</a></li>
 									<li><a href="http://www.oxfordproperties.com/corp/en/oxford-properties/accessibility/" target="_blank">Accessibility Policy</a></li>
 								</ul>
-								<img alt="logo oxford" src="https://www.mallmaverickstaging.com/system/site_images/photos/000/014/227/original/logo_oxford_black.png?1479314720"/>
+								<img alt="logo oxford" src="//codecloud.cdn.speedyrails.net/sites/5aff34766e6f6436aa010100/image/png/1526676569100/logo_sc.png"/>
 							</div>
 						</div>
 					</div>
@@ -121,8 +121,8 @@
             font-size: 3rem;
         }
         .footer_content h2 {
-    font-size: 1.2rem;
-}
+            font-size: 1.2rem;
+        }
     }
 
 </style>
