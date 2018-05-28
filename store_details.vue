@@ -1,5 +1,5 @@
 <template>
-    <div class="main_content">
+    <div class="main_content" v-if="currentStore">
     	<section class="directory_map">
     		<div class="section_content">
     			<div class="directory_title">
@@ -106,14 +106,6 @@
     	</section>
     </div>
 </template>
-<style>
-	#png_map{
-	    width:1310px;
-		height: 983px;
-		min-width:1310px;
-		min-height: 983px;
-	}
-</style>
 <script>
     define(['Vue', 'vuex', 'moment', "jquery", "smooth-zoom", "vue!png-map", 'vue-lazy-load'], function(Vue, Vuex, moment, $, smoothZoom, PNGMapComponent, VueLazyload) {
         Vue.use(VueLazyload);
