@@ -223,8 +223,10 @@
                 },
                 updatePNGMap(map) {
                     this.map = map;
-                    console.log("in updatepng");
-                    this.addLandmark(this.currentStore);
+                    this.dropPin(this.currentStore);
+                },
+                dropPin(store) {
+                    this.$refs.pngmap_ref.showLocation(store.id);
                 },
             }
         });
