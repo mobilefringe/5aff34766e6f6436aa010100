@@ -1,5 +1,5 @@
 <template>
-<div id="promo_dets_container">
+<div id="event_dets_container">
         <div class="main_content" v-if="currentEvent">
         	<section class="directory_map">
         		<div class="section_content">
