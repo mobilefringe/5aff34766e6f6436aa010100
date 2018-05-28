@@ -1,5 +1,5 @@
 <template>
-    <div v-if="id == 'southcentre-contact'">
+    <div>
         <div class="main_content">
           <section class="hours">
             <div class="section_content">
