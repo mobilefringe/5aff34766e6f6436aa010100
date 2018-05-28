@@ -95,6 +95,7 @@
             },
             computed: {
                 ...Vuex.mapGetters([
+                    'property'm
                     'timezone',
                     'processedJobs'
                 ]),
