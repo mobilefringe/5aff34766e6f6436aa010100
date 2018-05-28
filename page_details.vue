@@ -33,7 +33,8 @@
         </div>
         <footer-component></footer-component>
     </div>
-    <div class="main_content">
+    <div>
+        <div class="main_content">
           <section>
             <div class="section_content leasing_page">
               <div class="wrap-90">
@@ -84,6 +85,7 @@
             </div>
           </section>
         </div>
+    </div>
     <!--Pages Banner-->
 </template>
 <style>
