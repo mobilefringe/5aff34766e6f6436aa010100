@@ -51,7 +51,7 @@
           </div>
         </section>
         {% if promosize > 0 %}
-        <section class="store_promotions" v-if="currentStore.total_promotions > -">
+        <section class="store_promotions" v-if="currentStore.total_published_promos > 0">
           <div class="section_content">
             <div class="wrap-90">
               <p class="blue-title">Promotions</p>
