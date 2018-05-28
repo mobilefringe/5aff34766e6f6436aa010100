@@ -5,7 +5,7 @@
             <div class="directory_title">
               <h1>DIRECTORY</h1>
             </div>
-            <div class="table-border">
+            <div class="table-border" v-if="currentStore">
               <ul class="generic-list directory-detail">
                 <li>
                   <label class="list-cell store-detail-cell">
@@ -15,7 +15,7 @@
                     </div>
                     <div class="list-subtitle">
                       <p>Phone Number</p>
-                      <p>{{store.phone}}</p>
+                      <p>{{currentStore.phone}}</p>
                     </div>
                   </label>
                 </li>
