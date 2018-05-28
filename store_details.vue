@@ -217,12 +217,6 @@
                         this.$router.replace('/');
                     }
                 },
-                // updateSVGMap(map) {
-                //     this.map = map;
-                // },
-                addLandmark(store) {
-                    this.pngMapRef.addMarker(store);
-                },
                 updatePNGMap(map) {
                     this.map = map;
                     console.log("in updatepng");
