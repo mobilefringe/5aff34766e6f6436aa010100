@@ -117,7 +117,7 @@
         text-align: center;
         margin: auto!important;
 	}
-	.mapplic-pin.my-new-pin {
+	#store_details_map .mapplic-pin.my-new-pin {
 	background-image: url(../images/my-new-pin.png);
 	background-size: 20px 30px;
 	width: 20px;
