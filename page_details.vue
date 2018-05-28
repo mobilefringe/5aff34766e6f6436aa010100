@@ -191,7 +191,77 @@
         		</div>
         	</section>
         </div>
-        v-else-if="id == 'southcentre-green-initiatives'"
+        
+        <div class="section_content">
+            <div class="wrap-90">
+                <h1>OUR COMMITMENT<br>OUR PLANET</h1>
+                <div class="green_content">
+                    <p class="whitney green_header_text">Southcentre takes its commitment to sustainability seriously. We strive to employ eco-friendly practices across the property at our events and activities, in our Executive Tower, and in the day to day operations of the shopping centre.</p>
+                    <div class="green_line_break"></div>
+                    <div class="green_hero_img"></div>
+                    <div class="green_line_break"></div>
+                    <p class="whitney green_header_text">Oxford Properties Group is also dedicated to finding best practices for environmental design and operation, and its Sustainable Intelligence program is constantly evolving and growing. To learn more about this program, visit <a href="http://sustainable.oxfordproperties.com" target="_blank">sustainable.oxfordproperties.com</a>.
+                    <div class="green_line_break"></div>
+                    <div class="green_divider"></div>
+                </div>
+                <div class="green_background">
+                    <div class="green_line_break"></div>
+                    <div class="green_content align-left">
+                        <h3 class="">Awards & Accolades</h3>
+                        <ul class="whitney no_bullets">
+                            <li>2013 – WINNER: Oxford Sustainable Intelligence Property of the Year</li>
+                            <li>2014 – WINNER: Oxford Greenest Office Challenge</li>
+                            <li>2015 – WINNER: Oxford Sustainability Performance Award</li>
+                            <li>2017 – CERTIFIED: BOMA Best, Certified Bronze</li>
+                        </ul>
+                        <div class="green_break"></div>
+                        <div class="row">
+                            <div class="large-6 columns">
+                                <h3>What we do now:</h3>
+                                <ul class="whitney">
+                                    <li>Mixed use waste stations/bins: beverage recycling, mixed recycling, and landfill collection is available at all waste stations/bins in the centre</li>
+                                    <li>Back-of-house organics program: all food service providers and restaurants participate in our organic waste program, diverting organics from the landfill into composting facilities instead</li>
+                                    <li>Water bottle refill stations: three water bottle refill stations are available in the centre. One in the Food Court, one by the lower level washrooms, and one in our children’s play area, ROAR Play Park</li>
+                                    <li>Yearly participation in Earth Hour</li>
+                                </ul>
+                            </div>
+                            <div class="large-6 columns"></div>
+                        </div>
+                        <div class="row">
+                            <div class="large-6 columns">
+                                <ul class="whitney">
+                                    <li>Use Ech2o chemical free autoscrubbers cleaning supplies</li>
+                                    <li>Our Annual PINK Stampede Breakfast is also GREEN, with the support of Green Calgary</li>
+                                    <li>Dedicated Green Team: a team made up of Southcentre Administration, Security, and Maintenance staff meets on a monthly basis to evaluate our green activities, implement new programs, and plan future initiatives</li>
+                                </ul>
+                            </div>
+                            <div class="large-6 columns">
+                                <ul class="whitney">
+                                    <li>Installed ExactET irrigation system in 2006, reducing our water consumption for exterior landscaping. We saw a reduction of 9,639,800 litres in 2016 alone!</li>
+                                    <li>Continue to upgrade and enhance our building automation systems. In the past 3 years we have reduced our electricity (kWh) by 8% </li>
+                                    <li>Back-of-house recycling centre: for all retailers and tenants</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="green_content align-left">
+                        <div class="green_line_break"></div>
+                        <div class="green_divider"></div>
+                        <div class="green_line_break"></div>
+                        <h3>Our green goals:</h3>
+                        <ul class="whitney">
+                            <li>Electric vehicle charging</li>
+                            <li>Solar power</li>
+                            <li>Community initiatives and involvement</li>
+                            <li>Enhance current organics program to include all areas of the mall. All food service providers and restaurants participate in our organic waste program, diverting organics from the landfill into composting facilities instead.</li>
+                        </ul>
+                        <div class="green_break"></div>
+                        <h3>We're listening</h3>
+                        <p class="whitney green_text">Do you have a great ‘green’ idea? Want some more information on our programs?<br/>Have some feedback to give us? Please email <a class="whitney-italic" href="mailto:green@southcentremall.com">green@southcentremall.com</a>.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
 	    <footer-component></footer-component>
     </div>
 </template>
@@ -199,6 +269,89 @@
     .main_content {
         margin-top: 100px;
     }
+            h1 {
+                margin-bottom: 12px;
+            }
+            .green_line_break {
+                height: 70px;
+            }
+            .green_break {
+                height: 60px;
+            }
+            .green_content {
+                margin: 0 auto;
+                width: 90%;
+            }
+            .green_content h3 {
+                margin: 0;
+                margin-bottom: 12px;
+                font-family: ChronicleDisplay-Roman;
+                font-size: 34px;
+                line-height: 55px;
+            }
+            .green_header_text {
+                margin: 0 auto;
+                width: 80%;
+            }
+            .green_hero_img {
+                margin: 0 auto;
+                max-width: 100%;
+                height: 585px;
+                background-image: url(https://www.mallmaverick.com/system/site_images/photos/000/036/958/original/palms.png?1519243256);
+                background-repeat: no-repeat;
+                background-position: center;
+                background-size: cover;
+            }
+            .green_divider {
+                margin: 0 auto;
+                background-image: url(//mallmaverick.cdn.speedyrails.net/system/site_images/photos/000/027/084/original/dottedline1.png?1489594674);
+                background-repeat: no-repeat;
+                background-position: center;
+                max-width: 100%;
+                height: 3px;
+                padding: 2.188em;
+            }
+            .green_background {
+                background-image: url(https://www.mallmaverick.com/system/site_images/photos/000/036/959/original/succulents.png?1519243267);
+                background-repeat: no-repeat;
+                background-position: right 70px;
+            }
+            ul {
+                margin-bottom: 0;
+            }
+            li {
+                padding-bottom: 16px;
+            }
+            li, .green_text {
+                font-size: 18px;
+                line-height: 21px;
+            }
+            .no_bullets {
+                margin: 0;
+                list-style-type: none;
+            }
+            @media only screen and (max-width: 64em){
+                .green_line_break {
+                    height: 34px;
+                }
+                .green_hero_img {
+                    height: 334px;
+                }
+                .green_background {
+                    background-image: none;
+                }
+                ul {
+                    text-align: left;
+                }
+            }
+            @media only screen and (max-width: 40em) {
+                .green_header_text {
+                    width: 100%;
+                }
+                .green_hero_img {
+                    height: 162px;
+                }
+            }
 </style>
 <script>
     define(["Vue", "vuex", "moment", "moment-timezone", "vue-moment", "vue!footer"], function(Vue, Vuex, moment, tz, VueMoment, footerComponent) {
