@@ -78,9 +78,6 @@
                     <router-link :to="'/promotions/'+promo.slug">More info</router-link>
                   </div>
                 </div>
-                {% endif %}
-                {% assign i =  i | plus:1 %}
-                {% endfor %}
               </div>
               {% endif %}
               </div>
