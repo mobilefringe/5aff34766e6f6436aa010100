@@ -1,5 +1,5 @@
 <template>
-    <div class="main_content" v-if="currentPromo">
+    <div class="main_content" v-if="currentPromo" id="promo_dets_container">
     	<section class="directory_map">
     		<div class="section_content">
     			<div class="directory_title">   
