@@ -47,15 +47,11 @@
 </style>
 <script>
     define(['Vue', 'vuex', 'moment', 'vue!guest_services'], function(Vue, Vuex, moment, GuestServicesComponent) {
-        Vue.use(VueLazyload);
         return Vue.component("event-details-component", {
             template: template, // the variable template will be injected,
             data: function() {
                 return {
-                    currentEvent: null,
-                    storeEvents : null,
-                    storeHours : null,
-                    eventBanner : null
+                    currentEvent: null
                 }
             },
             props:['id', 'locale'],
