@@ -92,7 +92,6 @@
               <p v-if="career.contact_email"><b>EMAIL:</b> {{career.contact_email}}</p>
             </div>
             <div class="medium-6 columns career-info">
-              {% if career.contact_phone %}
               <p><b>PHONE:</b> {{career.contact_phone}}</p>
               {% endif %}
               {% if career.name %}
