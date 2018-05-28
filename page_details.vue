@@ -310,7 +310,7 @@
         		</div>
         	</section>
         </div>
-        <div class="main_content">
+        <div class="main_content" v-else-if="id == 'southcentre-about-us'">
           <section class="pay_it">
             <div class="section_content" style="display:block;">
               <div class="wrap-90">
