@@ -14,8 +14,8 @@
     						<h3>{{currentPromo.store.name}}</h3>
     					</router-link>
     					<p>{{currentPromo.name}}</p>
-    					<p><strong>{{ event.start_date | get_date }} - {{ event.end_date | get_date }}</strong></p>
-    					<p>{{event.description}}</p>
+    					<p><strong>{{ currentPromo.start_date | get_date }} - {{ event.end_date | get_date }}</strong></p>
+    					<p>{{currentPromo.description}}</p>
     				</div>
     				<div class="clearfix"></div>
     			</div>
