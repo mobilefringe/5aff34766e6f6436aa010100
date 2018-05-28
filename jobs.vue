@@ -1,5 +1,5 @@
 <template>
-    <div class="main_content" v-if="dataLoaded">
+    <div class="main_content" v-if="dataloaded">
 	<section class="careers">
 		<div class="section_content">
 			<div class="table-border">
