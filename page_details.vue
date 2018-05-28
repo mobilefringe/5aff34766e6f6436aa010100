@@ -268,89 +268,89 @@
     .main_content {
         margin-top: 100px;
     }
-            h1 {
-                margin-bottom: 12px;
-            }
-            .green_line_break {
-                height: 70px;
-            }
-            .green_break {
-                height: 60px;
-            }
-            .green_content {
-                margin: 0 auto;
-                width: 90%;
-            }
-            .green_content h3 {
-                margin: 0;
-                margin-bottom: 12px;
-                font-family: ChronicleDisplay-Roman;
-                font-size: 34px;
-                line-height: 55px;
-            }
-            .green_header_text {
-                margin: 0 auto;
-                width: 80%;
-            }
-            .green_hero_img {
-                margin: 0 auto;
-                max-width: 100%;
-                height: 585px;
-                background-image: url(https://www.mallmaverick.com/system/site_images/photos/000/036/958/original/palms.png?1519243256);
-                background-repeat: no-repeat;
-                background-position: center;
-                background-size: cover;
-            }
-            .green_divider {
-                margin: 0 auto;
-                background-image: url(//mallmaverick.cdn.speedyrails.net/system/site_images/photos/000/027/084/original/dottedline1.png?1489594674);
-                background-repeat: no-repeat;
-                background-position: center;
-                max-width: 100%;
-                height: 3px;
-                padding: 2.188em;
-            }
-            .green_background {
-                background-image: url(https://www.mallmaverick.com/system/site_images/photos/000/036/959/original/succulents.png?1519243267);
-                background-repeat: no-repeat;
-                background-position: right 70px;
-            }
-            ul {
-                margin-bottom: 0;
-            }
-            li {
-                padding-bottom: 16px;
-            }
-            li, .green_text {
-                font-size: 18px;
-                line-height: 21px;
-            }
-            .no_bullets {
-                margin: 0;
-                list-style-type: none;
-            }
-            @media only screen and (max-width: 64em){
-                .green_line_break {
-                    height: 34px;
-                }
-                .green_hero_img {
-                    height: 334px;
-                }
-                .green_background {
-                    background-image: none;
-                }
-                ul {
-                    text-align: left;
-                }
-            }
-            @media only screen and (max-width: 40em) {
-                .green_header_text {
-                    width: 100%;
-                }
-                .green_hero_img {
-                    height: 162px;
-                }
-            }
+    h1 {
+        margin-bottom: 12px;
+    }
+    .green_line_break {
+        height: 70px;
+    }
+    .green_break {
+        height: 60px;
+    }
+    .green_content {
+        margin: 0 auto;
+        width: 90%;
+    }
+    .green_content h3 {
+        margin: 0;
+        margin-bottom: 12px;
+        font-family: ChronicleDisplay-Roman;
+        font-size: 34px;
+        line-height: 55px;
+    }
+    .green_header_text {
+        margin: 0 auto;
+        width: 80%;
+    }
+    .green_hero_img {
+        margin: 0 auto;
+        max-width: 100%;
+        height: 585px;
+        background-image: url(https://www.mallmaverick.com/system/site_images/photos/000/036/958/original/palms.png?1519243256);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+    .green_divider {
+        margin: 0 auto;
+        background-image: url(//mallmaverick.cdn.speedyrails.net/system/site_images/photos/000/027/084/original/dottedline1.png?1489594674);
+        background-repeat: no-repeat;
+        background-position: center;
+        max-width: 100%;
+        height: 3px;
+        padding: 2.188em;
+    }
+    .green_background {
+        background-image: url(https://www.mallmaverick.com/system/site_images/photos/000/036/959/original/succulents.png?1519243267);
+        background-repeat: no-repeat;
+        background-position: right 70px;
+    }
+    ul {
+        margin-bottom: 0;
+    }
+    li {
+        padding-bottom: 16px;
+    }
+    li, .green_text {
+        font-size: 18px;
+        line-height: 21px;
+    }
+    .no_bullets {
+        margin: 0;
+        list-style-type: none;
+    }
+    @media only screen and (max-width: 64em){
+        .green_line_break {
+            height: 34px;
+        }
+        .green_hero_img {
+            height: 334px;
+        }
+        .green_background {
+            background-image: none;
+        }
+        ul {
+            text-align: left;
+        }
+    }
+    @media only screen and (max-width: 40em) {
+        .green_header_text {
+            width: 100%;
+        }
+        .green_hero_img {
+            height: 162px;
+        }
+    }
 </style>
 <script>
     define(["Vue", "vuex", "moment", "moment-timezone", "vue-moment", "vue!footer"], function(Vue, Vuex, moment, tz, VueMoment, footerComponent) {
