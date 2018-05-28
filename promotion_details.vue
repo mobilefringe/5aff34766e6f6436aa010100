@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div id="promo_dets_container">
         <div class="main_content" v-if="currentPromo">
         	<section class="directory_map">
         		<div class="section_content">
@@ -45,7 +45,7 @@
     }
 </style>
 <script>
-    define(['Vue', 'vuex', 'moment', 'vue-lazy-load'], function(Vue, Vuex, moment, VueLazyload) {
+    define(['Vue', 'vuex', 'moment', 'vue!guest_services.vue'], function(Vue, Vuex, moment, VueLazyload) {
         Vue.use(VueLazyload);
         return Vue.component("promo-details-component", {
             template: template, // the variable template will be injected,
