@@ -1,6 +1,6 @@
 <template>
 <div id="promo_dets_container">
-        <div class="main_content" v-if="currentPromo">
+        <div class="main_content" v-if="currentEvent">
         	<section class="directory_map">
         		<div class="section_content">
         			<div class="directory_title">   
@@ -8,28 +8,28 @@
         			</div>
         			<div class="promo-border">
         				<div  class="promo_detail_image">
-        					<img :src="currentPromo.image_url">      
+        					<img :src="currentEvent.image_url">      
         				</div>
         				<div class="promo_detail_div">
-        					<router-link :to="'/stores/'+currentPromo.store.slug">
-        						<h3>{{currentPromo.store.name}}</h3>
+        					<router-link :to="'/stores/'+currentEvent.store.slug">
+        						<h3>{{currentEvent.store.name}}</h3>
         					</router-link>
-        					<p>{{currentPromo.name}}</p>
-        					<p><strong>{{currentPromo.start_date | moment("MMM DD", timezone)}} - {{currentPromo.end_date | moment("MMM DD", timezone)}}</strong></p>
-        					<p v-html="currentPromo.rich_description"></p>
+        					<p>{{currentEvent.name}}</p>
+        					<p><strong>{{currentEvent.start_date | moment("MMM DD", timezone)}} - {{currentEvent.end_date | moment("MMM DD", timezone)}}</strong></p>
+        					<p v-html="currentEvent.rich_description"></p>
         				</div>
         				<div class="clearfix"></div>
         			</div>
         		</div>
         	</section>
-        	<section class="directory_store_description" v-if="currentPromo.description">
+        	<section class="directory_store_description" v-if="currentEvent.description">
         		<div class="section_content">
         			<div class="wrap-90">
         				<div class="directory-details">
         					<p class="blue-title">Promotion Description</p>
         					<div class="hours_divider"></div>
         					<div class="store-description">
-        						<p>{{currentPromo.description}}</p>
+        						<p>{{currentEvent.description}}</p>
         					</div>
         					<div class="hours_divider"></div>
         				</div>
