@@ -34,7 +34,7 @@
     					</div>
     				</div>
     			</div>
-    			<a to="{ path: '/map', props: { store_id: currentStore.id } }" style="margin-top: 20px;display: block;">VIEW ON MAP</a> 
+    			<router-link to="{ path: '/map', props: { store_id: currentStore.id } }" style="margin-top: 20px;display: block;">VIEW ON MAP</a> 
     		</div>
     	</section>
     	<section class="directory_store_description" v-if="currentStore.description">
