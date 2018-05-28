@@ -75,7 +75,7 @@
                     <div class="promo_description">
                       <p>{{promo.description}}</p>
                     </div>
-                    <a href="/promotions/{{promo.slug}}">More info</a>
+                    <router-link :to="'/promotions/'+promo.slug">More info</router-link>
                   </div>
                 </div>
                 {% endif %}
