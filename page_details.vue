@@ -80,8 +80,8 @@
     			</div>
     		</section>
     	</div>
+	    <footer-component></footer-component>
     </div>
-    <footer-component></footer-component>
 </template>
 <style>
     .main_content {
