@@ -140,7 +140,7 @@
         						</div>
         						<div class="amenity_box">
         							<div class="amenity_cell">
-        								<img alt="play" src="/system/site_images/photos/000/003/903/original/icon_play.png?1410445548">
+        								<img alt="play" src="//mallmaverick.com/system/site_images/photos/000/003/903/original/icon_play.png?1410445548">
         								<h3>KIDS PLAY AREA</h3>
         								<div class="">
         									<p>Your little shoppers need a unique and inviting space to let their imaginations run wild while at Southcentre. ROAR Play Park is full of vibrant displays, interactive games and a variety of diversions, all to keep your little ones happy and entertained during your trip to Southcentre.</p>
@@ -149,7 +149,7 @@
         						</div>
         						<div class="amenity_box extra_border_bottom">
         							<div class="amenity_cell">
-        								<img  alt="washroom icon" src="/system/site_images/photos/000/003/904/original/icon_washroom.png?1410445571">
+        								<img  alt="washroom icon" src="//mallmaverick.com/system/site_images/photos/000/003/904/original/icon_washroom.png?1410445571">
         								<h3>HOTEL STYLE WASHROOMS</h3>
         								<div class="">
         									<p>Designed to be comparable with those found in upscale restaurants, our washrooms feature high quality, contemporary touchless fixtures, extra large baby change stations, generous common area, and separate make-up stations. Both men's and women's washrooms also include "toddler-sized" toilets.</p>
@@ -160,7 +160,7 @@
         					<div class="medium-6 columns">
         						<div class="amenity_box extra_border_top">
         							<div class="amenity_cell">
-        								<img  alt="food court" src="/system/site_images/photos/000/003/906/original/icon_food.png?1410445623">
+        								<img  alt="food court" src="//mallmaverick.com/system/site_images/photos/000/003/906/original/icon_food.png?1410445623">
         								<h3>FOOD COURT</h3>
         								<div class="">
         									<p>No matter what you're in the mood for, our spacious and well-located Food Court has something that will satisfy. You'll find 15 eateries and plenty of sunshine on level 2, up the escalator at the north entrance. Or if you prefer a sit-down meal, visit Milestones or Chili's.</p>
@@ -169,7 +169,7 @@
         						</div>
         						<div class="amenity_box">
         							<div class="amenity_cell">
-        								<img  alt="nursing room" src="/system/site_images/photos/000/003/907/original/icon_nursing.png?1410445651">
+        								<img  alt="nursing room" src="//mallmaverick.com/system/site_images/photos/000/003/907/original/icon_nursing.png?1410445651">
         								<h3>NURSING ROOM</h3>
         								<div class="">
         									<p>When the little one needs to eat, you can nurse them in the luxury, convenience, and privacy of one of our Nursing Rooms. These beautiful and tranquil rooms are located in the main washroom areas, and feature comfortable seating, microwaves, sinks, change area, TVs, and even an interactive play area for toddlers. Emergency baby supplies are also available at our main Guest Services desk, at the north entrance.</p>
@@ -178,7 +178,7 @@
         						</div>
         						<div class="amenity_box extra_border_bottom">
         							<div class="amenity_cell">
-        								<img alt="kids strollers" src="/system/site_images/photos/000/003/908/original/icon_strollers.png?1410445694">
+        								<img alt="kids strollers" src="//mallmaverick.com/system/site_images/photos/000/003/908/original/icon_strollers.png?1410445694">
         								<h3>KIDS STROLLERS</h3>
         								<div class="">
         									<p>SmarteCarte strollers are available for rent. Single and double strollers are available at both Southcentre’s main NORTH AND SOUTH ENTRANCE’S. Each stroller includes built-in tablets featuring kid’s programming and games. (This feature can be de-activated.) Strollers are offered on a first come, first served basis only. Double $7, Single $5, $1 back when stroller is returned. Canadian cash, VISA, MasterCard and American Express cards accepted. </p>
