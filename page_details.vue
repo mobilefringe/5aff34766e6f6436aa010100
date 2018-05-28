@@ -323,7 +323,7 @@
                         <br>
                         <div class="margin_20"></div>
                         <h4>FACT SHEET</h4>
-                        <p class="margin_0 whitney-light">Southcentre Fact Sheet <a href="/system/site_images/photos/000/003/992/original/Southcentre_FactSheet.pdf?1413485805" class="blue" target="_blank">download</a></p>
+                        <p class="margin_0 whitney-light">Southcentre Fact Sheet <a href="//mallmaverick.com/system/site_images/photos/000/003/992/original/Southcentre_FactSheet.pdf?1413485805" class="blue" target="_blank">download</a></p>
                         <div class="hours_divider"></div>
                         
                         <h4>INDUSTRY NEWS</h4>
