@@ -191,7 +191,7 @@
         		</div>
         	</section>
         </div>
-        <div class="section_content" v-else-if="id == 'southcentre-green-initiatives'">
+        <div class="section_content" v-else-if="id == 'southcentre-green-initiatives'" id="green_initiative_container">
             <div class="wrap-90">
                 <h1>OUR COMMITMENT<br>OUR PLANET</h1>
                 <div class="green_content">
