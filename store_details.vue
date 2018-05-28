@@ -174,7 +174,8 @@
                         if(store.id === vm.currentStore.id) {
                             store.showPin = true;
                             store.show_desc = true;
-                            
+                            if(val.x_coordinate)
+                            store.tooltip_desc = 
                         }
                     })
                     return this.processedStores;
