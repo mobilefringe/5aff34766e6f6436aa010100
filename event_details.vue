@@ -22,20 +22,20 @@
         			</div>
         		</div>
         	</section>
-        	<section class="directory_store_description" v-if="currentEvent.description">
-        		<div class="section_content">
-        			<div class="wrap-90">
-        				<div class="directory-details">
-        					<p class="blue-title">Promotion Description</p>
-        					<div class="hours_divider"></div>
-        					<div class="store-description">
-        						<p>{{currentEvent.description}}</p>
-        					</div>
-        					<div class="hours_divider"></div>
-        				</div>
-        			</div>
-        		</div>
-        	</section>
+        	<!--<section class="directory_store_description" v-if="currentEvent.description">-->
+        	<!--	<div class="section_content">-->
+        	<!--		<div class="wrap-90">-->
+        	<!--			<div class="directory-details">-->
+        	<!--				<p class="blue-title">Promotion Description</p>-->
+        	<!--				<div class="hours_divider"></div>-->
+        	<!--				<div class="store-description">-->
+        	<!--					<p>{{currentEvent.description}}</p>-->
+        	<!--				</div>-->
+        	<!--				<div class="hours_divider"></div>-->
+        	<!--			</div>-->
+        	<!--		</div>-->
+        	<!--	</div>-->
+        	<!--</section>-->
         </div>
         <guest-services-component></guest-services-component>
     </div>
