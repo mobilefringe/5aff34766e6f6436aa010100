@@ -160,6 +160,7 @@
                     return "https://www.mallmaverick.com" + this.property.map_url;
                 },
                 allStores() {
+                    var vm = this;
                     this.processedStores.map(function(store){
                         store.zoom = 1;
                         if(store.id === vm.currentStore.id) {
