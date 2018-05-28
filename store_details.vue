@@ -87,7 +87,7 @@
           <div class="section_content">
             <p class="blue-title">Careers</p>
             <div class="wrap-90">
-            <div class="medium-6 columns career-info">
+            <div class="medium-6 columns career-info" v-for="(promo,key) in promotions" >
               {% if career.contact_name %}
               <p><b>CONTACT NAME:</b> {{career.contact_name}}</p>
               {% endif %}
