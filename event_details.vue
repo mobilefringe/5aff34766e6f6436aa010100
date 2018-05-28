@@ -75,41 +75,7 @@
             },
             watch: {
                 currentEvent : function (){
-                    if(this.currentEvent != null) {
-                        if (this.currentEvent.store != null && this.currentEvent.store != undefined && _.includes(this.currentEvent.store.image_url, 'missing')) {
-                            this.currentEvent.store.image_url = "//codecloud.cdn.speedyrails.net/sites/5a6a54eb6e6f647da51e0100/image/png/1518554684072/bonniedoonlogo.png";
-                        }
-                        else if (this.currentEvent.store == null || this.currentEvent.store == undefined) {
-                            this.currentEvent.store = {};
-                            this.currentEvent.store.image_url =  "//codecloud.cdn.speedyrails.net/sites/5a6a54eb6e6f647da51e0100/image/png/1518554684072/bonniedoonlogo.png";
-                        }
-                        var vm = this;
-                        var temp_event = [];
-                        var current_id =_.toNumber(this.currentEvent.id);
-                        _.forEach(this.currentEvent.store.event, function(value, key) {
-                            if(_.toNumber(value) != current_id){
-                                var current_event = vm.findEventById(value);
-                                current_event.description_short = _.truncate(current_event.description, {'length': 70});
-                                temp_event.push(current_event);
-                            }
-                        });
-                        this.storeEvents = temp_event;
-                    }
-                    if(this.currentEvent.store) {
-                        var storeHours = [];
-                        var vm = this;
-                        _.forEach(this.currentEvent.store.store_hours, function (value, key) {
-                            var hour = vm.findHourById(value);
-                            if(hour.day_of_week === 0){
-                                hour.order = 7;
-                            }
-                            else {
-                                hour.order = hour.day_of_week;
-                            }
-                            storeHours.push();
-                        });
-                        this.storeHours = _.sortBy(storeHours, [function(o) { return o.order; }]);;
-                    }
+                    
                 }
             },
             computed: {
