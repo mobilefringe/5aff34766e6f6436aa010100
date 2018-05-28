@@ -64,12 +64,6 @@
                 });
                 window.addEventListener('scroll', this.enableStickyNavbar); 
             },
-            mounted () {
-                // From testing, without a brief timeout, it won't work.
-                if (this.$route.hash) {
-                    setTimeout(() => this.scrollTo(this.$route.hash), TIMEOUT)
-                }
-            },
             watch : {
                 formData () {
                     this.formData.name = this.formData.firstname + " " + this.formData.lastname; 
