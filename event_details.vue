@@ -40,7 +40,11 @@
         <guest-services-component></guest-services-component>
     </div>
 </template>
-
+<style>
+    #event_dets_container {
+        margin-top: 100pc;
+    }
+</style>
 <script>
     define(['Vue', 'vuex', 'moment', 'vue-lazy-load'], function(Vue, Vuex, moment, VueLazyload) {
         Vue.use(VueLazyload);
