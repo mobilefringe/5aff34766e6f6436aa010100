@@ -112,6 +112,7 @@
                         feedback: $("#fieldFeedback").val(),
                         agree_to_contact: checkbox
                     };
+                    console.log("comes to this");
                     // $.ajax({
                     //     type: "POST",
                     //     url: "//mallmaverick.cdn.speedyrails.net/system/site_images/photos/000/008/177/original/email.php?1428439361",
