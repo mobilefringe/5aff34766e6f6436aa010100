@@ -367,12 +367,12 @@
     </div>
 </template>
 <!--<script src="//mallmaverick.cdn.speedyrails.net/system/site_images/photos/000/008/179/original/sweet-alert.min.js?1428439365"></script>-->
-<link rel="stylesheet" type="text/css" href="//mallmaverick.cdn.speedyrails.net/system/site_images/photos/000/008/178/original/sweet-alert.css?1428439365">
+<!--<link rel="stylesheet" type="text/css" href="//mallmaverick.cdn.speedyrails.net/system/site_images/photos/000/008/178/original/sweet-alert.css?1428439365">-->
 <!--<script>-->
 <!--    $('meta[name=viewport]').attr('content','width=device-width, user-scalable=no');-->
 <!--</script>-->
 <style>
-    @import './assets/yourstyles.css'
+    @import '//mallmaverick.cdn.speedyrails.net/system/site_images/photos/000/008/178/original/sweet-alert.css'
     .main_content {
         margin-top: 100px;
     }
