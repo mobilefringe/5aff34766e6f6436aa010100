@@ -112,15 +112,15 @@
                         feedback: $("#fieldFeedback").val(),
                         agree_to_contact: checkbox
                     };
-                    $.ajax({
-                        type: "POST",
-                        url: "//mallmaverick.cdn.speedyrails.net/system/site_images/photos/000/008/177/original/email.php?1428439361",
-                        data: data,
-                        success: function(){
-                          alert("Thank you for your feedback!");
-                          document.getElementById("subForm").reset();
-                        }
-                    });
+                    // $.ajax({
+                    //     type: "POST",
+                    //     url: "//mallmaverick.cdn.speedyrails.net/system/site_images/photos/000/008/177/original/email.php?1428439361",
+                    //     data: data,
+                    //     success: function(){
+                    //       alert("Thank you for your feedback!");
+                    //       document.getElementById("subForm").reset();
+                    //     }
+                    // });
                 }
             }
         });
