@@ -4,7 +4,7 @@
         <a href="http://www.southcentremall.com/#directory"><img alt="directory" src="https://www.mallmaverick.com/system/site_images/photos/000/029/739/original/directory.png?1496432958"></a>
         <a href="http://www.southcentremall.com/"><img alt="home" src="https://www.mallmaverick.com/system/site_images/photos/000/029/741/original/website.png?1496432958"></a>
         <a href="http://www.southcentremall.com/pages/southcentre-concierge-feedback"><img alt="concierge" src="https://www.mallmaverick.com/system/site_images/photos/000/029/743/original/feedback.png?1496432958"></a>
-        <a><img alt="tag" src="/system/site_images/photos/000/007/588/original/SOM_Tag.png?1426864225"></a>
+        <a><img alt="tag" src="//mallmaverick.com/system/site_images/photos/000/007/588/original/SOM_Tag.png?1426864225"></a>
     </div>
 </template>
 <style>
