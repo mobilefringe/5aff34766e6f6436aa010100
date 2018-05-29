@@ -351,7 +351,7 @@
                 </div>
                 <div class="form-group-lg">
                     <label for="fieldFeedback">Feedback</label><br />
-                    <!--<textarea id="fieldFeedback" class="form-control" name="cm-f-jtitlt" type="text" /></textarea>-->
+                    <textarea id="fieldFeedback" class="form-control" name="cm-f-jtitlt" type="text" ></textarea>
                 </div>
                 <div class="form-group">
                     <input id="fieldCheck" name="cm-ol-juitdh" type="checkbox" /> <label id="contact-label" for="fieldCheck">Would you like to be contacted by Mall Management regarding your feedback?</label>
