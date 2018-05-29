@@ -1,4 +1,3 @@
-<!--concierge-feedback-->
 <template>
 	<section id="giftcard" class="scrollspy">
 		<div class="section_content">
