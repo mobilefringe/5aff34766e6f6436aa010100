@@ -40,7 +40,7 @@
     			<!--<loader v-if="!dataLoaded"></loader>-->
     			<!--<div class="" >-->
     			    <top-header :class="{hide: hide_header_footer}"></top-header>
-		            <header-component v-if="show_header" class="fixed"></header-component>
+		            <header-component v-if="show_header" class="fixed" :class="{hide: hide_header_footer}"></header-component>
     				<transition name="custom-classes-transition" enter-active-class="fadeIn">
     					<router-view :locale="locale"></router-view>
     				</transition>
