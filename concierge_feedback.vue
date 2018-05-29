@@ -46,7 +46,7 @@
 </template>
 <script>
     define(["Vue"], function(Vue) {
-        return Vue.component("giftcard-component", {
+        return Vue.component("concierge-feedback", {
             template: template, // the variable template will be injected,
         });
     });
