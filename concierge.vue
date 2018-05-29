@@ -1,33 +1,11 @@
 <template>
 	<div id="concierge-container">
-            <div class="concierge-logo"><img alt="concierge" src="//mallmaverick.cdn.speedyrails.net/system/site_images/photos/000/007/588/original/SOM_Tag.png?1426864225"></div>
-            <form method="post" id="subForm" @submit.prevent="submitForm">
-                <div class="form-group-lg">
-                    <label for="fieldName">Name</label><br />
-                    <input id="fieldName" class="form-control" name="cm-name" type="text" />
-                </div>
-                <div class="form-group-lg">
-                    <label for="fieldEmail">Email</label><br />
-                    <input id="fieldEmail" class="form-control" name="cm-iyidlh-iyidlh" type="email" required />
-                </div>
-                <div class="form-group-lg">
-                    <label for="fieldPhone">Phone number</label><br />
-                    <input id="fieldPhone" class="form-control" name="cm-f-jtitlj" type="text" />
-                </div>
-                <div class="form-group-lg">
-                    <label for="fieldFeedback">Feedback</label><br />
-                    <textarea id="fieldFeedback" class="form-control" name="cm-f-jtitlt" type="text"></textarea>
-                </div>
-                <div class="form-group">
-                    <input id="fieldCheck" name="cm-ol-juitdh" type="checkbox" /> <label id="contact-label" for="fieldCheck">Would you like to be contacted by Mall Management regarding your feedback?</label>
-                </div>
-                <div class="form-group">
-                    <button class="btn btn-default btn-lg" type="submit">Submit</button>
-                </div>
-                <div class="form-group" id="thankyou_msg">
-                </div>
-            </form>
-        </div>
+  <a href="https://www279.americanexpress.com/GPTHBIWeb/validateIPAction.do?clientkey=amex%20bank%20of%20canada"><img alt="balance" src="https://www.mallmaverick.com/system/site_images/photos/000/029/740/original/gift_card.png?1496432958"></a>
+  <a href="http://www.southcentremall.com/#directory"><img alt="directory" src="https://www.mallmaverick.com/system/site_images/photos/000/029/739/original/directory.png?1496432958"></a>
+  <a href="http://www.southcentremall.com/"><img alt="home" src="https://www.mallmaverick.com/system/site_images/photos/000/029/741/original/website.png?1496432958"></a>
+  <a href="http://www.southcentremall.com/pages/southcentre-concierge-feedback"><img alt="concierge" src="https://www.mallmaverick.com/system/site_images/photos/000/029/743/original/feedback.png?1496432958"></a>
+  <a><img alt="tag" src="/system/site_images/photos/000/007/588/original/SOM_Tag.png?1426864225"></a>
+</div>
 </template>
 <style>
     @import "//mallmaverick.cdn.speedyrails.net/system/site_images/photos/000/008/178/original/sweet-alert.css";
