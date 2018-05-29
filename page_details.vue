@@ -339,7 +339,7 @@
             <concierge-feedback></concierge-feedback>
         </div>
          <div v-if="id == 'southcentre-concierge-feedback'">
-            <concierge-feedback></concierge-feedback>
+            <concierge-component></concierge-feedback>
         </div>
 	    <footer-component></footer-component>
     </div>
