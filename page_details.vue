@@ -480,29 +480,29 @@
                         this.currentPage = response[0].data;
                     });
                 },
-                submitForm() {
-                    e.preventDefault();
-                    var checkbox = "NO";
-                    if ($("#fieldCheck").is(':checked')) {
-                      checkbox = "YES";
-                    };
-                    var data = {
-                        name: $("#fieldName").val(),
-                        email: $("#fieldEmail").val(),
-                        phone: $("#fieldPhone").val(),
-                        feedback: $("#fieldFeedback").val(),
-                        agree_to_contact: checkbox
-                    };
-                    $.ajax({
-                        type: "POST",
-                        url: "//mallmaverick.cdn.speedyrails.net/system/site_images/photos/000/008/177/original/email.php?1428439361",
-                        data: data,
-                        success: function(){
-                          alert("Thank you for your feedback!");
-                          document.getElementById("subForm").reset();
-                        }
-                    });
-                }
+                // submitForm() {
+                //     e.preventDefault();
+                //     var checkbox = "NO";
+                //     if ($("#fieldCheck").is(':checked')) {
+                //       checkbox = "YES";
+                //     };
+                //     var data = {
+                //         name: $("#fieldName").val(),
+                //         email: $("#fieldEmail").val(),
+                //         phone: $("#fieldPhone").val(),
+                //         feedback: $("#fieldFeedback").val(),
+                //         agree_to_contact: checkbox
+                //     };
+                //     $.ajax({
+                //         type: "POST",
+                //         url: "//mallmaverick.cdn.speedyrails.net/system/site_images/photos/000/008/177/original/email.php?1428439361",
+                //         data: data,
+                //         success: function(){
+                //           alert("Thank you for your feedback!");
+                //           document.getElementById("subForm").reset();
+                //         }
+                //     });
+                // }
             }
         });
     });
