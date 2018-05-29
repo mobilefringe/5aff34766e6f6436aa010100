@@ -95,7 +95,7 @@
     }
 </style>
 <script>
-    define(["Vue", 'jquery', 'sweet-alert'], function(Vue, $, sweetAlert) {
+    define(["Vue"], function(Vue) {
         return Vue.component("concierge-feedback", {
             template: template, // the variable template will be injected,
             methods: {
