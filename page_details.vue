@@ -480,7 +480,7 @@
                         this.currentPage = response[0].data;
                     });
                 },
-            submitForm() {
+                submitForm() {
                     e.preventDefault();
                     var checkbox = "NO";
                     if ($("#fieldCheck").is(':checked')) {
