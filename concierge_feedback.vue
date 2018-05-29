@@ -87,9 +87,6 @@
       font-size: 15pt;
       font-weight: normal;
     }
-    .online_chat {
-        display: none;
-    }
 </style>
 <script>
     define(["Vue", 'jquery', 'sweet-alert'], function(Vue, $, sweetAlert) {
