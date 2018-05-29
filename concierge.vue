@@ -96,7 +96,7 @@
 </style>
 <script>
     define(["Vue"], function(Vue) {
-        return Vue.component("concierge-feedback", {
+        return Vue.component("concierge", {
             template: template, // the variable template will be injected,
             methods: {
                   submitForm(e) {
