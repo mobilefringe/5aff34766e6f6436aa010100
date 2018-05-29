@@ -338,8 +338,8 @@
         <div v-if="id == 'southcentre-concierge-feedback'">
             <concierge-feedback></concierge-feedback>
         </div>
-         <div v-if="id == 'southcentre-concierge-feedback'">
-            <concierge-component></concierge-feedback>
+         <div v-if="id == 'southcentre-concierge'">
+            <concierge-component></concierge-component>
         </div>
 	    <footer-component></footer-component>
     </div>
