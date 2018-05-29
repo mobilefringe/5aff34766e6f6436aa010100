@@ -1,7 +1,7 @@
 <template>
 	<div id="concierge-container">
             <div class="concierge-logo"><img alt="concierge" src="//mallmaverick.cdn.speedyrails.net/system/site_images/photos/000/007/588/original/SOM_Tag.png?1426864225"></div>
-            <form method="post" id="subForm">
+            <form method="post" id="subForm" @submit.prevent="validateBeforeSubmit">
                 <div class="form-group-lg">
                     <label for="fieldName">Name</label><br />
                     <input id="fieldName" class="form-control" name="cm-name" type="text" />
