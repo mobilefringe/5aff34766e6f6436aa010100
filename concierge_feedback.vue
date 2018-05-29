@@ -90,7 +90,7 @@
     .online_chat {
         display: none;
     }
-    #concierge-container upper-links is-sticky{
+    #concierge-container .upper-links.is-sticky{
         display: none;
     }
 </style>
