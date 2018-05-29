@@ -90,6 +90,9 @@
     .online_chat {
         display: none;
     }
+    #{
+        display: none;
+    }
 </style>
 <script>
     define(["Vue", 'jquery', 'sweet-alert'], function(Vue, $, sweetAlert) {
