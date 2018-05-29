@@ -39,7 +39,7 @@
     		<div id="app" v-cloak v-if="dataLoaded" class="row">
     			<!--<loader v-if="!dataLoaded"></loader>-->
     			<!--<div class="" >-->
-    			    <top-header v-if="hide_header_footer"></top-header>
+    			    <top-header :class="{hide: hide_header_footer}"></top-header>
 		            <header-component v-if="show_header" class="fixed"></header-component>
     				<transition name="custom-classes-transition" enter-active-class="fadeIn">
     					<router-view :locale="locale"></router-view>
