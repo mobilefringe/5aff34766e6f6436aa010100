@@ -30,7 +30,7 @@
         </div>
 </template>
 <style>
-    @import '//mallmaverick.cdn.speedyrails.net/system/site_images/photos/000/008/178/original/sweet-alert.css'
+    @import "//mallmaverick.cdn.speedyrails.net/system/site_images/photos/000/008/178/original/sweet-alert.css"
     .concierge-logo{
       position: absolute;
       top: 45px;
