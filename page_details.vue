@@ -354,7 +354,7 @@
     
 </style>
 <script>
-    define(["Vue", "vuex", "moment", "moment-timezone", "vue-moment", "vue!footer", "vue!concierge_feedback"], function(Vue, Vuex, moment, tz, VueMoment, footerComponent) {
+    define(["Vue", "vuex", "moment", "moment-timezone", "vue-moment", "vue!footer", "vue!concierge_feedback"], function(Vue, Vuex, moment, tz, VueMoment, footerComponent, ConciergeFeedback) {
         return Vue.component("page-details-component", {
             template: template, // the variable template will be injected,
             data: function() {
