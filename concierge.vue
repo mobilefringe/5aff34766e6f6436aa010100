@@ -1,11 +1,11 @@
 <template>
 	<div id="concierge-container">
-  <a href="https://www279.americanexpress.com/GPTHBIWeb/validateIPAction.do?clientkey=amex%20bank%20of%20canada"><img alt="balance" src="https://www.mallmaverick.com/system/site_images/photos/000/029/740/original/gift_card.png?1496432958"></a>
-  <a href="http://www.southcentremall.com/#directory"><img alt="directory" src="https://www.mallmaverick.com/system/site_images/photos/000/029/739/original/directory.png?1496432958"></a>
-  <a href="http://www.southcentremall.com/"><img alt="home" src="https://www.mallmaverick.com/system/site_images/photos/000/029/741/original/website.png?1496432958"></a>
-  <a href="http://www.southcentremall.com/pages/southcentre-concierge-feedback"><img alt="concierge" src="https://www.mallmaverick.com/system/site_images/photos/000/029/743/original/feedback.png?1496432958"></a>
-  <a><img alt="tag" src="/system/site_images/photos/000/007/588/original/SOM_Tag.png?1426864225"></a>
-</div>
+        <a href="https://www279.americanexpress.com/GPTHBIWeb/validateIPAction.do?clientkey=amex%20bank%20of%20canada"><img alt="balance" src="https://www.mallmaverick.com/system/site_images/photos/000/029/740/original/gift_card.png?1496432958"></a>
+        <a href="http://www.southcentremall.com/#directory"><img alt="directory" src="https://www.mallmaverick.com/system/site_images/photos/000/029/739/original/directory.png?1496432958"></a>
+        <a href="http://www.southcentremall.com/"><img alt="home" src="https://www.mallmaverick.com/system/site_images/photos/000/029/741/original/website.png?1496432958"></a>
+        <a href="http://www.southcentremall.com/pages/southcentre-concierge-feedback"><img alt="concierge" src="https://www.mallmaverick.com/system/site_images/photos/000/029/743/original/feedback.png?1496432958"></a>
+        <a><img alt="tag" src="/system/site_images/photos/000/007/588/original/SOM_Tag.png?1426864225"></a>
+    </div>
 </template>
 <style>
     @import "//mallmaverick.cdn.speedyrails.net/system/site_images/photos/000/008/178/original/sweet-alert.css";
