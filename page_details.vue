@@ -347,7 +347,7 @@
 <!--    $('meta[name=viewport]').attr('content','width=device-width, user-scalable=no');-->
 <!--</script>-->
 <style>
-    @import '//mallmaverick.cdn.speedyrails.net/system/site_images/photos/000/008/178/original/sweet-alert.css'
+    
     .main_content {
         margin-top: 100px;
     }
