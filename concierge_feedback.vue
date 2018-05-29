@@ -29,6 +29,9 @@
             </form>
         </div>
 </template>
+<style>
+    
+</style>
 <script>
     define(["Vue"], function(Vue) {
         return Vue.component("concierge-feedback", {
