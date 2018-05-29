@@ -32,9 +32,9 @@
 <style>
     @import "//mallmaverick.cdn.speedyrails.net/system/site_images/photos/000/008/178/original/sweet-alert.css"
     .concierge-logo{
-      position: absolute;
-      top: 45px;
-      left: 405px;
+        position: absolute;
+        top: 45px;
+        left: 405px;
     }
     #concierge-container{
       background: url("https://www.mallmaverick.com/system/site_images/photos/000/030/093/original/SOM_239_GuestServicesScreens_2560x1440_FA3_(2).jpg?1497296476") no-repeat center center; 
