@@ -9,41 +9,41 @@
 </template>
 <style>
     #concierge-container{
-    background: url("https://www.mallmaverick.com/system/site_images/photos/000/030/093/original/SOM_239_GuestServicesScreens_2560x1440_FA3_(2).jpg?1497296476") no-repeat center center; 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    background-color: #E5E2DA;
-    position: relative;
-    width: 2560px;
-    height: 1440px;
-  }
-  #concierge-container a{
-    position: absolute;
-    left: 145px;
-  }
-  #concierge-container a:nth-child(1){
-    top: 145px;
-  }
-  #concierge-container a:nth-child(2){
-    top: 336px;
-  }
-  #concierge-container a:nth-child(3){
-    top: 527px;
-  }
-  #concierge-container a:nth-child(4){
-    top: 718px;
-  }
-  #concierge-container a:nth-child(5){
-    top: 909px;
-    left: 227px;
-  }
-  #concierge-container a:nth-child(6){
-    top: 1112px;
-    left: 227px;
-  }
-  .online_chat {
+        background: url("https://www.mallmaverick.com/system/site_images/photos/000/030/093/original/SOM_239_GuestServicesScreens_2560x1440_FA3_(2).jpg?1497296476") no-repeat center center; 
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        background-color: #E5E2DA;
+        position: relative;
+        width: 2560px;
+        height: 1440px;
+    }
+    #concierge-container a{
+        position: absolute;
+        left: 145px;
+    }
+    #concierge-container a:nth-child(1){
+        top: 145px;
+    }
+    #concierge-container a:nth-child(2){
+        top: 336px;
+    }
+    #concierge-container a:nth-child(3){
+        top: 527px;
+    }
+    #concierge-container a:nth-child(4){
+        top: 718px;
+    }
+    #concierge-container a:nth-child(5){
+        top: 909px;
+        left: 227px;
+    }
+    #concierge-container a:nth-child(6){
+        top: 1112px;
+        left: 227px;
+    }
+    .online_chat {
         display: none;
     }
 </style>
