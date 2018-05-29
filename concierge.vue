@@ -8,67 +8,42 @@
     </div>
 </template>
 <style>
-    @import "//mallmaverick.cdn.speedyrails.net/system/site_images/photos/000/008/178/original/sweet-alert.css";
-    .concierge-logo{
-        position: absolute;
-        top: 45px;
-        left: 405px;
-    }
     #concierge-container{
-      background: url("https://www.mallmaverick.com/system/site_images/photos/000/030/093/original/SOM_239_GuestServicesScreens_2560x1440_FA3_(2).jpg?1497296476") no-repeat center center; 
-      -webkit-background-size: cover;
-      -moz-background-size: cover;
-      -o-background-size: cover;
-      background-size: cover;
-      background-color: #E5E2DA;
-      position: relative;
-      width: 2560px;
-      height: 1440px;
-    }    
-    #subForm{
-      position: absolute;
-      top: 300px;
-      left: 200px;
-
-    }
-    #subForm{
-      font-size: 18pt;
-    }
-    #subForm label{
-        font-size: 18pt !important;
-        color:#000;
-    }
-    #subForm input{
-      font-size: 18pt;
-      height: 65px;
-      border-radius: 6px;
-        border: 1px solid gray;
-    }
-    #subForm textarea{
-        font-size: 18pt;
-        height: 200px;
-        border-radius: 6px;
-        border: 1px solid gray;
-    }
-    #subForm .form-group-lg{
-      margin: 25px 0px;
-    }
-    #subForm .btn{
-      font-size: 20pt;
-      margin: 20px 0 0 0;
-    }
-    #fieldCheck{
-      height: 30px !important;
-      width: 30px;
-    }
-    #contact-label{
-      font-size: 15pt;
-      font-weight: normal;
-    }
-    .online_chat {
-        display: none;
-    }
-    .upper-links.is-sticky, .top_menu.fixed, footer{
+    background: url("https://www.mallmaverick.com/system/site_images/photos/000/030/093/original/SOM_239_GuestServicesScreens_2560x1440_FA3_(2).jpg?1497296476") no-repeat center center; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-color: #E5E2DA;
+    position: relative;
+    width: 2560px;
+    height: 1440px;
+  }
+  #concierge-container a{
+    position: absolute;
+    left: 145px;
+  }
+  #concierge-container a:nth-child(1){
+    top: 145px;
+  }
+  #concierge-container a:nth-child(2){
+    top: 336px;
+  }
+  #concierge-container a:nth-child(3){
+    top: 527px;
+  }
+  #concierge-container a:nth-child(4){
+    top: 718px;
+  }
+  #concierge-container a:nth-child(5){
+    top: 909px;
+    left: 227px;
+  }
+  #concierge-container a:nth-child(6){
+    top: 1112px;
+    left: 227px;
+  }
+  .online_chat {
         display: none;
     }
 </style>
