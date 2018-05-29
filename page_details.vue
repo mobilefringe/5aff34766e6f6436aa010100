@@ -481,7 +481,7 @@
                     });
                 },
                 submitForm() {
-                    $('form').on('submit',function(e){
+                    $('form').on('submit',function(e)
                         e.preventDefault();
                         var checkbox = "NO";
                         if ($("#fieldCheck").is(':checked')) {
