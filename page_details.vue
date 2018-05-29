@@ -372,6 +372,7 @@
 <!--    $('meta[name=viewport]').attr('content','width=device-width, user-scalable=no');-->
 <!--</script>-->
 <style>
+    @import './assets/yourstyles.css'
     .main_content {
         margin-top: 100px;
     }
