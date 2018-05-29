@@ -30,7 +30,7 @@
         </div>
 </template>
 <style>
-    
+    @import '//mallmaverick.cdn.speedyrails.net/system/site_images/photos/000/008/178/original/sweet-alert.css'
 </style>
 <script>
     define(["Vue"], function(Vue) {
