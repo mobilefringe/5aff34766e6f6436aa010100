@@ -46,6 +46,9 @@
     .online_chat {
         display: none;
     }
+    .upper-links.is-sticky, .top_menu.fixed, footer{
+        display: none;
+    }
 </style>
 <script>
     define(["Vue"], function(Vue) {
