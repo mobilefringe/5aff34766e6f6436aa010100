@@ -90,7 +90,7 @@
     .online_chat {
         display: none;
     }
-    .upper-links.is-sticky, .top_menu.fixed{
+    .upper-links.is-sticky, .top_menu.fixed, footer{
         display: none;
     }
 </style>
