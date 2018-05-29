@@ -363,6 +363,9 @@
                 </div>
             </form>
         </div>
+        <div>
+            <concierge-feedback></concierge-feedback>
+        </div>
 	    <footer-component></footer-component>
     </div>
 </template>
