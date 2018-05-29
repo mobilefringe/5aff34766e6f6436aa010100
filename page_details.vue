@@ -334,7 +334,7 @@
                 </div>
             </section>
         </div>
-        <div v-if="id == 'southcentre-concierge-feedback'" id="concierge_container">
+        <div v-if="id == 'southcentre-concierge-feedback'" id="concierge-container">
             <div class="concierge-logo"><img alt="concierge" src="//mallmaverick.cdn.speedyrails.net/system/site_images/photos/000/007/588/original/SOM_Tag.png?1426864225"></div>
             <form method="post" id="subForm">
                 <div class="form-group-lg">
