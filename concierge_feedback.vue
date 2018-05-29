@@ -99,7 +99,7 @@
         return Vue.component("concierge-feedback", {
             template: template, // the variable template will be injected,
             methods: {
-                  submitForm() {
+                  submitForm(e) {
                     e.preventDefault();
                     var checkbox = "NO";
                     if ($("#fieldCheck").is(':checked')) {
