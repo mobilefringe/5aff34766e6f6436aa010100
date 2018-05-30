@@ -3,14 +3,14 @@
     	<div class="main_content">
             <section>
                 <div class="section_content fitfabfeb_content">
-                        <img class="fitImg" src="/system/site_images/photos/000/016/358/original/top-1.png?1453399064" />
-                        <img class="fitImg" src="/system/site_images/photos/000/016/360/original/text.png?1453399872" />
+                        <img class="fitImg" src="//mallmaverick.com/system/site_images/photos/000/016/358/original/top-1.png?1453399064" />
+                        <img class="fitImg" src="//mallmaverick.com/system/site_images/photos/000/016/360/original/text.png?1453399872" />
                         
                         <p class="width_medium">Southcentre will be hosting uniquely curated 1 hour fitness classes from 4 of Fiteset's awesome studio partners.</p>
                         <p class="width_large" style="font-family: ChronicleDisplay-Roman;"><i>To attend our FREE fitness classes, please <b><a href="https://www.eventbrite.ca/e/fit-fab-feb-southcentre-tickets-20593781555" style="color:black" target="_blank">REGISTER</a></b> for the classes of your choice.</i></p>
                         <p class="width_small">once you've saved your spot, you'll just need to bring a water bottle, running shoes and be ready to sweat!</p>
                         
-                        <a href="https://www.eventbrite.ca/e/fit-fab-feb-southcentre-tickets-20593781555" target="_blank" class="register_btn"><img class="fitImg" src="/system/site_images/photos/000/016/359/original/register.png?1453398807" /></a>
+                        <a href="https://www.eventbrite.ca/e/fit-fab-feb-southcentre-tickets-20593781555" target="_blank" class="register_btn"><img class="fitImg" src="//mallmaverick.com/system/site_images/photos/000/016/359/original/register.png?1453398807" /></a>
                         
                         <h2>CLASS TIMES</h2>
                         <p style="font-family: ChronicleDisplay-Roman;">Saturday <span class="lowercase chronicle-display-italic">10am - 11am</span>/ Sunday <span class="lowercase chronicle-display-italic">11am-12am</span></p>
