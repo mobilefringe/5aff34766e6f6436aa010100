@@ -30,14 +30,102 @@
 	</footer>
 </template>
 <style>
-	@media only screen and (max-width: 120.063em) and (min-width: 64.063em) {
-        footer  h1 {
-            font-size: 3rem;
-        }
-        .footer_content h2 {
-            font-size: 1.2rem;
-        }
+	section{
+    border-bottom: 0px;
     }
+    .section_content{
+        padding-bottom:0px !important;
+    }
+        .footer{
+            margin-top: 0px !important;
+        }
+        .dotted_div{
+            margin: 0 auto;
+            background-image: url(//mallmaverick.cdn.speedyrails.net/system/site_images/photos/000/003/835/original/line_dotted_gray.png?1410202262);
+            background-repeat: no-repeat;
+            background-position: center;
+            width: 900px;
+            height: 3px;
+            padding: 2.188em;
+        }
+        .fitImg{
+            
+            display: block;
+            margin: 0 auto;
+            padding-bottom: 20px;
+        }
+        
+        .fitfabfeb_content p{
+            margin: auto;
+            padding-bottom:15px;
+            font-family: Whitney-light;
+            font-size: 1.1em;
+        }
+        .register_btn{
+            margin: auto;
+            display: block;
+            width: 215px;
+            padding-bottom:30px;
+            padding-top:30px;
+        }
+        
+        .width_medium{
+            width:500px;
+        }
+        .width_large{
+            width:650px;
+        }
+        .width_small{
+            width:400px;
+        }
+        
+        .fitfabfeb_content h2{
+            font-family: ChronicleDisplay-Roman;
+            padding-bottom:15px;
+        }
+        .fitfabfeb_content h3{
+            font-size:1.4em;
+        }
+        .first_class{
+            margin-left: -50px !important;
+        }
+        .first_class span{
+            padding-left:30px !important;
+        }
+        .second_class{
+            margin-left: -25px !important;
+        }
+        .second_class span{
+            padding-left:15px !important;
+        }
+        .third_class{
+            margin-left: -80px !important;
+        }
+        .third_class span{
+            padding-left: 15px !important;
+        }
+        
+        .line_divider {
+            margin: 0 auto;
+            background-image: url(//mallmaverick.cdn.speedyrails.net/system/site_images/photos/000/003/835/original/line_dotted_gray.png?1410202262);
+            background-repeat: no-repeat;
+            background-position: center;
+            max-width: 487px;
+            height: 3px;
+            padding: 1.188em;
+        }
+        
+        @media screen and (max-width: 480px) {
+            .fitImg {
+                width: 95%;
+            }
+            .width_medium, .width_large, .width_small{
+                width:100%
+            }
+            .section_content{
+                padding:5px;
+            }
+        }
 
 </style>
 <script>
