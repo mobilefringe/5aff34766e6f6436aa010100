@@ -20,8 +20,8 @@ define([], function() {
             redirect: '/',
             children: [{
                 path: ':id',
-                component: view('store_details'),
-                name: 'storeDetails',
+                component: view('map'),
+                name: 'map',
                 props: true
             }]
         },
