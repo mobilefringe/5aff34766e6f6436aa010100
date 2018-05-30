@@ -3,46 +3,46 @@
     	<div class="main_content">
             <section>
                 <div class="section_content fitfabfeb_content">
-                    <img class="fitImg" src="/system/site_images/photos/000/016/358/original/top-1.png?1453399064" />
-                    <img class="fitImg" src="/system/site_images/photos/000/016/360/original/text.png?1453399872" />
-                    
-                    <p class="width_medium">Southcentre will be hosting uniquely curated 1 hour fitness classes from 4 of Fiteset's awesome studio partners.</p>
-                    <p class="width_large" style="font-family: ChronicleDisplay-Roman;"><i>To attend our FREE fitness classes, please <b><a href="https://www.eventbrite.ca/e/fit-fab-feb-southcentre-tickets-20593781555" style="color:black" target="_blank">REGISTER</a></b> for the classes of your choice.</i></p>
-                    <p class="width_small">once you've saved your spot, you'll just need to bring a water bottle, running shoes and be ready to sweat!</p>
-                    
-                    <a href="https://www.eventbrite.ca/e/fit-fab-feb-southcentre-tickets-20593781555" target="_blank" class="register_btn"><img class="fitImg" src="/system/site_images/photos/000/016/359/original/register.png?1453398807" /></a>
-               
-                    <h2>CLASS TIMES</h2>
-                    <p style="font-family: ChronicleDisplay-Roman;">Saturday <span class="lowercase chronicle-display-italic">10am - 11am</span>/ Sunday <span class="lowercase chronicle-display-italic">11am-12am</span></p>
-               
-                    <h2>SCHEDULE</h2>
-                    <p class="first_class" style="font-family: ChronicleDisplay-Roman;">Feb 6-7 <span class="lowercase chronicle-display-italic">Spin Class with Core Spin Club</span></p>
-                    <p style="font-family: ChronicleDisplay-Roman;">Feb 13-14 <span style="padding-left:15px;" class="lowercase chronicle-display-italic">Kickboxing and HIIT with Fit Republic</span></p>
-                    <p class="second_class" style="font-family: ChronicleDisplay-Roman;">Feb 20-21 <span class="lowercase chronicle-display-italic">'Pre-Game' with Reaction Fitness</span></p>
-                    <p class="third_class" style="font-family: ChronicleDisplay-Roman;">Feb 27-28 <span class="lowercase chronicle-display-italic">Barre with Dailey Method</span></p>
-    
-                    <p class="width_large">Attend four classes (one per weekend) and get a $25 Southcentre gift card!
-                    <br/>Ask for your punch card when you attend your first class.</p>
-                    
-                    <h2>FAQ</h2>
-                    <h3>How can I attend a class?</h3>
-                    <p>Please <b><a href="https://www.eventbrite.ca/e/fit-fab-feb-southcentre-tickets-20593781555" target="_blank">register</a></b> for the classes of your choice.</p>
-                    <div class="line_divider"></div>
-                    
-                    <h3>What should I wear?</h3>
-                    <p class="width_medium" >Regular workout gear such as sneakers, a comfy shirt and pants with some stretch will be perfect!</p>
-                    <div class="line_divider"></div>
-                    
-                    <h3>What should I bring?</h3>
-                    <p class="width_medium">Most classes only require a water bottle and a willingness to sweat! Some classes (such as yoga) may require additional items, so be sure to check when you register for each class.</p>
-                    <div class="line_divider"></div>
-    
-                    <h3>I didn't register-can I still attend?</h3>                
-                    <p class="width_medium">If we have space in the class, we would love to have you join us! However, if the class is full we may not be able to accommodate you.</p>
-                    <div class="line_divider"></div>
-    
-                    <h3>I still have questions-who can I ask?</h3>
-                    <p class="small_medium">Please email <b><a href="mailto:info@southcentremall.com">info@southcentremall.com</a></b> and<br/>we will be happy to help you!</p>
+                        <img class="fitImg" src="/system/site_images/photos/000/016/358/original/top-1.png?1453399064" />
+                        <img class="fitImg" src="/system/site_images/photos/000/016/360/original/text.png?1453399872" />
+                        
+                        <p class="width_medium">Southcentre will be hosting uniquely curated 1 hour fitness classes from 4 of Fiteset's awesome studio partners.</p>
+                        <p class="width_large" style="font-family: ChronicleDisplay-Roman;"><i>To attend our FREE fitness classes, please <b><a href="https://www.eventbrite.ca/e/fit-fab-feb-southcentre-tickets-20593781555" style="color:black" target="_blank">REGISTER</a></b> for the classes of your choice.</i></p>
+                        <p class="width_small">once you've saved your spot, you'll just need to bring a water bottle, running shoes and be ready to sweat!</p>
+                        
+                        <a href="https://www.eventbrite.ca/e/fit-fab-feb-southcentre-tickets-20593781555" target="_blank" class="register_btn"><img class="fitImg" src="/system/site_images/photos/000/016/359/original/register.png?1453398807" /></a>
+                        
+                        <h2>CLASS TIMES</h2>
+                        <p style="font-family: ChronicleDisplay-Roman;">Saturday <span class="lowercase chronicle-display-italic">10am - 11am</span>/ Sunday <span class="lowercase chronicle-display-italic">11am-12am</span></p>
+                        
+                        <h2>SCHEDULE</h2>
+                        <p class="first_class" style="font-family: ChronicleDisplay-Roman;">Feb 6-7 <span class="lowercase chronicle-display-italic">Spin Class with Core Spin Club</span></p>
+                        <p style="font-family: ChronicleDisplay-Roman;">Feb 13-14 <span style="padding-left:15px;" class="lowercase chronicle-display-italic">Kickboxing and HIIT with Fit Republic</span></p>
+                        <p class="second_class" style="font-family: ChronicleDisplay-Roman;">Feb 20-21 <span class="lowercase chronicle-display-italic">'Pre-Game' with Reaction Fitness</span></p>
+                        <p class="third_class" style="font-family: ChronicleDisplay-Roman;">Feb 27-28 <span class="lowercase chronicle-display-italic">Barre with Dailey Method</span></p>
+                        
+                        <p class="width_large">Attend four classes (one per weekend) and get a $25 Southcentre gift card!
+                        <br/>Ask for your punch card when you attend your first class.</p>
+                        
+                        <h2>FAQ</h2>
+                        <h3>How can I attend a class?</h3>
+                        <p>Please <b><a href="https://www.eventbrite.ca/e/fit-fab-feb-southcentre-tickets-20593781555" target="_blank">register</a></b> for the classes of your choice.</p>
+                        <div class="line_divider"></div>
+                        
+                        <h3>What should I wear?</h3>
+                        <p class="width_medium" >Regular workout gear such as sneakers, a comfy shirt and pants with some stretch will be perfect!</p>
+                        <div class="line_divider"></div>
+                        
+                        <h3>What should I bring?</h3>
+                        <p class="width_medium">Most classes only require a water bottle and a willingness to sweat! Some classes (such as yoga) may require additional items, so be sure to check when you register for each class.</p>
+                        <div class="line_divider"></div>
+                        
+                        <h3>I didn't register-can I still attend?</h3>                
+                        <p class="width_medium">If we have space in the class, we would love to have you join us! However, if the class is full we may not be able to accommodate you.</p>
+                        <div class="line_divider"></div>
+                        
+                        <h3>I still have questions-who can I ask?</h3>
+                        <p class="small_medium">Please email <b><a href="mailto:info@southcentremall.com">info@southcentremall.com</a></b> and<br/>we will be happy to help you!</p>
                 </div>
             </section>
         </div>
