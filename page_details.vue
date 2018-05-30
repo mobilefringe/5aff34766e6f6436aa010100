@@ -360,25 +360,25 @@
         </div>
         <div class="main_content" v-if="id == 'southcentre-sporting-life'">
             <section class="sporting-life">
-            <div class="section_content" style="display:block;">
-              <div class="wrap-90">
-                    <img alt="sporting logo" class="sporting-logo" src="//mallmaverick.com/system/site_images/photos/000/007/532/original/Logo.png?1426779929" />
-                    
-                    <div class="gray_divider"></div>
-                    <h1>Opening October 6, 2016</h1>
-                    <div class="gray_divider"></div>
-                    
-                    <img  alt="fall 2016" class="sporting-img" src="//mallmaverick.com/system/site_images/photos/000/007/519/original/CAM_01-R01.jpg?1426711422" />
-              
-                  <div class="subtitle">SPORTING LIFE WILL OPEN <i>THEIR first</i> WESTERN CANADIAN STORE, <i>at</i> SOUTHCENTRE, Thurs, Oct. 6, 2016. </div>
-              
-                   <div class="gray_divider"></div>
-                   <p style="margin-top:15px;" class="capital">Sporting Life is a Canadian retailer offering quality, brand name fashion and sports equipment. </p>
-                   <p  class="capital">For more information about Sporting Life, see <a target="_blank" href="http://www.sportinglife.ca">www.sportinglife.ca</a></p>
-                    
-                    
-              </div>
-            </div>
+                <div class="section_content" style="display:block;">
+                  <div class="wrap-90">
+                        <img alt="sporting logo" class="sporting-logo" src="//mallmaverick.com/system/site_images/photos/000/007/532/original/Logo.png?1426779929" />
+                        
+                        <div class="gray_divider"></div>
+                        <h1>Opening October 6, 2016</h1>
+                        <div class="gray_divider"></div>
+                        
+                        <img  alt="fall 2016" class="sporting-img" src="//mallmaverick.com/system/site_images/photos/000/007/519/original/CAM_01-R01.jpg?1426711422" />
+                  
+                      <div class="subtitle">SPORTING LIFE WILL OPEN <i>THEIR first</i> WESTERN CANADIAN STORE, <i>at</i> SOUTHCENTRE, Thurs, Oct. 6, 2016. </div>
+                  
+                       <div class="gray_divider"></div>
+                       <p style="margin-top:15px;" class="capital">Sporting Life is a Canadian retailer offering quality, brand name fashion and sports equipment. </p>
+                       <p  class="capital">For more information about Sporting Life, see <a target="_blank" href="http://www.sportinglife.ca">www.sportinglife.ca</a></p>
+                        
+                        
+                  </div>
+                </div>
         </section>
         </div>
 	    <footer-component></footer-component>
