@@ -362,6 +362,11 @@
                 <img style="width:100%" src="https://www.mallmaverick.com/system/site_images/photos/000/023/571/original/SOM_217_Holiday_Webpage_F_Q_FA.jpg?1479325174" />
             </div>
         </div>
+        <div class="main_content" v-if="id == 'southcentre-santa-faq'">
+            <div style="max-width:1040px; margin:0 auto;">
+                <img style="width:100%" src="https://www.mallmaverick.com/system/site_images/photos/000/023/571/original/SOM_217_Holiday_Webpage_F_Q_FA.jpg?1479325174" />
+            </div>
+        </div>
 	    <footer-component></footer-component>
     </div>
 </template>
