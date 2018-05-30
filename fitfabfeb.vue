@@ -1,4 +1,5 @@
 <template>
+<div>
 	<div class="main_content">
           <section>
             <div class="section_content fitfabfeb_content">
