@@ -353,7 +353,11 @@
             </section>
         </div>
         <div v-if="id == 'southcentre-concierge'">
-            <concierge-component></concierge-component>
+            <div class="main_content">
+            <div style="max-width:1040px; margin:0 auto;">
+            <img style="width:100%" src="https://www.mallmaverick.com/system/site_images/photos/000/023/570/original/SOM_217_SantaSignage_PhotoPrices_22x28_FA.jpg?1479325165" />
+            </div>
+            </div>
         </div>
 	    <footer-component></footer-component>
     </div>
