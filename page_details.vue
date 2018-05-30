@@ -375,11 +375,11 @@
                        <div class="gray_divider"></div>
                        <p style="margin-top:15px;" class="capital">Sporting Life is a Canadian retailer offering quality, brand name fashion and sports equipment. </p>
                        <p  class="capital">For more information about Sporting Life, see <a target="_blank" href="http://www.sportinglife.ca">www.sportinglife.ca</a></p>
-                        
-                        
+                            
+                            
+                    </div>
                 </div>
-            </div>
-        </section>
+            </section>
         </div>
 	    <footer-component></footer-component>
     </div>
