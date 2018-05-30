@@ -447,11 +447,11 @@
             font-weight: bold;
         }
         .construction-info{
-    font-size: 52px;
-    margin-top: 5px;
-    margin-bottom: 5px;
-    font-family: ChronicleDisplay-Roman;
-}
+            font-size: 52px;
+            margin-top: 5px;
+            margin-bottom: 5px;
+            font-family: ChronicleDisplay-Roman;
+        }
         
         @media(max-width:767px){
             .construction-info, .subtitle{
