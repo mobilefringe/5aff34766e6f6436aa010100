@@ -355,6 +355,9 @@
         <div v-if="id == 'southcentre-holiday-information'">
             <holiday-information></holiday-information>
         </div>
+        <div v-if="">
+            fitfabfeb-component
+        </div>
 	    <footer-component></footer-component>
     </div>
 </template>
