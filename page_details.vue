@@ -356,7 +356,7 @@
             <holiday-information></holiday-information>
         </div>
         <div v-if="">
-            fitfabfeb-component
+            <fitfabfeb-component></fitfabfeb-component>
         </div>
 	    <footer-component></footer-component>
     </div>
@@ -368,7 +368,7 @@
     }
 </style>
 <script>
-    define(["Vue", "vuex", "moment", "moment-timezone", "vue-moment", "lightbox","vue!footer", "vue!concierge_feedback",  "vue!concierge", "vue!holiday_information"], function(Vue, Vuex, moment, tz, VueMoment, Lightbox, footerComponent, ConciergeFeedback, ConciergeComponent, HolidayInformation) {
+    define(["Vue", "vuex", "moment", "moment-timezone", "vue-moment", "lightbox","vue!footer", "vue!concierge_feedback",  "vue!concierge", "vue!holiday_information", "vue!fitfabfeb"], function(Vue, Vuex, moment, tz, VueMoment, Lightbox, footerComponent, ConciergeFeedback, ConciergeComponent, HolidayInformation) {
         Vue.use(Lightbox);
         return Vue.component("page-details-component", {
             template: template, // the variable template will be injected,
