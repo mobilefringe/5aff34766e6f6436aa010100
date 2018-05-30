@@ -355,7 +355,7 @@
         <div v-if="id == 'southcentre-holiday-information'">
             <holiday-information></holiday-information>
         </div>
-        <div v-if="'southcentre-fitfabfeb'">
+        <div v-if="id =='southcentre-fitfabfeb'">
             <fitfabfeb-component></fitfabfeb-component>
         </div>
 	    <footer-component></footer-component>
