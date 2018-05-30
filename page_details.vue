@@ -352,7 +352,7 @@
                 </div>
             </section>
         </div>
-        <div class="main_content" v-if="id == 'southcentre-holiday-information'">
+        <div v-if="id == 'southcentre-holiday-information'">
             <holiday-information></holiday-information>
         </div>
 	    <footer-component></footer-component>
@@ -365,7 +365,7 @@
     }
 </style>
 <script>
-    define(["Vue", "vuex", "moment", "moment-timezone", "vue-moment", "lightbox","vue!footer", "vue!concierge_feedback",  "vue!concierge", "vue!holiday_information"], function(Vue, Vuex, moment, tz, VueMoment, Lightbox, footerComponent, ConciergeFeedback, ConciergeComponent, holidayInformation) {
+    define(["Vue", "vuex", "moment", "moment-timezone", "vue-moment", "lightbox","vue!footer", "vue!concierge_feedback",  "vue!concierge", "vue!holiday_information"], function(Vue, Vuex, moment, tz, VueMoment, Lightbox, footerComponent, ConciergeFeedback, ConciergeComponent, HolidayInformation) {
         Vue.use(Lightbox);
         return Vue.component("page-details-component", {
             template: template, // the variable template will be injected,
