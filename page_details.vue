@@ -358,7 +358,7 @@
         <div v-if="id =='southcentre-fitfabfeb'">
             <fitfabfeb-component></fitfabfeb-component>
         </div>
-        <div class="main_content" v-if="id == 'southcentre-roar-play-park-rules'">
+        <div class="main_content" v-if="id == 'southcentre-sporting-life'">
             <section class="hours">
                 <div class="section_content">
                     <div class="wrap-90" v-if="currentPage">
