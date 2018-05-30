@@ -357,7 +357,6 @@
         </div>
         <div v-if="id =='southcentre-fitfabfeb'">
             <fitfabfeb-component></fitfabfeb-component>
-            hello
         </div>
 	    <footer-component></footer-component>
     </div>
