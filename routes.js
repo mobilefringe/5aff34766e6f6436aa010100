@@ -17,7 +17,7 @@ define([], function() {
         {
             path: '/mapv2',
             component: view('default'),
-            redirect: '/',
+            redirect: '/404',
             children: [{
                 path: '',
                 component: view('map'),
