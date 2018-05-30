@@ -24,7 +24,7 @@
 	}
 </style>
 <script>
-    define(["Vue", "vuex", ], function(Vue, Vuex, VueSelect) {
+    define(["Vue", "vuex" ], function(Vue, Vuex, VueSelect) {
         return Vue.component("stores-component", {
             template: template, // the variable template will be injected
             data: function() {
