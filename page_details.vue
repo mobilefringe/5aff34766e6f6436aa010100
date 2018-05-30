@@ -394,17 +394,17 @@
         font-family: ChronicleDisplay-Roman;
         font-style: italic;
     }
-    .wrap-90{
+    #sporting_life .wrap-90{
         max-width: 980px;
         padding-left: 20px;
         padding-right: 20px;
     }
-   .sporting-life h1{
+    #sporting_life .sporting-life h1{
         font-family: ChronicleDisplay-Italic;
         font-size: 3.0em;
         letter-spacing: 1px;
     }
-    .subtitle{
+    #sporting_life .subtitle{
         font-size:45px;  
         font-family: ChronicleDisplay-Roman;
         line-height:1.3em;
