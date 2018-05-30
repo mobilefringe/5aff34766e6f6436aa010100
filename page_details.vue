@@ -341,6 +341,12 @@
          <div v-if="id == 'southcentre-concierge'">
             <concierge-component></concierge-component>
         </div>
+        <div v-if="id == 'southcentre-concierge'">
+            <concierge-component></concierge-component>
+        </div>
+        <div v-if="id == 'southcentre-concierge'">
+            <concierge-component></concierge-component>
+        </div>
 	    <footer-component></footer-component>
     </div>
 </template>
@@ -349,7 +355,6 @@
     .main_content {
         margin-top: 100px;
     }
-    
 </style>
 <script>
     define(["Vue", "vuex", "moment", "moment-timezone", "vue-moment", "vue!footer", "vue!concierge_feedback",  "vue!concierge"], function(Vue, Vuex, moment, tz, VueMoment, footerComponent, ConciergeFeedback, ConciergeComponent) {
