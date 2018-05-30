@@ -1,4 +1,3 @@
-southcentre-holiday-information
 <template>
 	<footer>
 		<section class="footer">
