@@ -438,6 +438,7 @@
                         if(response == null || response == undefined) {
                             this.$router.replace('/');
                         }
+                        console.log("response[0].data",response[0].data)
                         this.currentPage = response[0].data;
                     });
                 },
