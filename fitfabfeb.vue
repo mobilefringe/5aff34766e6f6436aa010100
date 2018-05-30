@@ -1,4 +1,3 @@
-<!--southcentre-fitfabfeb-->
 <template>
 	<footer>
 		<section class="footer">
