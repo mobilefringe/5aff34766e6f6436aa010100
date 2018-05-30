@@ -1,7 +1,7 @@
 <template>
     <div>
     	<div class="main_content">
-              <section>
+            <section>
                 <div class="section_content fitfabfeb_content">
                     <img class="fitImg" src="/system/site_images/photos/000/016/358/original/top-1.png?1453399064" />
                     <img class="fitImg" src="/system/site_images/photos/000/016/360/original/text.png?1453399872" />
