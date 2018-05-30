@@ -352,6 +352,32 @@
                 </div>
             </section>
         </div>
+        <div class="main_content" v-if="id == 'southcentre-holiday-information'">
+            <div class="contents" style="max-width:980px; margin:0 auto;">
+                <img style="width:100%;" src="https://www.mallmaverick.com/system/site_images/photos/000/035/054/original/img1.jpg?1512138723" />
+                  
+                <div style="margin:0 auto; text-align:center">
+                    <a data-lightbox="image-1" class="link-buttons link-buttons-right" href="https://www.mallmaverick.com/system/site_images/photos/000/035/056/original/photo_price.jpg?1512138889">
+                        <img src="https://www.mallmaverick.com/system/site_images/photos/000/034/378/original/button1.png?1510843291"/>
+                    </a> 
+                    
+                    <a data-lightbox="image-2" class="link-buttons link-buttons-left" href="https://www.mallmaverick.com/system/site_images/photos/000/034/385/original/calendar2.jpg?1510844959">
+                        <img src="https://www.mallmaverick.com/system/site_images/photos/000/034/379/original/button2.png?1510843291"/>
+                    </a>
+                </div>
+                <img src="https://www.mallmaverick.com/system/site_images/photos/000/035/057/original/img2.jpg?1512139242"/>
+                <div style="margin:0 auto; text-align:center">
+                    <a class="link-buttons link-buttons-right" href="http://www.cysticfibrosis.ca/" target="_blank">
+                        <img src="https://www.mallmaverick.com/system/site_images/photos/000/034/410/original/loco_cystic.jpg?1510858178"/>
+                    </a> 
+                    
+                    <a class="link-buttons link-buttons-left" href="http://www.womenscentrecalgary.org/" target="_blank">
+                        <img src="https://www.mallmaverick.com/system/site_images/photos/000/034/409/original/logo_wrapping.jpg?1510858173"/>
+                    </a>
+                </div>
+                <img src="https://www.mallmaverick.com/system/site_images/photos/000/035/053/original/img3.jpg?1512138722"/>
+            </div>
+        </div>
 	    <footer-component></footer-component>
     </div>
 </template>
