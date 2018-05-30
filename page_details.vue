@@ -399,6 +399,7 @@
 </style>
 <script>
     define(["Vue", "vuex", "moment", "moment-timezone", "vue-moment", "lightbox","vue!footer", "vue!concierge_feedback",  "vue!concierge"], function(Vue, Vuex, moment, tz, VueMoment, Lightbox, footerComponent, ConciergeFeedback, ConciergeComponent) {
+        Vue.use(Lightbox);
         return Vue.component("page-details-component", {
             template: template, // the variable template will be injected,
             data: function() {
