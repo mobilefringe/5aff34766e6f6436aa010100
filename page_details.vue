@@ -379,7 +379,7 @@
                 </div>
             </section>
         </div>
-        <div v-if="id == 'southcentre-roar-play-park-rules'">
+        <div v-else>
             <section class="hours">
                 <div class="section_content">
                     <div class="wrap-90" v-if="currentPage">
