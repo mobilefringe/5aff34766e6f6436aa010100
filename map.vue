@@ -7,7 +7,18 @@
 			<option value="store_14472"  id="store_14472" data-name="A&amp;W" data-coords="1387, 776" >
 				A&amp;W
 			</option>	
-			</div>
+			</select>
+	<div id="parent_div">
+		<div id="zoom_container_directory"  >
+			<img alt="Southcentre_map_feb2018" id="map_image" src="https://www.mallmaverick.com/system/properties/maps/000/000/010/original/Southcentre_MAP_FEB2018.jpg?1521054104" />
+			<div class="landmarks" data-show-at-zoom="100" data-allow-drag="true">
+           
+        	</div>
+			
+		</div>
+
+	</div>
+</div>
 </template>
 <style>
 	#png_map{
