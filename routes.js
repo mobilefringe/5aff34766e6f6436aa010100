@@ -19,7 +19,7 @@ define([], function() {
             component: view('default'),
             redirect: '/',
             children: [{
-                path: '',
+                path: ':id',
                 component: view('map'),
                 name: 'map',
                 props: true
