@@ -346,7 +346,6 @@
 </template>
 
 <style>
-    
     .main_content {
         margin-top: 100px;
     }
