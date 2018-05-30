@@ -341,7 +341,7 @@
          <div v-if="id == 'southcentre-concierge'">
             <concierge-component></concierge-component>
         </div>
-        <div v-if="id == 'southcentre-concierge'">
+        <div v-if="id == 'southcentre-roar-play-park-rules'">
             <concierge-component></concierge-component>
         </div>
         <div v-if="id == 'southcentre-concierge'">
