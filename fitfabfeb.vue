@@ -44,10 +44,10 @@
                     <h3>I still have questions-who can I ask?</h3>
                     <p class="small_medium">Please email <b><a href="mailto:info@southcentremall.com">info@southcentremall.com</a></b> and<br/>we will be happy to help you!</p>
                 </div>
-              </section>
-            </div>
-            <img style="width:100%" src="//mallmaverick.cdn.speedyrails.net/system/site_images/photos/000/016/357/original/bottom-1.png?1453413035" />
+            </section>
         </div>
+        <img style="width:100%" src="//mallmaverick.cdn.speedyrails.net/system/site_images/photos/000/016/357/original/bottom-1.png?1453413035" />
+    </div>
 </template>
 <style>
 	section{
