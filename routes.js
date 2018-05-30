@@ -15,6 +15,17 @@ define([], function() {
             }]
         },
         {
+            path: '/stores',
+            component: view('default'),
+            redirect: '/',
+            children: [{
+                path: ':id',
+                component: view('store_details'),
+                name: 'storeDetails',
+                props: true
+            }]
+        },
+        {
             path: '/promotions',
             component: view('default'),
             redirect: '/',
