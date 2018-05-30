@@ -345,7 +345,7 @@
             <section class="hours">
                 <div class="section_content">
                     <div class="wrap-90">
-                        <h1>{{page.title}}</h1>
+                        <h1>{{curentPage.title}}</h1>
                         
                              {{page.body}}
                     </div>
