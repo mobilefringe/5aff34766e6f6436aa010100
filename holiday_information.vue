@@ -42,7 +42,8 @@
 </style>
 <script>
     define(["Vue", "vue!social_links"], function(Vue, socialLiks) {
-        return Vue.component("guest-services-component", {
+        return Vue.component("southcentre-holiday-information
+", {
             template: template, // the variable template will be injected,
         });
     });
