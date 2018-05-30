@@ -413,38 +413,38 @@
         padding-left: 45px;
         padding-right: 45px;
     }
-    .gray_divider{
+    #sporting_life .gray_divider{
         padding:10px;
         max-width: 400px;
     }
-    .sporting-logo{
+    #sporting_life .sporting-logo{
         margin-bottom: 30px;
     }
-    .sporting-img{
+    #sporting_life .sporting-img{
         margin-top:50px; 
         margin-bottom:50px;
         padding:7px;
         border: solid 1px #CCC; -moz-box-shadow: 1px 1px 5px #999; -webkit-box-shadow: 1px 1px 5px #999; box-shadow: 1px 1px 5px #999;
     }
-    .capital{
+    #sporting_life .capital{
         text-transform: uppercase;
     }
-    p{
+    #sporting_life p{
         padding:40px; 
         padding-top:20px;
         padding-bottom:20px;
         margin-bottom: 0px;
         font-family: Whitney-light;
     }
-    .const-para{
+    #sporting_life .const-para{
         padding-left:10px;
         padding-right:10px;
     }
-    p a:link, a:visited{
+    #sporting_life p a:link, a:visited{
         color: black;
         font-weight: bold;
     }
-    .construction-info{
+    #sporting_life .construction-info{
         font-size: 52px;
         margin-top: 5px;
         margin-bottom: 5px;
@@ -452,27 +452,27 @@
     }
     
     @media(max-width:767px){
-        .construction-info, .subtitle{
+        #sporting_life .construction-info, .subtitle{
             font-size:25px;  
         }
-        .construction-info{
+        #sporting_life .construction-info{
             margin-top:50px;
         }
-        .subtitle{
+        #sporting_life .subtitle{
             padding-left: 0px;
             padding-right: 0px;
         }
-        .wrap-90{
+        #sporting_life .wrap-90{
             padding-left: 0px;
             padding-right: 0px;
         }
-       .sporting-logo{
+        #sporting_life .sporting-logo{
             margin-top: 20px;
         }
-        .sporting-img{
+        #sporting_life .sporting-img{
             margin-top:50px;    
         }
-        p{
+        #sporting_life p{
             margin-bottom: 0px;
             padding-left: 0px;
             padding-right: 0px;
