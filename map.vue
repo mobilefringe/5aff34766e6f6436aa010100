@@ -1,5 +1,4 @@
 <template>
-	<div v-if="dataloaded">
 	    <div class="trim_screen">
 	<h1>Centre Map</h1>
 	<select class="mapper">
