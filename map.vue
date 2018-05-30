@@ -14,14 +14,6 @@
 		</div>
 	</div>
 </template>
-<style>
-	#png_map{
-	    width:1310px;
-		height: 983px;
-		min-width:1310px;
-		min-height: 983px;
-	}
-</style>
 <script>
     define(["Vue", "vuex" ], function(Vue, Vuex, VueSelect) {
         return Vue.component("stores-component", {
