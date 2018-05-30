@@ -353,7 +353,7 @@
             </section>
         </div>
         <div class="main_content" v-if="id == 'southcentre-holiday-information'">
-            <southcentre-holiday-information></southcentre-holiday-information>
+            <holiday-information></holiday-information>
         </div>
 	    <footer-component></footer-component>
     </div>
