@@ -387,7 +387,7 @@
     .main_content {
         margin-top: 100px;
     }
-    .construction-info2 {
+    #sporting_life .construction-info2 {
         font-size: 36px;
         margin-top: 40px;
         margin-bottom: 5px;
