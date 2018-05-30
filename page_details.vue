@@ -344,7 +344,7 @@
         <div class="main_content" v-if="id == 'southcentre-roar-play-park-rules'">
             <section class="hours">
                 <div class="section_content">
-                    <div class="wrap-90">
+                    <div class="wrap-90" v-if="currentPage">
                         <h1>{{currentPage.title}}</h1>
                         
                              {{currentPage.body}}
@@ -438,7 +438,7 @@
                         if(response == null || response == undefined) {
                             this.$router.replace('/');
                         }
-                        console.log("response[0].data",response[0].data)
+                        console.log("response[0].data",response[0].data);
                         this.currentPage = response[0].data;
                     });
                 },
