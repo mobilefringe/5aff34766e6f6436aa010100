@@ -361,7 +361,7 @@
         <div class="main_content" v-if="id == 'southcentre-sporting-life'">
             <section class="sporting-life">
                 <div class="section_content" style="display:block;">
-                  <div class="wrap-90">
+                    <div class="wrap-90">
                         <img alt="sporting logo" class="sporting-logo" src="//mallmaverick.com/system/site_images/photos/000/007/532/original/Logo.png?1426779929" />
                         
                         <div class="gray_divider"></div>
@@ -377,7 +377,7 @@
                        <p  class="capital">For more information about Sporting Life, see <a target="_blank" href="http://www.sportinglife.ca">www.sportinglife.ca</a></p>
                         
                         
-                  </div>
+                    </div>
                 </div>
         </section>
         </div>
