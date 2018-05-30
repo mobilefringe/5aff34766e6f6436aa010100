@@ -389,6 +389,97 @@
     .main_content {
         margin-top: 100px;
     }
+    .construction-info2 {
+    font-size: 36px;
+    margin-top: 40px;
+    margin-bottom: 5px;
+    font-family: ChronicleDisplay-Roman;
+    font-style: italic;
+}
+        .wrap-90{
+            max-width: 980px;
+            padding-left: 20px;
+            padding-right: 20px;
+        }
+       .sporting-life h1{
+            font-family: ChronicleDisplay-Italic;
+            font-size: 3.0em;
+            letter-spacing: 1px;
+        }
+        .subtitle{
+            font-size:45px;  
+            font-family: ChronicleDisplay-Roman;
+            line-height:1.3em;
+            margin-bottom:30px;
+            letter-spacing: 1.5px;
+            padding-left: 45px;
+            padding-right: 45px;
+        }
+        .gray_divider{
+            padding:10px;
+            max-width: 400px;
+        }
+        .sporting-logo{
+            margin-bottom: 30px;
+        }
+        .sporting-img{
+            margin-top:50px; 
+            margin-bottom:50px;
+            padding:7px;
+            border: solid 1px #CCC; -moz-box-shadow: 1px 1px 5px #999; -webkit-box-shadow: 1px 1px 5px #999; box-shadow: 1px 1px 5px #999;
+        }
+        .capital{
+            text-transform: uppercase;
+        }
+        p{
+            padding:40px; 
+            padding-top:20px;
+            padding-bottom:20px;
+            margin-bottom: 0px;
+            font-family: Whitney-light;
+        }
+        .const-para{
+            padding-left:10px;
+            padding-right:10px;
+        }
+        p a:link, a:visited{
+            color: black;
+            font-weight: bold;
+        }
+        .construction-info{
+    font-size: 52px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-family: ChronicleDisplay-Roman;
+}
+        
+        @media(max-width:767px){
+            .construction-info, .subtitle{
+                font-size:25px;  
+            }
+            .construction-info{
+                margin-top:50px;
+            }
+            .subtitle{
+                padding-left: 0px;
+                padding-right: 0px;
+            }
+            .wrap-90{
+                padding-left: 0px;
+                padding-right: 0px;
+            }
+           .sporting-logo{
+                margin-top: 20px;
+            }
+            .sporting-img{
+                margin-top:50px;    
+            }
+            p{
+                margin-bottom: 0px;
+                padding-left: 0px;
+                padding-right: 0px;
+            }
+        }
 </style>
 <script>
     define(["Vue", "vuex", "moment", "moment-timezone", "vue-moment", "lightbox","vue!footer", "vue!concierge_feedback",  "vue!concierge", "vue!holiday_information", "vue!fitfabfeb"], function(Vue, Vuex, moment, tz, VueMoment, Lightbox, footerComponent, ConciergeFeedback, ConciergeComponent, HolidayInformation, FitfabfebComponent) {
