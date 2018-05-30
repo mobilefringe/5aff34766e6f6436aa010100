@@ -1,5 +1,5 @@
 <template>
-	    <div class="trim_screen">
+	    <div class="trim_screen" v-if="dataloaded"dataloaded>
 	<h1>Centre Map</h1>
 	<select class="mapper">
 		<option disabled selected>Select a Store</option>
