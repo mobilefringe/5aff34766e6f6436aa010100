@@ -347,7 +347,7 @@
                     <div class="wrap-90" v-if="currentPage">
                         <h1>{{currentPage.title}}</h1>
                         
-                             {{currentPage.body}}
+                         <div v-html="currentPage.body"></div>
                     </div>
                 </div>
             </section>
