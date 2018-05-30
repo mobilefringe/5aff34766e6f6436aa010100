@@ -358,6 +358,17 @@
         <div v-if="id =='southcentre-fitfabfeb'">
             <fitfabfeb-component></fitfabfeb-component>
         </div>
+        <div class="main_content" v-if="id == 'southcentre-roar-play-park-rules'">
+            <section class="hours">
+                <div class="section_content">
+                    <div class="wrap-90" v-if="currentPage">
+                        <h1>{{currentPage.title}}</h1>
+                        
+                         <div v-html="currentPage.body"></div>
+                    </div>
+                </div>
+            </section>
+        </div>
 	    <footer-component></footer-component>
     </div>
 </template>
