@@ -379,7 +379,7 @@
                 </div>
             </section>
         </div>
-        <div v-else>
+        <div class="main_content" v-else>
             <section class="hours">
                 <div class="section_content">
                     <div class="wrap-90" v-if="currentPage">
