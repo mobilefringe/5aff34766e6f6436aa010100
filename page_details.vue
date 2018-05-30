@@ -343,14 +343,14 @@
         </div>
         <div class="main_content" v-if="id == 'southcentre-roar-play-park-rules'">
             <section class="hours">
-            <div class="section_content">
-                <div class="wrap-90">
-                    <h1>{{page.title}}</h1>
-                    
-                         {{page.body}}
+                <div class="section_content">
+                    <div class="wrap-90">
+                        <h1>{{page.title}}</h1>
+                        
+                             {{page.body}}
+                    </div>
                 </div>
-            </div>
-        </section>
+            </section>
         </div>
         <div v-if="id == 'southcentre-concierge'">
             <concierge-component></concierge-component>
