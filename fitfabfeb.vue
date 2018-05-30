@@ -46,6 +46,7 @@
           </section>
         </div>
                         <img style="width:100%" src="//mallmaverick.cdn.speedyrails.net/system/site_images/photos/000/016/357/original/bottom-1.png?1453413035" />
+                        </div>
 </template>
 <style>
 	section{
