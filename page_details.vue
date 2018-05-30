@@ -358,7 +358,7 @@
         <div v-if="id =='southcentre-fitfabfeb'">
             <fitfabfeb-component></fitfabfeb-component>
         </div>
-        <div class="main_content" v-if="id == 'southcentre-sporting-life'">
+        <div class="main_content" v-if="id == 'southcentre-sporting-life'" id="sporting-life">
             <section class="sporting-life">
                 <div class="section_content" style="display:block;">
                     <div class="wrap-90">
@@ -374,9 +374,7 @@
                   
                        <div class="gray_divider"></div>
                        <p style="margin-top:15px;" class="capital">Sporting Life is a Canadian retailer offering quality, brand name fashion and sports equipment. </p>
-                       <p  class="capital">For more information about Sporting Life, see <a target="_blank" href="http://www.sportinglife.ca">www.sportinglife.ca</a></p>
-                            
-                            
+                       <p  class="capital">For more information about Sporting Life, see <a target="_blank" href="http://www.sportinglife.ca">www.sportinglife.ca</a></p>  
                     </div>
                 </div>
             </section>
