@@ -377,8 +377,8 @@
                        <p  class="capital">For more information about Sporting Life, see <a target="_blank" href="http://www.sportinglife.ca">www.sportinglife.ca</a></p>
                         
                         
-                    </div>
                 </div>
+            </div>
         </section>
         </div>
 	    <footer-component></footer-component>
