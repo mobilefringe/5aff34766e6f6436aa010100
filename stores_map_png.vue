@@ -227,20 +227,20 @@
                 // this.store_source = this.loadStoreData();
                 this.initMapplic();
             },
-            // watch: {
-            //     map: function() {
-            //         if(this.map != null) {
-            //             // this.$emit('updateMap', this.map);
+            watch: {
+                showmap: function() {
+                    if(this.map != null) {
+                        // this.$emit('updateMap', this.map);
                         
-            //             //wait for map to load
-            //             setTimeout(() => {
-            //                 this.mapLoaded();
-            //             }, 1500);
-            //         }
+                        //wait for map to load
+                        setTimeout(() => {
+                            this.mapLoaded();
+                        }, 1500);
+                    }
                     
                     
-            //     }
-            // },
+                }
+            },
             methods: {
                 getTooltip() {
                     //   { thumb: true, desc: true, link: true }  
