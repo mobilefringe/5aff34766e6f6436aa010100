@@ -45,6 +45,10 @@
         return Vue.component('stores-png-map', {
             template: template,
             props: {
+                show_map: {
+                    type: Boolean,
+                    default: true
+                },
                 storelist: {
                     type: Array,
                     required: true
