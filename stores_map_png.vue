@@ -228,17 +228,8 @@
                 this.initMapplic();
             },
             watch: {
-                showmap: function() {
-                    if(this.map != null) {
-                        // this.$emit('updateMap', this.map);
-                        
-                        //wait for map to load
-                        setTimeout(() => {
-                            this.mapLoaded();
-                        }, 1500);
-                    }
-                    
-                    
+                showmap() {
+                    console.log("hello", showmap)
                 }
             },
             methods: {
