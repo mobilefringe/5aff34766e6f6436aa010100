@@ -44,8 +44,8 @@
 </style>
 
 <script>
-    define(["Vue", "mapplic", "vue!loader"], function(Vue, mapplic, Loader) {
-        return Vue.component('storespng-map', {
+    define(["Vue", "mapplic"], function(Vue, mapplic) {
+        return Vue.component('stores-png-map', {
             template: template,
             props: {
                 storelist: {
