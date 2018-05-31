@@ -1,9 +1,6 @@
 <template>
   <div style="position:relative; margin: auto;width: 100%;overflow: hidden;">
     <div id="mapplic" class="mapplic"  ></div>
-    <!--<div>-->
-    <!--    <loader v-if="showLoader"></loader>-->
-    <!--</div>-->
 </div>
 </template>
 
