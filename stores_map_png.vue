@@ -1,6 +1,6 @@
 <template>
   <div style="position:relative; margin: auto;width: 100%;overflow: hidden;">
-    <div id="mapplic" class="mapplic" v-if="showmap"></div>
+    <div id="mapplic" class="mapplic" ></div>
 </div>
 </template>
 
@@ -45,10 +45,6 @@
         return Vue.component('stores-png-map', {
             template: template,
             props: {
-                showmap: {
-                    type: Boolean,
-                    default: true
-                },
                 storelist: {
                     type: Array,
                     required: true
@@ -227,11 +223,20 @@
                 // this.store_source = this.loadStoreData();
                 this.initMapplic();
             },
-            watch: {
-                showmap() {
-                    console.log("hello", showmap)
-                }
-            },
+            // watch: {
+            //     map: function() {
+            //         if(this.map != null) {
+            //             // this.$emit('updateMap', this.map);
+                        
+            //             //wait for map to load
+            //             setTimeout(() => {
+            //                 this.mapLoaded();
+            //             }, 1500);
+            //         }
+                    
+                    
+            //     }
+            // },
             methods: {
                 getTooltip() {
                     //   { thumb: true, desc: true, link: true }  
