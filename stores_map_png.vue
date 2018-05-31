@@ -1,6 +1,6 @@
 <template>
   <div style="position:relative; margin: auto;width: 100%;overflow: hidden;">
-    <div id="mapplic" class="mapplic" v-if="show_map"></div>
+    <div id="mapplic" class="mapplic" v-if="showmap"></div>
 </div>
 </template>
 
