@@ -45,7 +45,7 @@
         return Vue.component('stores-png-map', {
             template: template,
             props: {
-                show_map: {
+                showmap: {
                     type: Boolean,
                     default: true
                 },
