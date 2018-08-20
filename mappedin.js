@@ -105,7 +105,7 @@ function hightlightStore(name) {
 	var startNode = startPolygon.entrances[0];
 	setMap(startPolygon.map)
     
-    var primary_color = 0x42393e;
+    var primary_color = 0xDF62A5;
 	mapView.setPolygonColor(startPolygon.id, primary_color);
 }
 
