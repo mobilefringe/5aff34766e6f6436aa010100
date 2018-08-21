@@ -138,6 +138,11 @@
     line-height: 20px;
 }
 
+#dp3,#datetimepicker,#datetimepicker2,#datetimepicker3{
+	position: relative;
+	display: table;
+	border-collapse: separate;
+}
 @media(max-width:768px){
     .right_desc{
         margin-top:10px !important;
