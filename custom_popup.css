@@ -37,6 +37,9 @@
         margin-bottom: 0;
         margin-right: 5px;
     }
+    .popup_content {
+        border-bottom:none;
+    }
 }
 
 .close_popup{
