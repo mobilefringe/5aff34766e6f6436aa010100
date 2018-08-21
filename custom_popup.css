@@ -14,7 +14,11 @@
 .hide_desk{
     display:none;
 }
-
+.no_scroll{
+    height: 100%;
+    overflow: hidden;
+    width: 100%;
+}
 .custom_popup{
     width: 675px;
     top: 100px;
