@@ -33,6 +33,10 @@
     background-color: rgba( 249, 249, 249, 1 );
     background-repeat: no-repeat;
     background-size: cover;
+    input[type="checkbox"]{
+        margin-bottom: 0;
+    margin-right: 5px;
+    }
 }
 
 .close_popup{
