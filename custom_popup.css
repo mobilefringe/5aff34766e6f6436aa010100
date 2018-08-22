@@ -83,7 +83,9 @@
     font-size:12px;
     font-weight:400;
 }
-
+.main_label.checkbox_container {
+    margin-bottom:5px;
+}
 .custom_field_control{
     box-sizing: border-box;
     display: block;
