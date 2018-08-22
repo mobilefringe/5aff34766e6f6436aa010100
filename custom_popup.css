@@ -144,8 +144,8 @@
 	display: table;
 	border-collapse: separate;
 }
-.succes_msg {
-    
+.succes_msg_container {
+    height:42px;
 }
 @media(max-width:768px){
     .right_desc{
