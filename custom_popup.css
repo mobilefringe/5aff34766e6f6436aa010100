@@ -144,6 +144,9 @@
 	display: table;
 	border-collapse: separate;
 }
+.succes_msg {
+    
+}
 @media(max-width:768px){
     .right_desc{
         margin-top:10px !important;
