@@ -125,6 +125,7 @@
     min-height: 40px;
     padding: 10px;
     cursor: pointer;
+        max-width: 200px;
 }
 
 .right_header{
