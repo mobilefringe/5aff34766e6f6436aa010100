@@ -156,7 +156,10 @@
     height:42px;
 }
 #BDAY {
-    margin-bottom: 1rem;
+    margin-bottom: -1rem;
+}
+.bday_message {
+    margin-bottom:1rem;
 }
 @media(max-width:768px){
     .right_desc{
