@@ -162,6 +162,10 @@
     margin-bottom:1rem;
     display:inline-block;
 }
+.checkbox_message {
+    display: inline-block;
+    width: calc(100% - 21px);
+}
 @media(max-width:768px){
     .right_desc{
         margin-top:10px !important;
