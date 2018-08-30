@@ -155,6 +155,9 @@
 .succes_msg_container {
     height:42px;
 }
+#BDAY {
+    margin-bottom: 1rem;
+}
 @media(max-width:768px){
     .right_desc{
         margin-top:10px !important;
