@@ -77,7 +77,9 @@
     text-transform:uppercase;
     font-size:2rem;
 }
-
+.custom_text{
+    font-family: WhitneyHTF-Book;
+}
 .main_label{
     display: inline-block;
     margin-bottom: 0px;
