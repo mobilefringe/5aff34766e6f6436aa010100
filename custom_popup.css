@@ -206,7 +206,7 @@
         padding-top: 20px;
     }
     .checkbox_text {
-    display: inline-block;
-    width: calc(100% - 23px);
-}
+        display: inline-block;
+        width: calc(100% - 23px);
+    }
 }
