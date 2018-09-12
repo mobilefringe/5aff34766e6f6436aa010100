@@ -46,6 +46,9 @@
     .popup_content {
         border-bottom:none;
     }
+    .property_dets {
+        font-family: WhitneyHTF-Book;
+    }
 }
 
 .close_popup{
