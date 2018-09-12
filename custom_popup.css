@@ -49,6 +49,7 @@
     .property_dets {
         font-family: WhitneyHTF-Book;
         margin-top: 10px;
+        margin-bottom: 10px;
         a:link, a:visited {
             color: blue;
         }
