@@ -174,7 +174,7 @@
 }
 .checkbox_text {
     display: inline-block;
-    width: calc(100% - 23px);
+    width: calc(100% - 21px);
 }
 @media(max-width:768px){
     .right_desc{
@@ -204,9 +204,5 @@
     }
     #form_popup {
         padding-top: 20px;
-    }
-    .checkbox_text {
-        display: inline-block;
-        width: calc(100% - 23px);
     }
 }
