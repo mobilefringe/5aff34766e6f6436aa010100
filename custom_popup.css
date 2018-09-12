@@ -205,4 +205,8 @@
     #form_popup {
         padding-top: 20px;
     }
+    .checkbox_text {
+    display: inline-block;
+    width: calc(100% - 23px);
+}
 }
